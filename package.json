@@ -1,0 +1,29 @@
+{
+    "name": "corinapatings.nl",
+    "private": true,
+    "description": "Website for corinapatings.nl",
+    "version": "0.1.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "lint": "eslint . --fix"
+    },
+    "dependencies": {
+        "gatsby": "^2.13.70",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0"
+    },
+    "devDependencies": {
+        "eslint-config-airbnb": "^18.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tomdewildt/corinapatings.nl"
+    },
+    "bugs": {
+        "url": "https://github.com/tomdewildt/corinapatings.nl/issues"
+    }
+}
