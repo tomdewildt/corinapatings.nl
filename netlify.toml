@@ -7,23 +7,3 @@
   to = "https://www.corinapatings.nl/:splat"
   status = 301
   force = true
-
-[[redirects]]
-  from = "/email/confirmation.html"
-  to = "/email/confirmation.html"
-  status = 200
-
-[[redirects]]
-  from = "/email/email-change.html"
-  to = "/email/email-change.html"
-  status = 200
-
-[[redirects]]
-  from = "/email/invitation.html"
-  to = "/email/invitation.html"
-  status = 200
-
-[[redirects]]
-  from = "/email/password-recovery.html"
-  to = "/email/password-recovery.html"
-  status = 200
