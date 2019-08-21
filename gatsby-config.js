@@ -2,5 +2,8 @@ module.exports = {
     siteMetadata: {
         name: "Corina Patings",
     },
-    plugins: [],
+    plugins: [
+        "gatsby-plugin-netlify-cms",
+        "gatsby-plugin-netlify",
+    ],
 };

@@ -1,4 +1,6 @@
 # corinapatings.nl
+[![Netlify Status](https://api.netlify.com/api/v1/badges/719ec4ba-04a4-45dc-abbb-215022d7cb66/deploy-status)](https://app.netlify.com/sites/corinapatings/deploys)
+
 Website for [corinapatings.nl](https://www.corinapatings.nl). This website is build with Gatsby, content is managed by Netlify CMS and the site is hosted on Netlify.
 
 # How To Run
