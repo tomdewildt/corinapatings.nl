@@ -1,6 +1,6 @@
 export default {
     z: 100,
-    padding: 2,
+    padding: 0.5,
     breakpoints: {
         sm: 46,
         md: 61,

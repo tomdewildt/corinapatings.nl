@@ -21,6 +21,11 @@ const Container = styled.div`
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
+
+    ${ ( { fluid, theme } ) => !fluid && css`
+        padding-right: ${ theme.navbar.padding }rem;
+        padding-left: ${ theme.navbar.padding }rem;
+    ` }
     
     ${ ( { theme } ) => Object.keys( theme.navbar.breakpoints ).map( ( key ) => css`
         @media only screen and (min-width: ${ theme.breakpoints[ key ] }em) {
@@ -81,7 +86,7 @@ const Navbar = () => {
 
     return (
         <Header>
-            <Container>
+            <Container fluid>
                 <Logo to="/" />
                 <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => toggleIsOpen( !isOpen ) } />
                 <Nav isOpen={ isOpen }>
