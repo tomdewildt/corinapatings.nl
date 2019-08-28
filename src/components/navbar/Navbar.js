@@ -21,6 +21,11 @@ const Container = styled.div`
     justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
+
+    ${ ( { fluid, theme } ) => !fluid && css`
+        padding-right: ${ theme.navbar.padding }rem;
+        padding-left: ${ theme.navbar.padding }rem;
+    ` }
     
     ${ ( { theme } ) => Object.keys( theme.navbar.breakpoints ).map( ( key ) => css`
         @media only screen and (min-width: ${ theme.breakpoints[ key ] }em) {
@@ -30,6 +35,7 @@ const Container = styled.div`
 `;
 
 const Nav = styled.nav`
+    display: flex;
     max-height: 0;
     flex-basis: 100%;
     flex-grow: 1;
@@ -50,7 +56,7 @@ const Nav = styled.nav`
 
 const Items = styled.ul`
     display: flex;
-    height: 100%;
+    flex-grow: 1;
     flex-direction: column;
 
     @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
@@ -80,7 +86,7 @@ const Navbar = () => {
 
     return (
         <Header>
-            <Container>
+            <Container fluid>
                 <Logo to="/" />
                 <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => toggleIsOpen( !isOpen ) } />
                 <Nav isOpen={ isOpen }>
