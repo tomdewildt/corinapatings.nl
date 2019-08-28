@@ -30,6 +30,7 @@ const Container = styled.div`
 `;
 
 const Nav = styled.nav`
+    // display: flex;
     max-height: 0;
     flex-basis: 100%;
     flex-grow: 1;
@@ -50,7 +51,6 @@ const Nav = styled.nav`
 
 const Items = styled.ul`
     display: flex;
-    height: 100%;
     flex-direction: column;
 
     @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
