@@ -51,6 +51,7 @@ const Nav = styled.nav`
 
 const Items = styled.ul`
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
 
     @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
