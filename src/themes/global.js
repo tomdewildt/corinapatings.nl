@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import { reset } from "styled-reset";
+import reset from "styled-reset";
 
 const GlobalStyle = createGlobalStyle`
     @font-face {
@@ -30,6 +30,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: ${ ( { theme } ) => theme.typography.size }rem;
         line-height: ${ ( { theme } ) => theme.typography.lineHeight };
         color: ${ ( { theme } ) => theme.color.black };
+        overflow-x: hidden;
     }
 `;
 

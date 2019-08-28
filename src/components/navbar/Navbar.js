@@ -30,7 +30,7 @@ const Container = styled.div`
 `;
 
 const Nav = styled.nav`
-    // display: flex;
+    display: flex;
     max-height: 0;
     flex-basis: 100%;
     flex-grow: 1;
