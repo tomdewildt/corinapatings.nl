@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {
     Container,
     Row,
+    Headers,
     Column,
     Heading,
     Text,
@@ -24,6 +25,7 @@ const Box = styled( Column )`
 
 export default () => (
     <Container>
+        <Headers />
         <Row>
             <Column xs={ 12 }>
                 <Heading.H1>h1. Heading</Heading.H1>

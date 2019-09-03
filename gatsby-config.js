@@ -1,10 +1,14 @@
 module.exports = {
     siteMetadata: {
         title: "Corina Patings",
+        language: "nl",
         description: "",
+        headline: "",
         avatar: "https://www.corinapatings.nl/images/avatar.png",
         avatarSmall: "https://www.corinapatings.nl/images/avatar-small.png",
         banner: "https://www.corinapatings.nl/images/banner.png",
+        bannerWidth: "",
+        bannerHeight: "",
         url: "https://www.corinapatings.nl",
         facebook: "",
         linkedin: "",
