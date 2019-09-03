@@ -1,17 +1,18 @@
+/* eslint-disable max-len */
 module.exports = {
     siteMetadata: {
         siteTitle: "Corina Patings",
         siteLanguage: "nl",
-        siteDescription: "",
-        siteHeadline: "",
+        siteDescription: "Individuele begeleiding en coaching aan kinderen/jongeren, ouders en volwassenen gericht op persoonlijke ontwikkeling en bewustwording.",
+        siteHeadline: "Coaching & Bewustwording",
         siteAvatar: "https://www.corinapatings.nl/images/avatar.png",
         siteAvatarSmall: "https://www.corinapatings.nl/images/avatar-small.png",
         siteBanner: "https://www.corinapatings.nl/images/banner.png",
-        siteBannerWidth: "",
-        siteBannerHeight: "",
+        siteBannerWidth: "681",
+        siteBannerHeight: "390",
         siteUrl: "https://www.corinapatings.nl",
-        facebook: "",
-        linkedin: "",
+        facebook: "Praktijk-de-Boom-756669217736591",
+        linkedin: "corina-patings-b28651a8",
     },
     plugins: [
         "gatsby-plugin-layout",
