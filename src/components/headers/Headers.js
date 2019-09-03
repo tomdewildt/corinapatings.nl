@@ -4,7 +4,12 @@ import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
-const Headers = ( { title, description, data: { site: { buildTime, config } } } ) => {
+const Headers = ( {
+    title,
+    description,
+    path,
+    data: { site: { buildTime, config } },
+} ) => {
     const organization = ( type ) => ( {
         "@context": "http://schema.org",
         "@id": `${ config.url }/#${ type }`,
@@ -43,10 +48,10 @@ const Headers = ( { title, description, data: { site: { buildTime, config } } } 
     const page = {
         "@context": "http://schema.org",
         "@type": "WebPage",
-        url: window.location.href,
+        url: `${ config.url }/${ path }`,
         headline: config.description,
         inLanguage: config.language,
-        mainEntityOfPage: window.location.href,
+        mainEntityOfPage: `${ config.url }/${ path }`,
         description: config.description,
         name: config.title,
         author: { "@id": `${ config.url }/#identity` },
@@ -68,7 +73,7 @@ const Headers = ( { title, description, data: { site: { buildTime, config } } } 
             <title>{ config.title }</title>
             <meta name="description" content={ config.description } />
             <meta name="image" content={ config.banner } />
-            <meta property="og:url" content={ window.location.href } />
+            <meta property="og:url" content={ `${ config.url }/${ path }` } />
             <meta property="og:type" content="website" />
             <meta property="og:title" content={ title || config.title } />
             <meta property="og:description" content={ description || config.description } />
@@ -95,6 +100,7 @@ const Headers = ( { title, description, data: { site: { buildTime, config } } } 
 Headers.propTypes = {
     title: PropTypes.string,
     description: PropTypes.string,
+    path: PropTypes.string,
     data: PropTypes.shape( {
         site: PropTypes.shape( {
             buildTime: PropTypes.string.isRequired,
@@ -119,6 +125,7 @@ Headers.propTypes = {
 Headers.defaultProps = {
     title: null,
     description: null,
+    path: "",
 };
 
 const query = graphql`
