@@ -1,15 +1,15 @@
 module.exports = {
     siteMetadata: {
-        title: "Corina Patings",
-        language: "nl",
-        description: "",
-        headline: "",
-        avatar: "https://www.corinapatings.nl/images/avatar.png",
-        avatarSmall: "https://www.corinapatings.nl/images/avatar-small.png",
-        banner: "https://www.corinapatings.nl/images/banner.png",
-        bannerWidth: "",
-        bannerHeight: "",
-        url: "https://www.corinapatings.nl",
+        siteTitle: "Corina Patings",
+        siteLanguage: "nl",
+        siteDescription: "",
+        siteHeadline: "",
+        siteAvatar: "https://www.corinapatings.nl/images/avatar.png",
+        siteAvatarSmall: "https://www.corinapatings.nl/images/avatar-small.png",
+        siteBanner: "https://www.corinapatings.nl/images/banner.png",
+        siteBannerWidth: "",
+        siteBannerHeight: "",
+        siteUrl: "https://www.corinapatings.nl",
         facebook: "",
         linkedin: "",
     },
@@ -20,6 +20,14 @@ module.exports = {
             resolve: "gatsby-plugin-styled-components",
             options: {
                 displayName: process.env.NODE_ENV !== "production",
+            },
+        },
+        {
+            resolve: "gatsby-plugin-robots-txt",
+            options: {
+                host: "https://www.corinapatings.nl",
+                sitemap: "https://www.corinapatings.nl/sitemap.xml",
+                policy: [ { userAgent: "*", allow: "/" } ],
             },
         },
         {
@@ -34,6 +42,7 @@ module.exports = {
                 icon: "static/images/icon.png",
             },
         },
+        "gatsby-plugin-sitemap",
         "gatsby-plugin-offline",
         "gatsby-plugin-netlify-cms",
         "gatsby-plugin-netlify",
