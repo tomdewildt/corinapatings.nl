@@ -4,7 +4,7 @@ import reset from "styled-reset";
 const GlobalStyle = createGlobalStyle`
     @font-face {
         font-family: LuloCleanOne;
-        src: url("/assets/fonts/LuloCleanOne-Bold.otf") format('opentype');
+        src: url("/fonts/LuloCleanOne-Bold.otf") format('opentype');
         font-weight: 700;
         font-style: normal;
         font-display: auto;
@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
 
     @font-face {
         font-family: Quicksand;
-        src: url("/assets/fonts/Quicksand-Regular.ttf") format('truetype');
+        src: url("/fonts/Quicksand-Regular.ttf") format('truetype');
         font-weight: 400;
         font-style: normal;
         font-display: auto;
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
 
     @font-face {
         font-family: Quicksand;
-        src: url("/assets/fonts/Quicksand-Bold.ttf") format('truetype');
+        src: url("/fonts/Quicksand-Bold.ttf") format('truetype');
         font-weight: 700;
         font-style: normal;
         font-display: auto;
