@@ -6,7 +6,7 @@ import Lines from "./Lines";
 import Box from "./Box";
 
 const Burger = ( { isActive, breakpoint, toggle } ) => (
-    <Button type="button" breakpoint={ breakpoint } onClick={ toggle }>
+    <Button type="button" aria-label="Menu" breakpoint={ breakpoint } onClick={ toggle }>
         <Box>
             <Lines isActive={ isActive } />
         </Box>

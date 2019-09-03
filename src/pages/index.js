@@ -3,6 +3,7 @@ import styled from "styled-components";
 import {
     Container,
     Row,
+    Headers,
     Column,
     Heading,
     Text,
@@ -24,6 +25,7 @@ const Box = styled( Column )`
 
 export default () => (
     <Container>
+        <Headers />
         <Row>
             <Column xs={ 12 }>
                 <Heading.H1>h1. Heading</Heading.H1>
@@ -60,20 +62,20 @@ export default () => (
             <Column xs={ 12 }>
                 <Form>
                     <Group>
-                        <Label>Name</Label>
-                        <Input placeholder="Name" />
+                        <Label htmlFor="name">Name</Label>
+                        <Input type="text" name="name" id="name" placeholder="Name" />
                     </Group>
                     <Group>
-                        <Label>Select</Label>
-                        <Select>
+                        <Label htmlFor="select">Select</Label>
+                        <Select name="select" id="select">
                             <option>Option 1</option>
                             <option>Option 2</option>
                             <option>Option 3</option>
                         </Select>
                     </Group>
                     <Group>
-                        <Label>TextArea</Label>
-                        <TextArea />
+                        <Label htmlFor="textarea">TextArea</Label>
+                        <TextArea name="textarea" id="textarea" />
                     </Group>
                     <Group>
                         <Button.Primary type="submit">Submit</Button.Primary>
