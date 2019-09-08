@@ -1,21 +1,40 @@
 import React from "react";
 import { Link } from "gatsby";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import PropTypes from "prop-types";
 
 const Item = styled( Link )`
-    display: block;
+    display: flex;
+    align-items: center;
 `;
 
 const Image = styled.img`
-    display: block;
+    display: none;
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     width: auto;
+    padding: ${ ( { theme } ) => theme.navbar.padding }rem 0;
+
+    &:first-of-type { display: block; }
+    &:last-of-type { display: none; }
+
+    ${ ( { theme } ) => css`
+        @media (max-width: ${ theme.navbar.breakpoints.sm }em) {
+            padding: ${ theme.navbar.padding }rem;
+        }
+    ` }
+
+    ${ ( { theme } ) => css`
+        @media (max-width: ${ theme.navbar.logo.collapse }em) {
+            &:first-of-type { display: none; }
+            &:last-of-type { display: block; }
+        }
+    ` }
 `;
 
 const Logo = ( { to } ) => (
     <Item to={ to }>
-        <Image src="https://placehold.it/180x60" alt="logo" />
+        <Image src="/images/logo.png" alt="logo" />
+        <Image src="/images/icon.png" alt="logo" />
     </Item>
 );
 

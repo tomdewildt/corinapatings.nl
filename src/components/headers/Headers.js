@@ -108,7 +108,6 @@ Headers.propTypes = {
                 siteTitle: PropTypes.string.isRequired,
                 siteLanguage: PropTypes.string.isRequired,
                 siteDescription: PropTypes.string.isRequired,
-                siteHeadline: PropTypes.string.isRequired,
                 siteAvatar: PropTypes.string.isRequired,
                 siteAvatarSmall: PropTypes.string.isRequired,
                 siteBanner: PropTypes.string.isRequired,
@@ -136,7 +135,6 @@ const query = graphql`
                 siteTitle
                 siteLanguage
                 siteDescription
-                siteHeadline
                 siteAvatar
                 siteAvatarSmall
                 siteBanner

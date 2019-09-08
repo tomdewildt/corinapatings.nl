@@ -4,7 +4,6 @@ module.exports = {
         siteTitle: "Corina Patings",
         siteLanguage: "nl",
         siteDescription: "Individuele begeleiding en coaching aan kinderen/jongeren, ouders en volwassenen gericht op persoonlijke ontwikkeling en bewustwording.",
-        siteHeadline: "Coaching & Bewustwording",
         siteAvatar: "https://www.corinapatings.nl/images/avatar.png",
         siteAvatarSmall: "https://www.corinapatings.nl/images/avatar-small.png",
         siteBanner: "https://www.corinapatings.nl/images/banner.png",
