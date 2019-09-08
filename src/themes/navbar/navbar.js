@@ -7,7 +7,8 @@ export default {
         lg: 71,
     },
     logo: {
-        height: 3,
+        height: 2,
+        collapse: 26,
     },
     items: {
         padding: 1,
