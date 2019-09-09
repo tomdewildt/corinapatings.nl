@@ -34,6 +34,12 @@ const GlobalStyle = createGlobalStyle`
         line-height: ${ ( { theme } ) => theme.typography.lineHeight };
         color: ${ ( { theme } ) => theme.color.black };
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    * {
+        box-sizing: border-box;
     }
 `;
 

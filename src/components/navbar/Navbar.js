@@ -22,9 +22,10 @@ const Container = styled.div`
     margin-right: auto;
     margin-left: auto;
 
-    ${ ( { fluid, theme } ) => !fluid && css`
-        padding-right: ${ theme.navbar.padding }rem;
-        padding-left: ${ theme.navbar.padding }rem;
+    ${ ( { theme } ) => css`
+        @media (max-width: ${ theme.breakpoints.sm }em) {
+            padding: 0 ${ theme.navbar.padding }rem;
+        }
     ` }
     
     ${ ( { theme } ) => Object.keys( theme.navbar.breakpoints ).map( ( key ) => css`
@@ -86,7 +87,7 @@ const Navbar = () => {
 
     return (
         <Header>
-            <Container fluid>
+            <Container>
                 <Logo to="/" />
                 <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => toggleIsOpen( !isOpen ) } />
                 <Nav isOpen={ isOpen }>

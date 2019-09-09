@@ -1,13 +1,14 @@
 import styled, { css } from "styled-components";
-import PropTypes from "prop-types";
 
 const Container = styled.div`
+    height: 100%;
     margin-right: auto;
     margin-left: auto;
 
-    ${ ( { fluid, theme } ) => !fluid && css`
-        padding-right: ${ theme.container.padding }rem;
-        padding-left: ${ theme.container.padding }rem;
+    ${ ( { theme } ) => css`
+        @media (max-width: ${ theme.breakpoints.sm }em) {
+            padding: 0 ${ theme.container.padding }rem;
+        }
     ` }
     
     ${ ( { theme } ) => Object.keys( theme.container.breakpoints ).map( ( key ) => css`
@@ -16,13 +17,5 @@ const Container = styled.div`
         }
     ` ) }
 `;
-
-Container.propTypes = {
-    fluid: PropTypes.bool,
-};
-
-Container.defaultProps = {
-    fluid: false,
-};
 
 export default Container;

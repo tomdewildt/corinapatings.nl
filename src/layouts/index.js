@@ -6,6 +6,7 @@ import theme, { GlobalStyle } from "../themes";
 import { Navbar } from "../components";
 
 const Container = styled.div`
+    height: 100vh;
     padding-top: 3.5rem;
 `;
 

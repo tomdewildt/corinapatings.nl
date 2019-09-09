@@ -12,16 +12,10 @@ const Image = styled.img`
     display: none;
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     width: auto;
-    padding: ${ ( { theme } ) => theme.navbar.padding }rem 0;
+    margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
 
     &:first-of-type { display: block; }
     &:last-of-type { display: none; }
-
-    ${ ( { theme } ) => css`
-        @media (max-width: ${ theme.navbar.breakpoints.sm }em) {
-            padding: ${ theme.navbar.padding }rem;
-        }
-    ` }
 
     ${ ( { theme } ) => css`
         @media (max-width: ${ theme.navbar.logo.collapse }em) {
