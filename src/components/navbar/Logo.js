@@ -18,12 +18,6 @@ const Image = styled.img`
     &:last-of-type { display: none; }
 
     ${ ( { theme } ) => css`
-        @media (max-width: ${ theme.navbar.breakpoints.sm }em) {
-            margin: ${ theme.navbar.padding }rem;
-        }
-    ` }
-
-    ${ ( { theme } ) => css`
         @media (max-width: ${ theme.navbar.logo.collapse }em) {
             &:first-of-type { display: none; }
             &:last-of-type { display: block; }
