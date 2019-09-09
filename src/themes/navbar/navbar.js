@@ -8,7 +8,7 @@ export default {
     },
     logo: {
         height: 2,
-        collapse: 26,
+        collapse: 24,
     },
     items: {
         padding: 1,

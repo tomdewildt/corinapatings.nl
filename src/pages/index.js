@@ -23,7 +23,7 @@ const Box = styled( Column )`
     border: ${ ( { theme } ) => `1px solid ${ theme.color.primary }` };
 `;
 
-export default () => (
+const Index = () => (
     <Container>
         <Headers />
         <Row>
@@ -152,3 +152,5 @@ export default () => (
         </Row>
     </Container>
 );
+
+export default Index;
