@@ -42,6 +42,21 @@ module.exports = {
                 icon: "static/images/icon.png",
             },
         },
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: "uploads",
+                path: `${ __dirname }/static/images`,
+            },
+        },
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: "pages",
+                path: `${ __dirname }/src/pages`,
+            },
+        },
+        "gatsby-transformer-remark",
         "gatsby-plugin-sitemap",
         "gatsby-plugin-offline",
         "gatsby-plugin-netlify-cms",
