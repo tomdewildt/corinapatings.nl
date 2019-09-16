@@ -25,7 +25,7 @@ IndexPage.propTypes = {
                     text: PropTypes.string,
                     author: PropTypes.string,
                 } ) ),
-                grid: PropTypes.arrayOf( PropTypes.shape( {
+                cards: PropTypes.arrayOf( PropTypes.shape( {
                     title: PropTypes.string,
                     description: PropTypes.string,
                     link: PropTypes.string,
@@ -58,7 +58,7 @@ export const query = graphql`
                     text
                     author
                 }
-                grid {
+                cards {
                     title
                     description
                     link

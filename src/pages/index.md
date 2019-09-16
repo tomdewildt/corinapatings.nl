@@ -16,7 +16,7 @@ testimonials:
   - text: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
     author: John Doe
-grid:
+cards:
   - title: Lorem Ipsum
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
