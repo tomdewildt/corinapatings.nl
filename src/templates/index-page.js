@@ -1,13 +1,52 @@
+/* eslint-disable react/no-array-index-key */
 import React from "react";
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 
-import { Container, Headers, Image } from "../components";
+import {
+    Container,
+    Headers,
+    Jumbotron,
+    TestimonialContainer,
+    Testimonial,
+    CardContainer,
+    Card,
+    Contact,
+    Footer,
+} from "../components";
 
 const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
     <Container>
         <Headers title={ frontmatter.title } />
-        <Image source={ frontmatter.intro.image } alt="intro" />
+        <Jumbotron
+            title={ frontmatter.intro.title }
+            image={ frontmatter.intro.image }
+            description={ frontmatter.intro.description }
+        />
+        <TestimonialContainer>
+            { frontmatter.testimonials.map( ( testimonial, i ) => (
+                <Testimonial
+                    key={ i }
+                    text={ testimonial.text }
+                    author={ testimonial.author }
+                />
+            ) )}
+        </TestimonialContainer>
+        <CardContainer>
+            { frontmatter.cards.map( ( card, i ) => (
+                <Card
+                    key={ i }
+                    title={ card.title }
+                    description={ card.description }
+                    to={ card.link }
+                    color={ card.color }
+                    image={ card.image }
+                    size={ card.size }
+                />
+            ) )}
+        </CardContainer>
+        <Contact />
+        <Footer />
     </Container>
 );
 
@@ -78,3 +117,4 @@ export const query = graphql`
 `;
 
 export default IndexPage;
+/* eslint-enable react/no-array-index-key */
