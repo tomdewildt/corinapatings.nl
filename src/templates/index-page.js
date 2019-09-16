@@ -2,15 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
 
-import {
-    Container,
-    Headers,
-} from "../components";
+import { Container, Headers, Image } from "../components";
 
 const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
     <Container>
         <Headers title={ frontmatter.title } />
-        <img src={ frontmatter.intro.image } alt="intro" />
+        <Image source={ frontmatter.intro.image } alt="intro" />
     </Container>
 );
 
@@ -19,9 +16,23 @@ IndexPage.propTypes = {
         markdownRemark: PropTypes.shape( {
             frontmatter: PropTypes.shape( {
                 title: PropTypes.string,
-                intro: PropTypes.shape( {} ),
-                testimonials: PropTypes.arrayOf( PropTypes.shape( {} ) ),
-                grid: PropTypes.arrayOf( PropTypes.shape( {} ) ),
+                intro: PropTypes.shape( {
+                    title: PropTypes.string,
+                    description: PropTypes.string,
+                    image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
+                } ),
+                testimonials: PropTypes.arrayOf( PropTypes.shape( {
+                    text: PropTypes.string,
+                    author: PropTypes.string,
+                } ) ),
+                grid: PropTypes.arrayOf( PropTypes.shape( {
+                    title: PropTypes.string,
+                    description: PropTypes.string,
+                    link: PropTypes.string,
+                    color: PropTypes.string,
+                    image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
+                    size: PropTypes.number,
+                } ) ),
             } ).isRequired,
         } ).isRequired,
     } ).isRequired,
@@ -35,7 +46,13 @@ export const query = graphql`
                 intro {
                     title
                     description
-                    image
+                    image {
+                        childImageSharp {
+                            fluid(maxWidth: 1280) {
+                                ...GatsbyImageSharpFluid
+                            }
+                        }
+                    }
                 }
                 testimonials {
                     text
@@ -46,7 +63,13 @@ export const query = graphql`
                     description
                     link
                     color
-                    image
+                    image {
+                        childImageSharp {
+                            fluid(maxWidth: 630) {
+                                ...GatsbyImageSharpFluid
+                            }
+                        }
+                    }
                     size
                 }
             }

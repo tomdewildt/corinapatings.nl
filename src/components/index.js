@@ -10,6 +10,7 @@ export { default as Navbar } from "./navbar/Navbar";
 export { default as Button } from "./button/Button";
 export { default as Text } from "./typography/Text";
 export { default as Column } from "./grid/Column";
+export { default as Image } from "./image/Image";
 export { default as Group } from "./form/Group";
 export { default as Label } from "./form/Label";
 export { default as Form } from "./form/Form";
