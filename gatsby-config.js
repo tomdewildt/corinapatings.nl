@@ -45,7 +45,7 @@ module.exports = {
         {
             resolve: "gatsby-source-filesystem",
             options: {
-                name: "uploads",
+                name: "images",
                 path: `${ __dirname }/static/images`,
             },
         },
@@ -56,10 +56,15 @@ module.exports = {
                 path: `${ __dirname }/src/pages`,
             },
         },
+        {
+            resolve: "gatsby-plugin-netlify-cms",
+            options: {
+                modulePath: `${ __dirname }/src/cms/cms.js`,
+            },
+        },
         "gatsby-transformer-remark",
         "gatsby-plugin-sitemap",
         "gatsby-plugin-offline",
-        "gatsby-plugin-netlify-cms",
         "gatsby-plugin-netlify",
     ],
 };

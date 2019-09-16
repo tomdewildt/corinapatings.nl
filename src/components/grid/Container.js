@@ -11,9 +11,9 @@ const Container = styled.div`
         }
     ` }
     
-    ${ ( { theme } ) => Object.keys( theme.container.breakpoints ).map( ( key ) => css`
+    ${ ( { theme } ) => Object.keys( theme.container.sizes ).map( ( key ) => css`
         @media only screen and (min-width: ${ theme.breakpoints[ key ] }em) {
-            width: ${ theme.container.breakpoints[ key ] }rem;
+            width: ${ theme.container.sizes[ key ] }rem;
         }
     ` ) }
 `;

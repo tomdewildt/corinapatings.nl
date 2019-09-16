@@ -28,9 +28,9 @@ const Container = styled.div`
         }
     ` }
     
-    ${ ( { theme } ) => Object.keys( theme.navbar.breakpoints ).map( ( key ) => css`
+    ${ ( { theme } ) => Object.keys( theme.navbar.sizes ).map( ( key ) => css`
         @media only screen and (min-width: ${ theme.breakpoints[ key ] }em) {
-            width: ${ theme.navbar.breakpoints[ key ] }rem;
+            width: ${ theme.navbar.sizes[ key ] }rem;
         }
     ` ) }
 `;
