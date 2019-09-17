@@ -7,8 +7,8 @@ const MAX_WIDTH = 100;
 const map = ( value, min, max ) => ( ( value - min ) * ( MAX_WIDTH - MIN_WIDTH ) ) / ( max - min ) + MIN_WIDTH;
 
 const Column = styled.div`
-    flex: 0 0 auto;
     flex-grow: 1;
+    flex-shrink: 0;
     flex-basis: 0;
     max-width: 100%;
     box-sizing: border-box;

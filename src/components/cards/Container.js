@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import Row from "../grid/Row";
+
 const CardContainer = ( { children } ) => (
-    <div>
+    <Row>
         { children }
-    </div>
+    </Row>
 );
 
 CardContainer.propTypes = {

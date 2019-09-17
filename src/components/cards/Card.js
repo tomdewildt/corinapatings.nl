@@ -1,5 +1,8 @@
 import React from "react";
+import styled from "styled-components";
 import PropTypes from "prop-types";
+
+import Column from "../grid/Column";
 
 const Card = ( {
     title,
@@ -9,9 +12,9 @@ const Card = ( {
     image,
     size,
 } ) => (
-    <div>
+    <Column xs={ 12 } sm={ ( 12 / 4 ) * size }>
         Card
-    </div>
+    </Column>
 );
 
 Card.propTypes = {
