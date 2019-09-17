@@ -1,6 +1,6 @@
 /* eslint complexity: 0 */
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
@@ -68,7 +68,7 @@ const Headers = ( {
     };
 
     return (
-        <Helmet>
+        <Helmet defer={ false }>
             <html lang={ config.siteLanguage } />
             <title>{ title || config.siteTitle }</title>
             <meta name="description" content={ description || config.siteDescription } />
