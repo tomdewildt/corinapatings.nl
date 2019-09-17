@@ -1,3 +1,4 @@
+import jumbotron from "./jumbotron";
 import general from "./general";
 import spacing from "./spacing";
 import navbar from "./navbar";
@@ -6,6 +7,7 @@ import form from "./form";
 import grid from "./grid";
 
 export default {
+    ...jumbotron,
     ...general,
     ...spacing,
     ...navbar,
