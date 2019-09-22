@@ -10,12 +10,12 @@ import Image from "../image/Image";
 import CardButton from "./Button";
 
 const CardColumn = styled( Column )`
+    display: flex;
     padding: ${ ( { theme } ) => theme.cards.gutter }rem;
 `;
 
 const CardBackground = styled.div`
     display: flex;
-    height: 100%;
     flex-direction: column;
     justify-content: center;
     padding: ${ ( { theme } ) => theme.cards.padding }rem;
@@ -25,8 +25,9 @@ const CardBackground = styled.div`
     ${ ( { center } ) => center && "align-items: center" };
 `;
 
-const CardImage = styled( Image )`    
-    height: 100% !important;
+const CardImage = styled( Image )`
+    display: flex;
+    width: 100%;
 `;
 
 const Card = ( {

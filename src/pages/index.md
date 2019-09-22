@@ -29,7 +29,7 @@ cards:
     size: 1
   - title: Lorem Ipsum
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
+      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     color: tertiary
     size: 1
@@ -37,7 +37,7 @@ cards:
     size: 1
   - title: Lorem Ipsum
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
+      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     color: secondary
     size: 1
@@ -45,13 +45,13 @@ cards:
     size: 1
   - title: Lorem Ipsum
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
+      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     color: secondary
     size: 1
   - title: Lorem Ipsum
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
+      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     color: primary
     size: 1
