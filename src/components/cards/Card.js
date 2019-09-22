@@ -26,7 +26,7 @@ const CardBackground = styled.div`
 `;
 
 const CardImage = styled( Image )`    
-    height: 100%;
+    height: 100% !important;
 `;
 
 const Card = ( {
@@ -43,7 +43,7 @@ const Card = ( {
                 { title && <Heading.H5 center={ size === 1 }>{ title }</Heading.H5> }
                 { description && <Text.Paragraph center={ size === 1 }>{ description }</Text.Paragraph> }
                 { to && (
-                    <Margin right={ 0 }>
+                    <Margin top={ 1 }>
                         <CardButton to={ to } color={ color }>Lees Meer</CardButton>
                     </Margin>
                 ) }
