@@ -5,6 +5,7 @@ import styled from "styled-components";
 import Facebook from "../../assets/facebook.svg";
 import LinkedIn from "../../assets/linkedin.svg";
 import Document from "../../assets/document.svg";
+import Recaptcha from "../form/fields/Recaptcha";
 import TextArea from "../form/fields/TextArea";
 import Heading from "../typography/Heading";
 import Input from "../form/fields/Input";
@@ -100,7 +101,7 @@ const Contact = () => (
                         <TextArea id="message" name="message" />
                     </FormGroup>
                     <FormGroup>
-                        reCAPTCHA
+                        <Recaptcha />
                     </FormGroup>
                     <FormGroup>
                         <Button.Primary type="submit">Verstuur</Button.Primary>
