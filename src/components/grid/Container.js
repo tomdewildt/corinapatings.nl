@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 
 const Container = styled.div`
-    height: 100%;
     margin-right: auto;
     margin-left: auto;
 

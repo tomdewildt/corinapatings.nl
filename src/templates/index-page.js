@@ -16,38 +16,40 @@ import {
 } from "../components";
 
 const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
-    <Container>
+    <>
         <Headers title={ frontmatter.title } />
         <Jumbotron
             title={ frontmatter.intro.title }
             image={ frontmatter.intro.image }
             description={ frontmatter.intro.description }
         />
-        <TestimonialContainer>
-            { frontmatter.testimonials.map( ( testimonial, i ) => (
-                <Testimonial
-                    key={ i }
-                    text={ testimonial.text }
-                    author={ testimonial.author }
-                />
-            ) )}
-        </TestimonialContainer>
-        <CardContainer>
-            { frontmatter.cards.map( ( card, i ) => (
-                <Card
-                    key={ i }
-                    title={ card.title }
-                    description={ card.description }
-                    to={ card.link }
-                    color={ card.color }
-                    image={ card.image }
-                    size={ card.size }
-                />
-            ) )}
-        </CardContainer>
-        <Contact />
-        <Footer />
-    </Container>
+        <Container>
+            <TestimonialContainer>
+                { frontmatter.testimonials.map( ( testimonial, i ) => (
+                    <Testimonial
+                        key={ i }
+                        text={ testimonial.text }
+                        author={ testimonial.author }
+                    />
+                ) )}
+            </TestimonialContainer>
+            <CardContainer>
+                { frontmatter.cards.map( ( card, i ) => (
+                    <Card
+                        key={ i }
+                        title={ card.title }
+                        description={ card.description }
+                        to={ card.link }
+                        color={ card.color }
+                        image={ card.image }
+                        size={ card.size }
+                    />
+                ) )}
+            </CardContainer>
+            <Contact />
+            <Footer />
+        </Container>
+    </>
 );
 
 IndexPage.propTypes = {

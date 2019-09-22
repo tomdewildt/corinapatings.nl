@@ -10,6 +10,7 @@ const Row = styled.div`
 
     margin-right: ${ ( { theme } ) => ( theme.grid.gutter / 2 ) * -1 }rem;
     margin-left: ${ ( { theme } ) => ( theme.grid.gutter / 2 ) * -1 }rem;
+    margin-bottom: ${ ( { theme } ) => theme.grid.gutter }rem;
 `;
 
 Row.propTypes = {

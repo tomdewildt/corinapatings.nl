@@ -70,6 +70,7 @@ const Item = styled.li`
     align-items: center;
     justify-content: center;
     padding: ${ ( { theme } ) => theme.navbar.items.padding }rem;
+    cursor: pointer;
 
     &:hover {
         color: ${ ( { theme } ) => theme.color.grayDarkest };
