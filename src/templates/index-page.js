@@ -47,8 +47,8 @@ const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
                 ) )}
             </CardContainer>
             <Contact />
-            <Footer />
         </Container>
+        <Footer />
     </>
 );
 

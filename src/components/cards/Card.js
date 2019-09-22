@@ -16,6 +16,7 @@ const CardColumn = styled( Column )`
 
 const CardBackground = styled.div`
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     padding: ${ ( { theme } ) => theme.cards.padding }rem;

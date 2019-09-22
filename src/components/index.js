@@ -23,3 +23,4 @@ export { default as Label } from "./form/Label";
 export { default as Card } from "./cards/Card";
 export { default as Form } from "./form/Form";
 export { default as Row } from "./grid/Row";
+export { default as Map } from "./map/Map";
