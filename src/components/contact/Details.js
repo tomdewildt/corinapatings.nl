@@ -10,12 +10,12 @@ import Column from "../grid/Column";
 import GoogleMap from "../map/Map";
 import Row from "../grid/Row";
 
-const Paragraph = styled( Text.Paragraph )`
+const ContactItem = styled( Text.Paragraph )`
     font-weight: 700;
     color: ${ ( { theme } ) => theme.color.grayDark };
 `;
 
-const ObfuscatedLink = styled( Obfuscate )`
+const ContactItemLink = styled( Obfuscate )`
     display: block;
     font-weight: 700;
     text-align: left;
@@ -27,7 +27,7 @@ const ObfuscatedLink = styled( Obfuscate )`
     }
 `;
 
-const Link = styled.a`
+const ContactLink = styled.a`
     display: flex;
     align-items: center;
     margin-bottom: ${ ( { theme } ) => theme.typography.marginBottom }rem;
@@ -48,7 +48,7 @@ const Link = styled.a`
     }
 `;
 
-const Map = styled( GoogleMap )`
+const ContactMap = styled( GoogleMap )`
     height: 15rem;
     width: 100%;
     border: none;
@@ -58,34 +58,34 @@ const ContactDetails = () => (
     <>
         <Row>
             <Column xs={ 6 }>
-                <Paragraph>Corina Patings</Paragraph>
-                <Paragraph>Meijldoorn 6</Paragraph>
-                <Paragraph>5482 SG</Paragraph>
-                <ObfuscatedLink tel="+31 6 51778528" />
-                <ObfuscatedLink email="info@corinapatings.nl" />
+                <ContactItem>Corina Patings</ContactItem>
+                <ContactItem>Meijldoorn 6</ContactItem>
+                <ContactItem>5482 SG</ContactItem>
+                <ContactItemLink tel="+31 6 51778528" />
+                <ContactItemLink email="info@corinapatings.nl" />
             </Column>
             <Column xs={ 6 }>
-                <Link href="/" target="_blank">
+                <ContactLink href="/" target="_blank">
                     <LinkedIn />
                     LinkedIn
-                </Link>
-                <Link href="/" target="_blank">
+                </ContactLink>
+                <ContactLink href="/" target="_blank">
                     <Facebook />
                     Facebook
-                </Link>
-                <Link href="/" target="_blank">
+                </ContactLink>
+                <ContactLink href="/" target="_blank">
                     <Document />
                     Algemene Voorwaarde
-                </Link>
-                <Link href="/" target="_blank">
+                </ContactLink>
+                <ContactLink href="/" target="_blank">
                     <Document />
                     Privacy Verklaring
-                </Link>
+                </ContactLink>
             </Column>
         </Row>
         <Row>
             <Column>
-                <Map place="ChIJCyKBdAfmxkcRyR-MeDWkcdI" />
+                <ContactMap place="ChIJCyKBdAfmxkcRyR-MeDWkcdI" />
             </Column>
         </Row>
     </>
