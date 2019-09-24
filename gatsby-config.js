@@ -16,7 +16,6 @@ module.exports = {
     plugins: [
         "gatsby-plugin-sharp",
         "gatsby-plugin-layout",
-        "gatsby-plugin-recaptcha",
         "gatsby-plugin-react-svg",
         "gatsby-transformer-sharp",
         "gatsby-plugin-react-helmet",

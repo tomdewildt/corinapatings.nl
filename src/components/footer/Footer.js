@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import Text from "../typography/Text";
 
-const Container = styled.footer`
+const FooterContainer = styled.footer`
     display: flex;
     width: 100%;
     justify-content: center;
@@ -14,13 +14,13 @@ const Container = styled.footer`
 `;
 
 const Footer = () => (
-    <Container>
+    <FooterContainer>
         <Text.Span bold>
             Copyright &copy; Corina Patings
             { " " }
             { new Date().getFullYear() }
         </Text.Span>
-    </Container>
+    </FooterContainer>
 );
 
 export default Footer;

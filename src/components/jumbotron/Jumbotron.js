@@ -6,7 +6,7 @@ import Background from "../image/Background";
 import Heading from "../typography/Heading";
 import Text from "../typography/Text";
 
-const Container = styled( Background )`
+const JumbotronContainer = styled( Background )`
     display: flex;
     height: ${ ( { theme } ) => theme.jumbotron.height }%;
     flex-direction: column;
@@ -21,10 +21,10 @@ const Jumbotron = ( {
     image,
     description,
 } ) => (
-    <Container source={ image }>
+    <JumbotronContainer source={ image }>
         <Heading.H1 center>{ title }</Heading.H1>
         <Text.Paragraph center>{ description }</Text.Paragraph>
-    </Container>
+    </JumbotronContainer>
 );
 
 Jumbotron.propTypes = {

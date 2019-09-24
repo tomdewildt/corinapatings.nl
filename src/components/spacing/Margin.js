@@ -13,4 +13,11 @@ Margin.propTypes = {
     right: PropTypes.number,
 };
 
+Margin.defaultProps = {
+    top: null,
+    bottom: null,
+    left: null,
+    right: null,
+};
+
 export default Margin;

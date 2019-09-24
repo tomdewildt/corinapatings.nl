@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import PropTypes from "prop-types";
 
-const Button = styled.button`
+const BurgerButton = styled.button`
     display: block;
     padding: ${ ( { theme } ) => theme.burger.padding }rem;
     cursor: pointer;
@@ -23,4 +24,8 @@ const Button = styled.button`
     ` }
 `;
 
-export default Button;
+BurgerButton.propTypes = {
+    breakpoint: PropTypes.string.isRequired,
+};
+
+export default BurgerButton;
