@@ -3,12 +3,12 @@ import { Link } from "gatsby";
 import styled, { css } from "styled-components";
 import PropTypes from "prop-types";
 
-const Item = styled( Link )`
+const NavbarItem = styled( Link )`
     display: flex;
     align-items: center;
 `;
 
-const Image = styled.img`
+const NavbarImage = styled.img`
     display: none;
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     width: auto;
@@ -25,15 +25,15 @@ const Image = styled.img`
     ` }
 `;
 
-const Logo = ( { to } ) => (
-    <Item to={ to }>
-        <Image src="/images/logo.png" alt="logo" />
-        <Image src="/images/icon.png" alt="logo" />
-    </Item>
+const NavbarLogo = ( { to } ) => (
+    <NavbarItem to={ to }>
+        <NavbarImage src="/images/logo.png" alt="logo" />
+        <NavbarImage src="/images/icon.png" alt="logo" />
+    </NavbarItem>
 );
 
-Logo.propTypes = {
+NavbarLogo.propTypes = {
     to: PropTypes.string.isRequired,
 };
 
-export default Logo;
+export default NavbarLogo;

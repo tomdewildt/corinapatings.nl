@@ -1,7 +1,7 @@
 export default {
     z: 100,
     padding: 0.5,
-    breakpoints: {
+    sizes: {
         sm: 46,
         md: 61,
         lg: 71,

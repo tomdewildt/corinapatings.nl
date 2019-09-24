@@ -11,15 +11,16 @@ import {
     Button,
 } from "../components";
 
-const FullSizeContainer = styled( Container )`
+const NotFoundContainer = styled( Container )`
     display: flex;
+    height: 100%;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 `;
 
 const NotFound = () => (
-    <FullSizeContainer>
+    <NotFoundContainer>
         <Headers />
         <Row>
             <Column>
@@ -37,7 +38,7 @@ const NotFound = () => (
                 <Button.Primary type="button" onClick={ () => navigate( "/" ) }>Terug</Button.Primary>
             </Column>
         </Row>
-    </FullSizeContainer>
+    </NotFoundContainer>
 );
 
 export default NotFound;

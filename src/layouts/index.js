@@ -5,18 +5,18 @@ import PropTypes from "prop-types";
 import theme, { GlobalStyle } from "../themes";
 import { Navbar } from "../components";
 
-const Container = styled.div`
+const LayoutContainer = styled.div`
     height: 100vh;
-    padding-top: 3.5rem;
+    padding-top: 3rem;
 `;
 
 const Layout = ( { children } ) => (
     <ThemeProvider theme={ theme }>
-        <Container>
+        <LayoutContainer>
             <GlobalStyle />
             <Navbar />
             { children }
-        </Container>
+        </LayoutContainer>
     </ThemeProvider>
 );
 

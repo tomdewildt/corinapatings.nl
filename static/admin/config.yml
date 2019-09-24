@@ -1,8 +1,82 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/add-homepage
 
 publish_mode: editorial_workflow
 
 media_folder: static/images
 public_folder: /images
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Landing Page"
+        name: "index"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "index-page"
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "text"
+              - label: "Image"
+                name: "image"
+                widget: "image"
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - label: "Text"
+                name: "text"
+                widget: "string"
+              - label: "Author"
+                name: "author"
+                widget: "text"
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "Description"
+                name: "description"
+                widget: "string"
+                required: false
+              - label: "Link"
+                name: "link"
+                widget: "string"
+                required: false
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+              - label: "Color"
+                name: "color"
+                widget: "select"
+                options:
+                  - "primary"
+                  - "secondary"
+                  - "tertiary"
+                required: false
+              - label: "Size"
+                name: "size"
+                widget: "select"
+                options:
+                  - "1"
+                  - "2"
+                  - "3"

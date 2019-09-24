@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import styled, { css } from "styled-components";
 
 import Burger from "../burger/Burger";
-import Logo from "./Logo";
+import NavbarLogo from "./Logo";
 
-const Header = styled.header`
+const NavbarHeader = styled.header`
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +15,7 @@ const Header = styled.header`
     border-bottom: ${ ( { theme } ) => `1px solid ${ theme.color.grayLight }` };
 `;
 
-const Container = styled.div`
+const NavbarContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,14 +28,14 @@ const Container = styled.div`
         }
     ` }
     
-    ${ ( { theme } ) => Object.keys( theme.navbar.breakpoints ).map( ( key ) => css`
+    ${ ( { theme } ) => Object.keys( theme.navbar.sizes ).map( ( key ) => css`
         @media only screen and (min-width: ${ theme.breakpoints[ key ] }em) {
-            width: ${ theme.navbar.breakpoints[ key ] }rem;
+            width: ${ theme.navbar.sizes[ key ] }rem;
         }
     ` ) }
 `;
 
-const Nav = styled.nav`
+const NavbarNav = styled.nav`
     display: flex;
     max-height: 0;
     flex-basis: 100%;
@@ -55,7 +55,7 @@ const Nav = styled.nav`
     }
 `;
 
-const Items = styled.ul`
+const NavbarItems = styled.ul`
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -65,11 +65,12 @@ const Items = styled.ul`
     }
 `;
 
-const Item = styled.li`
+const NavbarItem = styled.li`
     display: flex;
     align-items: center;
     justify-content: center;
     padding: ${ ( { theme } ) => theme.navbar.items.padding }rem;
+    cursor: pointer;
 
     &:hover {
         color: ${ ( { theme } ) => theme.color.grayDarkest };
@@ -86,20 +87,20 @@ const Navbar = () => {
     const [ isOpen, toggleIsOpen ] = useState( false );
 
     return (
-        <Header>
-            <Container>
-                <Logo to="/" />
+        <NavbarHeader>
+            <NavbarContainer>
+                <NavbarLogo to="/" />
                 <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => toggleIsOpen( !isOpen ) } />
-                <Nav isOpen={ isOpen }>
-                    <Items>
-                        <Item>Item 1</Item>
-                        <Item>Item 2</Item>
-                        <Item>Item 3</Item>
-                        <Item>Item 4</Item>
-                    </Items>
-                </Nav>
-            </Container>
-        </Header>
+                <NavbarNav isOpen={ isOpen }>
+                    <NavbarItems>
+                        <NavbarItem>Item 1</NavbarItem>
+                        <NavbarItem>Item 2</NavbarItem>
+                        <NavbarItem>Item 3</NavbarItem>
+                        <NavbarItem>Item 4</NavbarItem>
+                    </NavbarItems>
+                </NavbarNav>
+            </NavbarContainer>
+        </NavbarHeader>
     );
 };
 

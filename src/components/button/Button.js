@@ -47,11 +47,11 @@ const Secondary = styled( Button )`
 `;
 
 const Tertiary = styled( Button )`
-    background-color: ${ ( { theme } ) => theme.color.tertiary };
-    border: ${ ( { theme } ) => `1px solid ${ theme.color.tertiaryDark }` };
+    background-color: ${ ( { theme } ) => theme.color.tertiaryDark };
+    border: ${ ( { theme } ) => `1px solid ${ theme.color.tertiaryDarkest }` };
 
     &:hover {
-        background-color: ${ ( { theme } ) => theme.color.tertiaryDark };
+        background-color: ${ ( { theme } ) => theme.color.tertiaryDarkest };
         border: ${ ( { theme } ) => `1px solid ${ theme.color.tertiaryDarkest }` };
     }
     &:focus {

@@ -14,7 +14,10 @@ module.exports = {
         linkedin: "corina-patings-b28651a8",
     },
     plugins: [
+        "gatsby-plugin-sharp",
         "gatsby-plugin-layout",
+        "gatsby-plugin-react-svg",
+        "gatsby-transformer-sharp",
         "gatsby-plugin-react-helmet",
         {
             resolve: "gatsby-plugin-styled-components",
@@ -42,9 +45,53 @@ module.exports = {
                 icon: "static/images/icon.png",
             },
         },
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: "images",
+                path: `${ __dirname }/static/images`,
+            },
+        },
+        {
+            resolve: "gatsby-source-filesystem",
+            options: {
+                name: "pages",
+                path: `${ __dirname }/src/pages`,
+            },
+        },
+        {
+            resolve: "gatsby-transformer-remark",
+            options: {
+                plugins: [
+                    {
+                        resolve: "gatsby-remark-relative-images",
+                        options: {
+                            name: "images",
+                        },
+                    },
+                    {
+                        resolve: "gatsby-remark-images",
+                        options: {
+                            maxWidth: 1136,
+                        },
+                    },
+                    {
+                        resolve: "gatsby-remark-copy-linked-files",
+                        options: {
+                            destinationDir: "static",
+                        },
+                    },
+                ],
+            },
+        },
+        {
+            resolve: "gatsby-plugin-netlify-cms",
+            options: {
+                modulePath: `${ __dirname }/src/cms/cms.js`,
+            },
+        },
         "gatsby-plugin-sitemap",
         "gatsby-plugin-offline",
-        "gatsby-plugin-netlify-cms",
         "gatsby-plugin-netlify",
     ],
 };

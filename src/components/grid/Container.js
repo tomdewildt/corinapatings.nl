@@ -1,7 +1,6 @@
 import styled, { css } from "styled-components";
 
 const Container = styled.div`
-    height: 100%;
     margin-right: auto;
     margin-left: auto;
 
@@ -11,9 +10,9 @@ const Container = styled.div`
         }
     ` }
     
-    ${ ( { theme } ) => Object.keys( theme.container.breakpoints ).map( ( key ) => css`
+    ${ ( { theme } ) => Object.keys( theme.container.sizes ).map( ( key ) => css`
         @media only screen and (min-width: ${ theme.breakpoints[ key ] }em) {
-            width: ${ theme.container.breakpoints[ key ] }rem;
+            width: ${ theme.container.sizes[ key ] }rem;
         }
     ` ) }
 `;

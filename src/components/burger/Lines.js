@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import PropTypes from "prop-types";
 
-const Lines = styled.span`
+const BurgerLines = styled.span`
     display: block;
     top: 50%;
     margin-top: ${ ( { theme } ) => theme.burger.line.height / -2 }rem;
@@ -45,4 +46,8 @@ const Lines = styled.span`
     ` }
 `;
 
-export default Lines;
+BurgerLines.propTypes = {
+    isActive: PropTypes.bool.isRequired,
+};
+
+export default BurgerLines;

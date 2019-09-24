@@ -1,6 +1,6 @@
 /* eslint complexity: 0 */
 import React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
 
@@ -52,8 +52,8 @@ const Headers = ( {
         headline: config.siteDescription,
         inLanguage: config.siteLanguage,
         mainEntityOfPage: `${ config.siteUrl }/${ path }`,
-        description: config.siteDescription,
-        name: config.siteTitle,
+        description: description || config.siteDescription,
+        name: title || config.siteTitle,
         author: { "@id": `${ config.siteUrl }/#identity` },
         copyrightHolder: { "@id": `${ config.siteUrl }/#identity` },
         copyrightYear: "2019",
@@ -68,10 +68,10 @@ const Headers = ( {
     };
 
     return (
-        <Helmet>
+        <Helmet defer={ false }>
             <html lang={ config.siteLanguage } />
-            <title>{ config.siteTitle }</title>
-            <meta name="description" content={ config.siteDescription } />
+            <title>{ title || config.siteTitle }</title>
+            <meta name="description" content={ description || config.siteDescription } />
             <meta name="image" content={ config.siteBanner } />
             <meta property="og:url" content={ `${ config.siteUrl }/${ path }` } />
             <meta property="og:type" content="website" />

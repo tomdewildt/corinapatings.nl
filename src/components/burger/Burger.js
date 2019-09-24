@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import Button from "./Button";
-import Lines from "./Lines";
-import Box from "./Box";
+import BurgerButton from "./Button";
+import BurgerLines from "./Lines";
+import BurgerBox from "./Box";
 
 const Burger = ( { isActive, breakpoint, toggle } ) => (
-    <Button type="button" aria-label="Menu" breakpoint={ breakpoint } onClick={ toggle }>
-        <Box>
-            <Lines isActive={ isActive } />
-        </Box>
-    </Button>
+    <BurgerButton type="button" aria-label="Menu" breakpoint={ breakpoint } onClick={ toggle }>
+        <BurgerBox>
+            <BurgerLines isActive={ isActive } />
+        </BurgerBox>
+    </BurgerButton>
 );
 
 Burger.propTypes = {
