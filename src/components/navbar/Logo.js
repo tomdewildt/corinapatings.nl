@@ -3,32 +3,42 @@ import { Link } from "gatsby";
 import styled, { css } from "styled-components";
 import PropTypes from "prop-types";
 
+import Logo from "../../assets/logo.svg";
+import Icon from "../../assets/icon.svg";
+
 const NavbarItem = styled( Link )`
     display: flex;
     align-items: center;
 `;
 
-const NavbarImage = styled.img`
+const StyledLogo = styled( Logo )`
+    display: block;
+    height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
+    margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
+    
+    ${ ( { theme } ) => css`
+        @media (max-width: ${ theme.navbar.logo.collapse }em) {
+            display: none;
+        }
+    ` }
+`;
+
+const StyledIcon = styled( Icon )`
     display: none;
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
-    width: auto;
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
-
-    &:first-of-type { display: block; }
-    &:last-of-type { display: none; }
 
     ${ ( { theme } ) => css`
         @media (max-width: ${ theme.navbar.logo.collapse }em) {
-            &:first-of-type { display: none; }
-            &:last-of-type { display: block; }
+            display: block;
         }
     ` }
 `;
 
 const NavbarLogo = ( { to } ) => (
     <NavbarItem to={ to }>
-        <NavbarImage src="/images/logo.png" alt="logo" />
-        <NavbarImage src="/images/icon.png" alt="logo" />
+        <StyledLogo />
+        <StyledIcon />
     </NavbarItem>
 );
 

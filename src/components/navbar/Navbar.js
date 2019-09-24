@@ -23,7 +23,7 @@ const NavbarContainer = styled.div`
     margin-left: auto;
 
     ${ ( { theme } ) => css`
-        @media (max-width: ${ theme.breakpoints.sm }em) {
+        @media (max-width: ${ theme.breakpoints.lg }em) {
             padding: 0 ${ theme.navbar.padding }rem;
         }
     ` }
@@ -93,10 +93,11 @@ const Navbar = () => {
                 <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => toggleIsOpen( !isOpen ) } />
                 <NavbarNav isOpen={ isOpen }>
                     <NavbarItems>
-                        <NavbarItem>Item 1</NavbarItem>
-                        <NavbarItem>Item 2</NavbarItem>
-                        <NavbarItem>Item 3</NavbarItem>
-                        <NavbarItem>Item 4</NavbarItem>
+                        <NavbarItem>Kracht Inzicht</NavbarItem>
+                        <NavbarItem>Volwassenen</NavbarItem>
+                        <NavbarItem>Kinderen</NavbarItem>
+                        <NavbarItem>Hoogsensitiviteit</NavbarItem>
+                        <NavbarItem>Blog</NavbarItem>
                     </NavbarItems>
                 </NavbarNav>
             </NavbarContainer>
