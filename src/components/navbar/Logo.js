@@ -17,7 +17,7 @@ const StyledLogo = styled( Logo )`
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
     
     ${ ( { theme } ) => css`
-        @media (max-width: ${ theme.navbar.logo.collapse }em) {
+        @media (min-width: ${ theme.breakpoints.sm }em) and (max-width: ${ theme.navbar.logo.collapse }em) {
             display: none;
         }
     ` }
@@ -29,7 +29,7 @@ const StyledIcon = styled( Icon )`
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
 
     ${ ( { theme } ) => css`
-        @media (max-width: ${ theme.navbar.logo.collapse }em) {
+        @media (min-width: ${ theme.breakpoints.sm }em) and (max-width: ${ theme.navbar.logo.collapse }em) {
             display: block;
         }
     ` }
