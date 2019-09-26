@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import querystring from "querystring";
 import axios from "axios";
 
 import { required, email, phone } from "../form/validations";
 import { Types } from "../form/fields";
+import Alert from "../alert/Alert";
 import Form from "../form/Form";
+
+const SUCCESS = "success";
+const NAME = "contact";
+const ERROR = "error";
 
 const fields = [
     {
@@ -32,25 +38,34 @@ const fields = [
     },
 ];
 
-const encode = ( data ) => Object.keys( data )
-    .map( ( key ) => `${ encodeURIComponent( key ) }=${ encodeURIComponent( data[ key ] ) }` )
-    .join( "&" );
-
 const ContactForm = () => {
+    const [ state, setState ] = useState( {} );
+
     const onSubmit = ( values ) => {
-        axios.post( "/", encode( { "form-name": "contact", ...values } ), {
+        setState( {} );
+        axios.post( "/", querystring.stringify( { "form-name": NAME, ...values } ), {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
         } )
-            .then( ( res ) => console.log( res ) )
-            .catch( ( error ) => console.log( error ) );
+            .then( () => setState( {
+                status: SUCCESS,
+                message: "Bericht verstuurd.",
+            } ) )
+            .catch( () => setState( {
+                status: ERROR,
+                message: "Er is een fout opgetreden tijdens het verstuuren van het bericht.",
+            } ) );
     };
 
     return (
-        <Form
-            name="contact"
-            fields={ fields }
-            onSubmit={ onSubmit }
-        />
+        <>
+            { state.status === SUCCESS && <Alert.Success>{ state.message }</Alert.Success> }
+            { state.status === ERROR && <Alert.Danger>{ state.message }</Alert.Danger> }
+            <Form
+                name={ NAME }
+                fields={ fields }
+                onSubmit={ onSubmit }
+            />
+        </>
     );
 };
 

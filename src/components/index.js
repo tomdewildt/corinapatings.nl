@@ -14,6 +14,7 @@ export { default as Footer } from "./footer/Footer";
 export { default as Button } from "./button/Button";
 export { default as Text } from "./typography/Text";
 export { default as Column } from "./grid/Column";
+export { default as Alert } from "./alert/Alert";
 export { default as Link } from "./button/Link";
 export { default as Card } from "./cards/Card";
 export { default as Form } from "./form/Form";

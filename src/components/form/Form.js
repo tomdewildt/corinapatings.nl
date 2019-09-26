@@ -19,7 +19,7 @@ class Form extends React.Component {
         super( props );
         this.state = {
             values: defaultValues( props.fields ),
-            recaptcha: true,
+            recaptcha: false,
             errors: {},
         };
     }
