@@ -44,6 +44,7 @@ const ContactForm = () => {
 
     return (
         <Form
+            name="contact"
             fields={ fields }
             onSubmit={ onSubmit }
         />

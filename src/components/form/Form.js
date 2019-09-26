@@ -108,8 +108,10 @@ class Form extends React.Component {
 
     render() {
         const { recaptcha } = this.state;
+        const { name } = this.props;
         return (
             <FormContainer data-netlify="true">
+                <input type="hidden" name="form-name" value={ name } />
                 { this.renderFields() }
                 <Recaptcha onChange={ this.onRecaptcha } />
                 <Button.Primary type="button" onClick={ this.onSubmit } disabled={ !recaptcha }>Versturen</Button.Primary>
@@ -121,6 +123,7 @@ class Form extends React.Component {
 
 Form.propTypes = {
     fields: PropTypes.arrayOf( PropTypes.shape( {} ) ).isRequired,
+    name: PropTypes.string.isRequired,
     onSubmit: PropTypes.func.isRequired,
     onChange: PropTypes.func,
 };
