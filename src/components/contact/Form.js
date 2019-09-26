@@ -24,17 +24,6 @@ const fields = [
         validations: [ required, phone ],
     },
     {
-        name: "test",
-        label: "Select (REMOVE)",
-        type: Types.Select,
-        options: [
-            { value: 1, label: "Value 1" },
-            { value: 2, label: "Value 2" },
-            { value: 3, label: "Value 3" },
-        ],
-        validations: [ required ],
-    },
-    {
         name: "message",
         label: "Bericht",
         type: Types.TextArea,
