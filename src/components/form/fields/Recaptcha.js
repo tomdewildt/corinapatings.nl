@@ -9,6 +9,8 @@ const Recaptcha = ( { onChange } ) => (
         <GoogleRecaptcha
             sitekey={ process.env.GATSBY_RECAPTCHA_API_KEY }
             onChange={ () => onChange( { target: { value: true } } ) }
+            onExpired={ () => onChange( { target: { value: false } } ) }
+            onErrored={ () => onChange( { target: { value: false } } ) }
         />
     </FormGroup>
 );

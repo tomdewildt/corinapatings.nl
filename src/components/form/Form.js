@@ -64,7 +64,7 @@ class Form extends React.Component {
         } ) );
     }
 
-    onRecaptcha = () => this.setState( { recaptcha: true } );
+    onRecaptcha = ( e ) => this.setState( { recaptcha: e.target.value } );
 
     renderFields() {
         const { fields } = this.props;
