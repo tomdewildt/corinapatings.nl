@@ -25,4 +25,5 @@ export default {
 
     white: "#ffffff",
     black: "#222222",
+    danger: "#dc3545",
 };

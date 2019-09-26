@@ -119,4 +119,3 @@ export const query = graphql`
 `;
 
 export default IndexPage;
-/* eslint-enable react/no-array-index-key */

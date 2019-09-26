@@ -25,4 +25,3 @@ export default ( Component ) => ( props ) => (
         </Layout>
     </Injector>
 );
-/* eslint-enable react/jsx-props-no-spreading */

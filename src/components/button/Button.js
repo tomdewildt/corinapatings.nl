@@ -1,24 +1,10 @@
 import styled from "styled-components";
 
-const Button = styled.button`
-    display: inline-block;
-    margin: ${ ( { theme } ) => `0 ${ theme.button.margin }rem 0 0` };
-    padding: ${ ( { theme } ) => `${ theme.button.padding }rem ${ theme.button.padding * 2.5 }rem` };
-    border-radius: ${ ( { theme } ) => theme.button.radius }rem;
-    font: inherit;
-    font-weight: 700;
-    font-size: ${ ( { theme } ) => theme.button.size }rem;
-    text-transform: none;
-    color: ${ ( { theme } ) => theme.color.white };
-    cursor: pointer;
-    overflow: visible;
+import Base from "./Base";
 
-    &:last-of-type {
-        margin-right: 0;
-    }
-`;
-
-const Primary = styled( Button )`
+const Primary = styled.button`
+    ${ Base }
+    
     background-color: ${ ( { theme } ) => theme.color.primary };
     border: ${ ( { theme } ) => `1px solid ${ theme.color.primaryDark }` };
 
@@ -32,7 +18,9 @@ const Primary = styled( Button )`
     }
 `;
 
-const Secondary = styled( Button )`
+const Secondary = styled.button`
+    ${ Base }
+
     background-color: ${ ( { theme } ) => theme.color.secondary };
     border: ${ ( { theme } ) => `1px solid ${ theme.color.secondaryDark }` };
 
@@ -46,7 +34,9 @@ const Secondary = styled( Button )`
     }
 `;
 
-const Tertiary = styled( Button )`
+const Tertiary = styled.button`
+    ${ Base }
+    
     background-color: ${ ( { theme } ) => theme.color.tertiaryDark };
     border: ${ ( { theme } ) => `1px solid ${ theme.color.tertiaryDarkest }` };
 
