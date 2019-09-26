@@ -9,6 +9,7 @@ import {
     Input,
     Select,
     TextArea,
+    Recaptcha,
 } from "./fields";
 
 const FormContainer = styled.form``;
@@ -18,27 +19,23 @@ class Form extends React.Component {
         super( props );
         this.state = {
             values: defaultValues( props.fields ),
+            recaptcha: false,
             errors: {},
         };
     }
 
     onSubmit = () => {
         const { fields, onSubmit } = this.props;
-        const { values } = this.state;
+        const { values, recaptcha } = this.state;
 
         const errors = fields.reduce( ( e, f ) => {
-            const error = validateField( values[ f.name ], f.validations );
+            const error = validateField( values[ f.name ], f.validations || [] );
             if ( error ) return { ...e, [ f.name ]: error };
             return e;
         }, {} );
 
-        // TODO: check recaptcha
-
-        if ( Object.keys( errors ).length > 0 ) {
-            this.setState( { errors } );
-        } else {
-            onSubmit( values );
-        }
+        if ( Object.keys( errors ).length > 0 || !recaptcha ) this.setState( { errors } );
+        else onSubmit( values );
     }
 
     onReset = () => {
@@ -63,10 +60,11 @@ class Form extends React.Component {
         } ) );
     }
 
+    onRecaptcha = () => this.setState( { recaptcha: true } );
+
     renderFields() {
         const { fields } = this.props;
         const { values, errors } = this.state;
-
         return fields.map( ( f ) => {
             switch ( f.type ) {
                 case Types.Select:
@@ -109,10 +107,12 @@ class Form extends React.Component {
     }
 
     render() {
+        const { recaptcha } = this.state;
         return (
             <FormContainer>
                 { this.renderFields() }
-                <Button.Primary type="button" onClick={ this.onSubmit }>Versturen</Button.Primary>
+                <Recaptcha onChange={ this.onRecaptcha } />
+                <Button.Primary type="button" onClick={ this.onSubmit } disabled={ !recaptcha }>Versturen</Button.Primary>
                 <Button.Secondary type="button" onClick={ this.onReset }>Reset</Button.Secondary>
             </FormContainer>
         );

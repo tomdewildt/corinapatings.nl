@@ -16,6 +16,11 @@ const Primary = styled.button`
         outline: none;
         box-shadow: ${ ( { theme } ) => `0 0 0 0.2rem ${ theme.color.primaryDarkest }50` };
     }
+    &:disabled {
+        cursor: not-allowed;
+        background-color: ${ ( { theme } ) => theme.color.primary }50;
+        border: ${ ( { theme } ) => `1px solid ${ theme.color.primary }50` };
+    }
 `;
 
 const Secondary = styled.button`
@@ -32,6 +37,11 @@ const Secondary = styled.button`
         outline: none;
         box-shadow: ${ ( { theme } ) => `0 0 0 0.2rem ${ theme.color.secondaryDarkest }50` };
     }
+    &:disabled {
+        cursor: not-allowed;
+        background-color: ${ ( { theme } ) => theme.color.secondary }50;
+        border: ${ ( { theme } ) => `1px solid ${ theme.color.secondary }50` };
+    }
 `;
 
 const Tertiary = styled.button`
@@ -47,6 +57,11 @@ const Tertiary = styled.button`
     &:focus {
         outline: none;
         box-shadow: ${ ( { theme } ) => `0 0 0 0.2rem ${ theme.color.tertiaryDarkest }50` };
+    }
+    &:disabled {
+        cursor: not-allowed;
+        background-color: ${ ( { theme } ) => theme.color.tertiaryDark }50;
+        border: ${ ( { theme } ) => `1px solid ${ theme.color.tertiaryDark }50` };
     }
 `;
 

@@ -49,7 +49,7 @@ const ContactLink = styled.a`
 `;
 
 const ContactMap = styled( GoogleMap )`
-    height: 15rem;
+    height: 15.5rem;
     width: 100%;
     border: none;
 `;

@@ -7,7 +7,6 @@ const GoogleMap = ( {
 } ) => (
     <iframe
         title="Map"
-        frameBorder="0"
         className={ className }
         src={ `https://www.google.com/maps/embed/v1/place?q=place_id:${ place }&key=${ process.env.GATSBY_GOOGLE_API_KEY }` }
         allowFullScreen
