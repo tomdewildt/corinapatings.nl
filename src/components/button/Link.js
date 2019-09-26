@@ -1,24 +1,11 @@
 import styled from "styled-components";
-import { Link as GatsbyLink } from "gatsby";
+import { Link } from "gatsby";
 
-const Link = styled( GatsbyLink )`
-    display: inline-block;
-    padding: ${ ( { theme } ) => `${ theme.button.padding }rem ${ theme.button.padding * 2.5 }rem` };
-    border-radius: ${ ( { theme } ) => theme.button.radius }rem;
-    font: inherit;
-    font-weight: 700;
-    font-size: ${ ( { theme } ) => theme.button.size }rem;
-    text-decoration: none;
-    color: ${ ( { theme } ) => theme.color.white };
-    cursor: pointer;
-    overflow: visible;
-
-    &:last-of-type {
-        margin-right: 0;
-    }
-`;
+import Base from "./Base";
 
 const Primary = styled( Link )`
+    ${ Base }
+    
     background-color: ${ ( { theme } ) => theme.color.primary };
     border: ${ ( { theme } ) => `1px solid ${ theme.color.primaryDark }` };
 
@@ -33,6 +20,8 @@ const Primary = styled( Link )`
 `;
 
 const Secondary = styled( Link )`
+    ${ Base }
+
     background-color: ${ ( { theme } ) => theme.color.secondary };
     border: ${ ( { theme } ) => `1px solid ${ theme.color.secondaryDark }` };
 
@@ -47,6 +36,8 @@ const Secondary = styled( Link )`
 `;
 
 const Tertiary = styled( Link )`
+    ${ Base }
+
     background-color: ${ ( { theme } ) => theme.color.tertiaryDark };
     border: ${ ( { theme } ) => `1px solid ${ theme.color.tertiaryDarkest }` };
 

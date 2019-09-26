@@ -1,28 +1,50 @@
+import React from "react";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
-const TextArea = styled.textarea`
-    display: block;
-    width: 100%;
-    min-height: 2.5rem;
-    padding: .375rem .75rem;
-    resize: vertical;
-    font-size: 1rem;
-    font-family: inherit;
-    line-height: 1.5;
-    box-sizing : border-box;
-    color: ${ ( { theme } ) => theme.color.grayDarkest };
-    background-color: ${ ( { theme } ) => theme.color.white };
-    border: ${ ( { theme } ) => `1px solid ${ theme.color.gray }` };
-    border-radius: ${ ( { theme } ) => theme.input.radius }rem;
+import FormGroup from "../Group";
+import FormLabel from "../Label";
+import FormError from "../Error";
+import Base from "./Base";
 
-    &::placeholder {
-        color: ${ ( { theme } ) => theme.color.grayDark };
-    }
-    &:focus {
-        outline: 0;
-        box-shadow: ${ ( { theme } ) => `0 0 0 0.2rem ${ theme.color.primaryDarkest }50` };
-        border-color: ${ ( { theme } ) => theme.color.primaryDarkest };
-    }
+const Field = styled.textarea`
+    ${ Base }
 `;
+
+const TextArea = ( {
+    name,
+    label,
+    value,
+    error,
+    onChange,
+} ) => (
+    <FormGroup>
+        <FormLabel htmlFor={ name }>
+            { label }
+        </FormLabel>
+        <Field
+            id={ name }
+            name={ name }
+            value={ value }
+            error={ error }
+            onChange={ onChange }
+        />
+        <FormError>
+            { error }
+        </FormError>
+    </FormGroup>
+);
+
+TextArea.propTypes = {
+    name: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    value: PropTypes.string.isRequired,
+    error: PropTypes.string,
+    onChange: PropTypes.func.isRequired,
+};
+
+TextArea.defaultProps = {
+    error: null,
+};
 
 export default TextArea;

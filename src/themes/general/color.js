@@ -23,6 +23,8 @@ export default {
     grayLight: "#e0e0e0",
     grayLightest: "#eeeeee",
 
+    success: "#28a745",
+    danger: "#dc3545",
     white: "#ffffff",
     black: "#222222",
 };
