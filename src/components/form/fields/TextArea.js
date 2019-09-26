@@ -9,6 +9,8 @@ import Base from "./Base";
 
 const Field = styled.textarea`
     ${ Base }
+    
+    resize: vertical;
 `;
 
 const TextArea = ( {
