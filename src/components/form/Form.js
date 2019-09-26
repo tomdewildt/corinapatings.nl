@@ -109,7 +109,7 @@ class Form extends React.Component {
     render() {
         const { recaptcha } = this.state;
         return (
-            <FormContainer>
+            <FormContainer data-netlify="true">
                 { this.renderFields() }
                 <Recaptcha onChange={ this.onRecaptcha } />
                 <Button.Primary type="button" onClick={ this.onSubmit } disabled={ !recaptcha }>Versturen</Button.Primary>

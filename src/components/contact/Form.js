@@ -1,4 +1,6 @@
 import React from "react";
+import axios from "axios";
+import querystring from "querystring";
 
 import { required, email, phone } from "../form/validations";
 import { Types } from "../form/fields";
@@ -31,12 +33,21 @@ const fields = [
     },
 ];
 
-const ContactForm = () => (
-    <Form
-        fields={ fields }
-        onSubmit={ () => {} }
-        onChange={ () => {} }
-    />
-);
+const ContactForm = () => {
+    const onSubmit = ( values ) => {
+        axios.post( "/", querystring.stringify( { "form-name": "contact", ...values } ), {
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        } )
+            .then( ( res ) => console.log( res ) )
+            .catch( ( error ) => console.log( error ) );
+    };
+
+    return (
+        <Form
+            fields={ fields }
+            onSubmit={ onSubmit }
+        />
+    );
+};
 
 export default ContactForm;
