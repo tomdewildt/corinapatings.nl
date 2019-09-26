@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import querystring from "querystring";
 
 import { required, email, phone } from "../form/validations";
 import { Types } from "../form/fields";
@@ -33,9 +32,13 @@ const fields = [
     },
 ];
 
+const encode = ( data ) => Object.keys( data )
+    .map( ( key ) => `${ encodeURIComponent( key ) }=${ encodeURIComponent( data[ key ] ) }` )
+    .join( "&" );
+
 const ContactForm = () => {
     const onSubmit = ( values ) => {
-        axios.post( "/", querystring.stringify( { "form-name": "contact", ...values } ), {
+        axios.post( "/", encode( { "form-name": "contact", ...values } ), {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
         } )
             .then( ( res ) => console.log( res ) )
