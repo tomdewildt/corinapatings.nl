@@ -4,6 +4,7 @@ import axios from "axios";
 
 import { required, email, phone } from "../form/validations";
 import { Types } from "../form/fields";
+import Margin from "../spacing/Margin";
 import Alert from "../alert/Alert";
 import Form from "../form/Form";
 
@@ -57,7 +58,7 @@ const ContactForm = () => {
     };
 
     return (
-        <>
+        <Margin bottom={ 3 }>
             { state.status === SUCCESS && <Alert.Success>{ state.message }</Alert.Success> }
             { state.status === ERROR && <Alert.Danger>{ state.message }</Alert.Danger> }
             <Form
@@ -65,7 +66,7 @@ const ContactForm = () => {
                 fields={ fields }
                 onSubmit={ onSubmit }
             />
-        </>
+        </Margin>
     );
 };
 
