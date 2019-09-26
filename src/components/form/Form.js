@@ -34,8 +34,12 @@ class Form extends React.Component {
             return e;
         }, {} );
 
-        if ( Object.keys( errors ).length > 0 || !recaptcha ) this.setState( { errors } );
-        else onSubmit( values );
+        if ( Object.keys( errors ).length > 0 || !recaptcha ) {
+            this.setState( { errors } );
+        } else {
+            onSubmit( values );
+            this.onReset();
+        }
     }
 
     onReset = () => {
