@@ -38,23 +38,26 @@ const Card = ( {
     color,
     image,
     size,
-} ) => (
-    <CardColumn xs={ 12 } sm={ ( 12 / 4 ) * size }>
-        { !image ? (
-            <CardBackground color={ color } center={ size === 1 }>
-                { title && <Heading.H5 center={ size === 1 }>{ title }</Heading.H5> }
-                { description && <Text.Paragraph center={ size === 1 }>{ description }</Text.Paragraph> }
-                { to && (
-                    <Margin top={ 1 }>
-                        <CardButton to={ to } color={ color }>Lees Meer</CardButton>
-                    </Margin>
-                ) }
-            </CardBackground>
-        ) : (
-            <CardImage source={ image } alt="image" />
-        ) }
-    </CardColumn>
-);
+} ) => {
+    const isCentered = parseInt( size, 10 ) === 1;
+    return (
+        <CardColumn xs={ 12 } sm={ ( 12 / 4 ) * parseInt( size, 10 ) }>
+            { !image ? (
+                <CardBackground color={ color } center={ isCentered }>
+                    { title && <Heading.H5 center={ isCentered }>{ title }</Heading.H5> }
+                    { description && <Text.Paragraph center={ isCentered }>{ description }</Text.Paragraph> }
+                    { to && (
+                        <Margin top={ 1 }>
+                            <CardButton to={ to } color={ color }>Lees Meer</CardButton>
+                        </Margin>
+                    ) }
+                </CardBackground>
+            ) : (
+                <CardImage source={ image } alt="image" />
+            ) }
+        </CardColumn>
+    );
+};
 
 Card.propTypes = {
     title: PropTypes.string,
@@ -62,7 +65,7 @@ Card.propTypes = {
     to: PropTypes.string,
     color: PropTypes.string,
     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
-    size: PropTypes.number.isRequired,
+    size: PropTypes.string.isRequired,
 };
 
 Card.defaultProps = {
