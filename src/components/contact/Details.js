@@ -1,6 +1,7 @@
 import React from "react";
 import Obfuscate from "react-obfuscate";
 import styled from "styled-components";
+import PropTypes from "prop-types";
 
 import Facebook from "../../assets/facebook.svg";
 import LinkedIn from "../../assets/linkedin.svg";
@@ -54,15 +55,21 @@ const ContactMap = styled( GoogleMap )`
     border: none;
 `;
 
-const ContactDetails = () => (
+const ContactDetails = ( {
+    name,
+    address,
+    postalCode,
+    phone,
+    email,
+} ) => (
     <>
         <Row>
             <Column xs={ 6 }>
-                <ContactItem>Corina Patings</ContactItem>
-                <ContactItem>Meijldoorn 6</ContactItem>
-                <ContactItem>5482 SG</ContactItem>
-                <ContactItemLink tel="+31 6 51778528" />
-                <ContactItemLink email="info@corinapatings.nl" />
+                <ContactItem>{ name }</ContactItem>
+                <ContactItem>{ address }</ContactItem>
+                <ContactItem>{ postalCode }</ContactItem>
+                <ContactItemLink tel={ phone } />
+                <ContactItemLink email={ email } />
             </Column>
             <Column xs={ 6 }>
                 <ContactLink href="/" target="_blank">
@@ -90,5 +97,13 @@ const ContactDetails = () => (
         </Row>
     </>
 );
+
+ContactDetails.propTypes = {
+    name: PropTypes.string.isRequired,
+    address: PropTypes.string.isRequired,
+    postalCode: PropTypes.string.isRequired,
+    phone: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+};
 
 export default ContactDetails;

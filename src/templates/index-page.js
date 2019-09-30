@@ -71,7 +71,7 @@ IndexPage.propTypes = {
                     link: PropTypes.string,
                     color: PropTypes.string,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
-                    size: PropTypes.number,
+                    size: PropTypes.string,
                 } ) ),
             } ).isRequired,
         } ).isRequired,
