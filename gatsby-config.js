@@ -1,5 +1,7 @@
-/* eslint-disable max-len */
+const metadata = require( "./src/assets/metadata.json" );
+
 module.exports = {
+    siteMetadata: { siteUrl: metadata.general.url },
     plugins: [
         "gatsby-plugin-sharp",
         "gatsby-plugin-layout",
