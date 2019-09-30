@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
         font-size: ${ ( { theme } ) => theme.typography.size }rem;
         line-height: ${ ( { theme } ) => theme.typography.lineHeight };
         color: ${ ( { theme } ) => theme.color.black };
-        overflow-x: hidden;
+        overflow: hidden;
         margin: 0;
         padding: 0;
     }
