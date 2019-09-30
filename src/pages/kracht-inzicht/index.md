@@ -6,10 +6,10 @@ intro:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
   image: /images/1280x720.png
 content:
-  - left: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-  - right: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
+  left: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
+  right: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
 cards:
   - title: Lorem Ipsum
     description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
