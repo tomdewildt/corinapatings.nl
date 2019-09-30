@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/create-content-pages
 
 publish_mode: editorial_workflow
 
@@ -129,6 +129,68 @@ collections:
               - label: "Link"
                 name: "link"
                 widget: "string"
+                required: false
+              - label: "Image"
+                name: "image"
+                widget: "image"
+                required: false
+              - label: "Color"
+                name: "color"
+                widget: "select"
+                options:
+                  - "primary"
+                  - "secondary"
+                  - "tertiary"
+                required: false
+              - label: "Size"
+                name: "size"
+                widget: "select"
+                options:
+                  - "1"
+                  - "2"
+                  - "3"
+      - file: "src/pages/kracht-inzicht/index.md"
+        label: "Krach Inzicht Page"
+        name: "index"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "index-page"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+              - label: "Description"
+                name: "description"
+                widget: "text"
+              - label: "Image"
+                name: "image"
+                widget: "image"
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields:
+              - label: "Left"
+                name: "left"
+                widget: "markdown"
+              - label: "Right"
+                name: "right"
+                widget: "markdown"
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - label: "Title"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "Description"
+                name: "description"
+                widget: "text"
                 required: false
               - label: "Image"
                 name: "image"
