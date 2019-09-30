@@ -6,8 +6,9 @@ import theme, { GlobalStyle } from "../themes";
 import { Navbar } from "../components";
 
 const LayoutContainer = styled.div`
-    height: 100vh;
-    padding-top: 3rem;
+    height: calc(100vh - 3rem);
+    overflow: auto;
+    margin-top: 3rem;
 `;
 
 const Layout = ( { children } ) => (
