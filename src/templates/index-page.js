@@ -17,7 +17,7 @@ import {
 
 const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
     <>
-        <Headers title={ frontmatter.title } />
+        <Headers />
         <Jumbotron
             title={ frontmatter.intro.title }
             image={ frontmatter.intro.image }
@@ -56,7 +56,6 @@ IndexPage.propTypes = {
     data: PropTypes.shape( {
         markdownRemark: PropTypes.shape( {
             frontmatter: PropTypes.shape( {
-                title: PropTypes.string,
                 intro: PropTypes.shape( {
                     title: PropTypes.string,
                     description: PropTypes.string,
@@ -72,7 +71,7 @@ IndexPage.propTypes = {
                     link: PropTypes.string,
                     color: PropTypes.string,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
-                    size: PropTypes.number,
+                    size: PropTypes.string,
                 } ) ),
             } ).isRequired,
         } ).isRequired,
@@ -83,7 +82,6 @@ export const query = graphql`
     query HomePageQuery {
         markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
             frontmatter {
-                title
                 intro {
                     title
                     description

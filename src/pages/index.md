@@ -1,6 +1,5 @@
 ---
 templateKey: index-page
-title: Corina Patings
 intro:
   title: Kracht Inzicht
   description: >
