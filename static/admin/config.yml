@@ -84,7 +84,7 @@ collections:
     label: "Pages"
     files:
       - file: "src/pages/index.md"
-        label: "Landing Page"
+        label: "Home Page"
         name: "index"
         fields:
           - label: "Template Key"
@@ -110,10 +110,10 @@ collections:
             fields:
               - label: "Text"
                 name: "text"
-                widget: "string"
+                widget: "text"
               - label: "Author"
                 name: "author"
-                widget: "text"
+                widget: "string"
           - label: "Cards"
             name: "cards"
             widget: "list"
@@ -124,7 +124,7 @@ collections:
                 required: false
               - label: "Description"
                 name: "description"
-                widget: "string"
+                widget: "text"
                 required: false
               - label: "Link"
                 name: "link"
