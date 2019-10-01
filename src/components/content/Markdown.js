@@ -5,22 +5,22 @@ import PropTypes from "prop-types";
 
 const StyledMarkdown = styled( Markdown )`
     h1 {
-        font-size: ${ ( { theme } ) => theme.typography.h3.size }rem;
+        font-size: ${ ( { theme } ) => theme.content.h1.size }rem;
         font-weight: 700;
-        line-height: ${ ( { theme } ) => theme.typography.h3.lineHeight };
-        margin-bottom: ${ ( { theme } ) => theme.typography.h3.marginBottom }rem;
+        line-height: ${ ( { theme } ) => theme.content.h1.lineHeight };
+        margin-bottom: ${ ( { theme } ) => theme.content.h1.marginBottom }rem;
     }
     
     h2 {
-        font-size: ${ ( { theme } ) => theme.typography.h4.size }rem;
+        font-size: ${ ( { theme } ) => theme.content.h2.size }rem;
         font-weight: 700;
-        line-height: ${ ( { theme } ) => theme.typography.h4.lineHeight };
-        margin-bottom: ${ ( { theme } ) => theme.typography.h4.marginBottom }rem;
+        line-height: ${ ( { theme } ) => theme.content.h2.lineHeight };
+        margin-bottom: ${ ( { theme } ) => theme.content.h2.marginBottom }rem;
     }
 
     p {
-        font-size: ${ ( { theme } ) => theme.typography.size }rem;
-        margin-bottom: ${ ( { theme } ) => theme.typography.marginBottom }rem;
+        font-size: ${ ( { theme } ) => theme.content.text.size }rem;
+        margin-bottom: ${ ( { theme } ) => theme.content.text.marginBottom }rem;
     }
 
     strong { font-weight: 700; }
