@@ -77,3 +77,34 @@ collections:
               - {label: "Image", name: "image", widget: "image", required: false}
               - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
               - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
+      - file: "src/pages/kracht-inzicht/index.md"
+        label: "Kracht Inzicht Page"
+        name: "kracht-inzicht"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "content-page"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Left", name: "left", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+              - {label: "Right", name: "right", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
+              - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
