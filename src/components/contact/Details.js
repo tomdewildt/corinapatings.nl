@@ -74,11 +74,11 @@ const ContactDetails = ( {
                 <ContactItemLink email={ email } />
             </Column>
             <Column xs={ 6 }>
-                <ContactLink href={ `https://www.linkedin.com/in/${ linkedin }` } target="_blank">
+                <ContactLink href={ `https://www.linkedin.com/in/${ linkedin }` } rel="noopener" target="_blank">
                     <LinkedIn />
                     LinkedIn
                 </ContactLink>
-                <ContactLink href={ `https://www.facebook.com/${ facebook }` } target="_blank">
+                <ContactLink href={ `https://www.facebook.com/${ facebook }` } rel="noopener" target="_blank">
                     <Facebook />
                     Facebook
                 </ContactLink>
