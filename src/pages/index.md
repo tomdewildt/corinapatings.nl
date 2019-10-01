@@ -33,31 +33,31 @@ cards:
   - color: tertiary
     description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: /
+    link: /volwassenen/
     size: '1'
-    title: Lorem Ipsum
+    title: Volwassenen
   - image: /images/300x300.png
+    size: '1'
+  - color: secondary
+    description: |
+      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
+    link: /kinderen/
+    size: '1'
+    title: Kinderen
+  - image: /images/icon.png
     size: '1'
   - color: secondary
     description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     size: '1'
-    title: Lorem Ipsum
-  - image: /images/300x300.png
-    size: '1'
-  - color: secondary
-    description: |
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: /
-    size: '1'
-    title: Lorem Ipsum
+    title: Opstellingen
   - color: primary
     description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     size: '1'
-    title: Lorem Ipsum
+    title: Gevoeligheid
   - image: /images/630x300.png
     size: '2'
 ---
