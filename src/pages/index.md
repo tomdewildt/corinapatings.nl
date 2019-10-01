@@ -57,7 +57,7 @@ cards:
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: /
     size: '1'
-    title: Gevoeligheid
+    title: Hooggevoeligheid
   - image: /images/630x300.png
     size: '2'
 ---
