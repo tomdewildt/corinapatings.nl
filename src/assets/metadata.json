@@ -1,25 +1,25 @@
 {
-    "general": {
-        "title": "Corina Patings",
-        "language": "nl",
-        "description": "Individuele begeleiding en coaching aan kinderen/jongeren, ouders en volwassenen gericht op persoonlijke ontwikkeling en bewustwording.",
-        "keywords": "example-1, example-2, example-3",
-        "url": "https://www.corinapatings.nl"
-    },
-    "social": {
-        "avatar": "https://www.corinapatings.nl/images/avatar.png",
-        "avatarSmall": "https://www.corinapatings.nl/images/avatar-small.png",
-        "banner": "https://www.corinapatings.nl/images/banner.png",
-        "bannerWidth": 1200,
-        "bannerHeight": 628,
-        "facebook": "Praktijk-de-Boom-756669217736591",
-        "linkedin": "corina-patings-b28651a8"
-    },
-    "contact": {
-        "name": "Corina Patings",
-        "address": "Meijldoorn 6, Schijndel",
-        "postalCode": "5482 SG",
-        "phone": "+31 6 51778528",
-        "email": "info@corinapatings.nl"
-    }
+  "general": {
+    "title": "Corina Patings",
+    "language": "nl",
+    "description": "Coaching aan kinderen/jongeren, ouders en volwassenen gericht op persoonlijke ontwikkeling en bewustwording.",
+    "keywords": "hooggevoeligheid, opstellingen, systemisch werk, paranormaal, kracht inzicht, corina patings, opvoedopstellingen, reading",
+    "url": "https://www.corinapatings.nl"
+  },
+  "social": {
+    "avatar": "https://www.corinapatings.nl/images/avatar.png",
+    "avatarSmall": "https://www.corinapatings.nl/images/avatar-small.png",
+    "banner": "https://www.corinapatings.nl/images/banner.png",
+    "bannerWidth": 1200,
+    "bannerHeight": 628,
+    "facebook": "Praktijk-de-Boom-756669217736591",
+    "linkedin": "corina-patings-b28651a8"
+  },
+  "contact": {
+    "name": "Corina Patings",
+    "address": "Meijldoorn 6, Schijndel",
+    "postalCode": "5482 SG",
+    "phone": "+31 6 51778528",
+    "email": "info@corinapatings.nl"
+  }
 }
