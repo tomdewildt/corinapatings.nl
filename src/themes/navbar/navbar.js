@@ -9,6 +9,6 @@ export default {
         collapse: 56,
     },
     items: {
-        padding: 1,
+        padding: 0.75,
     },
 };

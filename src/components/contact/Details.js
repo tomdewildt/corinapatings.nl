@@ -61,6 +61,8 @@ const ContactDetails = ( {
     postalCode,
     phone,
     email,
+    linkedin,
+    facebook,
 } ) => (
     <>
         <Row>
@@ -72,11 +74,11 @@ const ContactDetails = ( {
                 <ContactItemLink email={ email } />
             </Column>
             <Column xs={ 6 }>
-                <ContactLink href="/" target="_blank">
+                <ContactLink href={ `https://www.linkedin.com/in/${ linkedin }` } target="_blank">
                     <LinkedIn />
                     LinkedIn
                 </ContactLink>
-                <ContactLink href="/" target="_blank">
+                <ContactLink href={ `https://www.facebook.com/${ facebook }` } target="_blank">
                     <Facebook />
                     Facebook
                 </ContactLink>
@@ -104,6 +106,8 @@ ContactDetails.propTypes = {
     postalCode: PropTypes.string.isRequired,
     phone: PropTypes.string.isRequired,
     email: PropTypes.string.isRequired,
+    linkedin: PropTypes.string.isRequired,
+    facebook: PropTypes.string.isRequired,
 };
 
 export default ContactDetails;
