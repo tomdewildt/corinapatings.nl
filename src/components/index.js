@@ -1,5 +1,6 @@
 export { default as TestimonialContainer } from "./testimonials/Container";
 export { default as Testimonial } from "./testimonials/Testimonial";
+export { default as MarkdownContent } from "./content/Markdown";
 export { default as Jumbotron } from "./jumbotron/Jumbotron";
 export { default as CardContainer } from "./cards/Container";
 export { default as Background } from "./image/Background";

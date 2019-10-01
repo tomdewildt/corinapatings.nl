@@ -25,6 +25,8 @@ const Contact = () => (
                     postalCode={ metadata.contact.postalCode }
                     phone={ metadata.contact.phone }
                     email={ metadata.contact.email }
+                    linkedin={ metadata.social.linkedin }
+                    facebook={ metadata.social.facebook }
                 />
             </Column>
         </Row>

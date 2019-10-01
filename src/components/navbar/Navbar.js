@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styled, { css } from "styled-components";
+import { Link } from "gatsby";
 
 import Burger from "../burger/Burger";
 import NavbarLogo from "./Logo";
@@ -60,18 +61,10 @@ const NavbarItems = styled.ul`
     flex-grow: 1;
     flex-direction: column;
 
-    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
-        flex-direction: row;
-    }
+    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) { flex-direction: row; }
 `;
 
 const NavbarItem = styled.li`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: ${ ( { theme } ) => theme.navbar.items.padding }rem;
-    cursor: pointer;
-
     &:hover {
         color: ${ ( { theme } ) => theme.color.grayDarkest };
         background-color: ${ ( { theme } ) => theme.color.grayLight };
@@ -83,21 +76,42 @@ const NavbarItem = styled.li`
     }
 `;
 
+const NavbarLink = styled( Link )`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: ${ ( { theme } ) => theme.navbar.items.padding }rem 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+`;
+
 const Navbar = () => {
-    const [ isOpen, toggleIsOpen ] = useState( false );
+    const [ isOpen, setIsOpen ] = useState( false );
+    const toggleIsOpen = () => setIsOpen( !isOpen );
 
     return (
         <NavbarHeader>
             <NavbarContainer>
                 <NavbarLogo to="/" />
-                <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => toggleIsOpen( !isOpen ) } />
+                <Burger isActive={ isOpen } breakpoint="sm" toggle={ toggleIsOpen } />
                 <NavbarNav isOpen={ isOpen }>
                     <NavbarItems>
-                        <NavbarItem>Kracht Inzicht</NavbarItem>
-                        <NavbarItem>Volwassenen</NavbarItem>
-                        <NavbarItem>Kinderen</NavbarItem>
-                        <NavbarItem>Hoogsensitiviteit</NavbarItem>
-                        <NavbarItem>Blog</NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink to="/kracht-inzicht/" onClick={ toggleIsOpen }>Kracht Inzicht</NavbarLink>
+                        </NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink to="/volwassenen/" onClick={ toggleIsOpen }>Volwassenen</NavbarLink>
+                        </NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink to="/kinderen/ onClick={ toggleIsOpen }">Kinderen</NavbarLink>
+                        </NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink to="/hoogsensitiviteit/" onClick={ toggleIsOpen }>Hoogsensitiviteit</NavbarLink>
+                        </NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink to="/blog/" onClick={ toggleIsOpen }>Blog</NavbarLink>
+                        </NavbarItem>
                     </NavbarItems>
                 </NavbarNav>
             </NavbarContainer>
