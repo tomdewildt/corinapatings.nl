@@ -104,7 +104,7 @@ const Navbar = () => {
                             <NavbarLink to="/volwassenen/" onClick={ toggleIsOpen }>Volwassenen</NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/kinderen/ onClick={ toggleIsOpen }">Kinderen</NavbarLink>
+                            <NavbarLink to="/kinderen/" onClick={ toggleIsOpen }>Kinderen</NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
                             <NavbarLink to="/hoogsensitiviteit/" onClick={ toggleIsOpen }>Hoogsensitiviteit</NavbarLink>
