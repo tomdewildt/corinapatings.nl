@@ -22,15 +22,20 @@ const Jumbotron = ( {
     description,
 } ) => (
     <JumbotronContainer source={ image }>
-        <Heading.H1 center>{ title }</Heading.H1>
-        <Text.Paragraph center>{ description }</Text.Paragraph>
+        { title && <Heading.H1 center>{ title }</Heading.H1> }
+        { description && <Text.Paragraph center>{ description }</Text.Paragraph> }
     </JumbotronContainer>
 );
 
 Jumbotron.propTypes = {
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ).isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
+};
+
+Jumbotron.defaultProps = {
+    title: null,
+    description: null,
 };
 
 export default Jumbotron;
