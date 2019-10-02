@@ -9,6 +9,7 @@ exports.createPages = async ( { actions, graphql } ) => {
         {
             allMarkdownRemark(limit: 1000) {
                 nodes {
+                    id
                     fields {
                         slug
                     }
@@ -22,13 +23,14 @@ exports.createPages = async ( { actions, graphql } ) => {
     if ( result.errors ) return;
 
     const pages = result.data.allMarkdownRemark.nodes;
+
     pages.forEach( ( page ) => {
         createPage( {
             path: page.fields.slug,
             component: path.resolve(
                 `src/templates/${ String( page.frontmatter.templateKey ) }.js`,
             ),
-            context: {},
+            context: { id: page.id },
         } );
     } );
 };

@@ -1,10 +1,9 @@
 ---
 templateKey: index-page
 intro:
-  title: Kracht Inzicht
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-  image: /images/1280x720.png
+  title:
+  description:
+  image: /images/corina-bij-water.jpg
 testimonials:
   - text: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
@@ -16,44 +15,64 @@ testimonials:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
     author: John Doe
 cards:
-  - title: Lorem Ipsum
+  - title: Kracht Inzicht
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
-    link: /
+    link: kracht-inzicht
     color: primary
-    size: "2"
-  - image: /images/300x300.png
-    size: "1"
-  - image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
+    size: '2'
+  - title:
+    description:
+    link:
+    color:
+    image: /images/sam-oefening.jpg
+    size: '1'
+  - title:
+    description:
+    link:
+    color:
+    image: /images/sam-corina.jpg
+    size: '1'
+  - title: Volwassenen
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: /
+    link: volwassenen
     color: tertiary
-    size: "1"
-  - image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
+    size: '1'
+  - title:
+    description:
+    link:
+    color:
+    image: /images/tess.jpg
+    size: '1'
+  - title: Kinderen
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: /
+    link: kinderen
     color: secondary
-    size: "1"
-  - image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
+    size: '1'
+  - title:
+    description:
+    link:
+    color:
+    image: /images/logo.png
+    size: '1'
+  - title: Opstellingen
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: /
+    link: opstellingen
     color: secondary
-    size: "1"
-  - title: Lorem Ipsum
+    size: '1'
+  - title: Hoog-gevoeligheid
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: /
+    link: '/hooggevoeligheid/'
     color: primary
-    size: "1"
-  - image: /images/630x300.png
-    size: "2"
+    size: '1'
+  - title:
+    description:
+    link:
+    color:
+    image: /images/sam.jpg
+    size: '2'
 ---
