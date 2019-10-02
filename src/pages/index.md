@@ -1,11 +1,9 @@
 ---
 templateKey: index-page
 intro:
-  description: |2-
-     
-      
+  description: ''
   image: /images/5mk37492_a4.jpg
-  title: '  '
+  title: ''
 testimonials:
   - author: John Doe
     text: >
