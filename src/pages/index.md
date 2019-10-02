@@ -21,8 +21,7 @@ testimonials:
       et neque suscipit suscipit quis vitae elit.
 cards:
   - color: primary
-    description: |
-      Korte pakkende tekst over kracht inzicht....
+    description: ''
     link: /kracht-inzicht/
     size: '2'
     title: Kracht Inzicht
@@ -31,8 +30,12 @@ cards:
   - image: /images/300x300.png
     size: '1'
   - color: tertiary
-    description: |
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
+    description: >
+      Ben jij op zoek naar meer balans, meer stevigheid en meer lef in je leven?
+      Weet je diep van binnen dat je op dit moment niet je volle potentieel
+      leeft? Wil je je graag dieper verbinden met je man/vrouw zijn? Of En durf
+      jij je te openen om te kijken naar wat je belemmert? Dan ben jij van harte
+      welkom in mijn praktijk!
     link: /volwassenen/
     size: '1'
     title: Volwassenen
