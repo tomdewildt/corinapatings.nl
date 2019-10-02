@@ -23,10 +23,13 @@ content:
     je in contact. Ik voel me vrij je te raken en door jou geraakt te worden. Ik
     bied een veilige omgeving om je kwetsbaarheid toe te laten zodat je de
     beweging naar je kracht kan maken.
-  right: |-
-    Hier een stukje over werkvormen.....dus hoe doe ik dat......
+  right: >-
+    Hier een stukje over werkvormen.....dus hoe doe ik dat......(opleidingen en
+    cursussen onder de knop)
 
-    Hier een stukje over wie en wat mij inspireert.........
+
+    Hier een stukje over wie en wat mij inspireert.........(maria magdalena
+    gedachtengoed/mannelijk/vrouwelijk natuur)
   title: Kracht Inzicht
 cards:
   - color: primary
