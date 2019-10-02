@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/create-pages-for-content
 
 publish_mode: editorial_workflow
 
@@ -58,8 +58,6 @@ collections:
             name: "intro"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "text", required: false}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Testimonials"
             name: "testimonials"
@@ -89,8 +87,122 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Left", name: "left", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+              - {label: "Right", name: "right", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
               - {label: "Title", name: "title", widget: "string", required: false}
               - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
+              - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
+      - file: "src/pages/volwassenen/index.md"
+        label: "Volwassenen Page"
+        name: "volwassenen"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "content-page"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Left", name: "left", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+              - {label: "Right", name: "right", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
+              - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
+      - file: "src/pages/kinderen/index.md"
+        label: "Kinderen Page"
+        name: "kinderen"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "content-page"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Left", name: "left", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+              - {label: "Right", name: "right", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
+              - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
+      - file: "src/pages/opstellingen/index.md"
+        label: "Opstellingen Page"
+        name: "opstellingen"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "content-page"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+          - label: "Content"
+            name: "content"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Left", name: "left", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+              - {label: "Right", name: "right", buttons: ["bold","italic","heading-one","heading-two","bulleted-list","numbered-list"], widget: "markdown"}
+          - label: "Cards"
+            name: "cards"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
+              - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
+      - file: "src/pages/hooggevoeligheid/index.md"
+        label: "Hooggevoeligheid Page"
+        name: "hooggevoeligheid"
+        fields:
+          - label: "Template Key"
+            name: "templateKey"
+            widget: "hidden"
+            default: "content-page"
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
