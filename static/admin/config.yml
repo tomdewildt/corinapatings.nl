@@ -58,8 +58,8 @@ collections:
             name: "intro"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Testimonials"
             name: "testimonials"
@@ -89,8 +89,8 @@ collections:
             name: "intro"
             widget: "object"
             fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Description", name: "description", widget: "text", required: false}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
