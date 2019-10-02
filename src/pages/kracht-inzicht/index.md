@@ -18,11 +18,11 @@ content:
 
     Sinds 2013 begeleid ik kinderen en volwassenen in hun zoektocht hierin. Ik
     onderzoek waar het knelt in je leven en waardoor belemmeringen ervaren
-    worden. We maken de beweging van denken naar voelen en ervaren. Daarbij is
-    niets mij te gek. Ik ga met een open hart en een no-nonsens instelling met
-    je in contact. Ik voel me vrij je te raken en door jou geraakt te worden. Ik
-    bied een veilige omgeving om je kwetsbaarheid toe te laten zodat je de
-    beweging naar je kracht kan maken.
+    worden. We maken de beweging van denken naar voelen en ervaren. Ik ga met
+    een open hart en een no-nonsens instelling met je in contact. Ik voel me
+    vrij je te raken en door jou geraakt te worden. Ik bied een veilige omgeving
+    om je kwetsbaarheid toe te laten zodat je de beweging naar je kracht kan
+    maken.
   right: >-
     Hier een stukje over werkvormen.....dus hoe doe ik dat......(opleidingen en
     cursussen onder de knop)
