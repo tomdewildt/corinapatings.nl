@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from "react";
 import { graphql } from "gatsby";
 import PropTypes from "prop-types";
@@ -19,9 +20,7 @@ const ContentPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
     <>
         <Headers />
         <Jumbotron
-            title={ frontmatter.intro.title }
             image={ frontmatter.intro.image }
-            description={ frontmatter.intro.description }
         />
         <Container>
             <Row>
@@ -60,8 +59,6 @@ ContentPage.propTypes = {
         markdownRemark: PropTypes.shape( {
             frontmatter: PropTypes.shape( {
                 intro: PropTypes.shape( {
-                    title: PropTypes.string,
-                    description: PropTypes.string,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
                 } ),
                 content: PropTypes.shape( {
@@ -83,12 +80,10 @@ ContentPage.propTypes = {
 };
 
 export const query = graphql`
-    query ContentPageQuery {
-        markdownRemark(frontmatter: {templateKey: {eq: "content-page"}}) {
+    query ContentPageQuery($id: String!) {
+        markdownRemark(id: { eq: $id }) {
             frontmatter {
                 intro {
-                    title
-                    description
                     image {
                         childImageSharp {
                             fluid(maxWidth: 1280) {

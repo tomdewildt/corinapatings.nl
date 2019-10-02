@@ -11,6 +11,7 @@ import CardButton from "./Button";
 
 const CardColumn = styled( Column )`
     display: flex;
+    max-height: ${ ( { theme } ) => theme.cards.height }rem;
     padding: ${ ( { theme } ) => theme.cards.gutter }rem;
 `;
 
@@ -48,7 +49,7 @@ const Card = ( {
                     { description && <Text.Paragraph center={ isCentered }>{ description }</Text.Paragraph> }
                     { to && (
                         <Margin top={ 1 }>
-                            <CardButton to={ to } color={ color }>Lees Meer</CardButton>
+                            <CardButton to={ `/${ to }/` } color={ color }>Lees Meer</CardButton>
                         </Margin>
                     ) }
                 </CardBackground>
