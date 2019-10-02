@@ -1,11 +1,9 @@
 ---
 templateKey: content-page
 intro:
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et
-    neque suscipit suscipit quis vitae elit.
+  description: ''
   image: /images/1280x720.png
-  title: Kracht Inzicht
+  title: ''
 content:
   left: >-
     Ieder mens is uniek en jij levert jouw speciale bijdrage aan dit leven! Die
