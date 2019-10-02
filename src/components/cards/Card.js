@@ -13,6 +13,7 @@ const CardColumn = styled( Column )`
     display: flex;
     max-height: ${ ( { theme } ) => theme.cards.height }rem;
     padding: ${ ( { theme } ) => theme.cards.gutter }rem;
+    word-break: break-word;
 `;
 
 const CardBackground = styled.div`
