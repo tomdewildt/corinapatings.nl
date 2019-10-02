@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import PropTypes from "prop-types";
 
 import Heading from "../typography/Heading";
@@ -14,6 +14,12 @@ const CardColumn = styled( Column )`
     max-height: ${ ( { theme } ) => theme.cards.height }rem;
     padding: ${ ( { theme } ) => theme.cards.gutter }rem;
     word-break: break-word;
+
+    ${ ( { theme } ) => css`
+        @media (max-width: ${ theme.breakpoints.sm }em) {
+            max-height: 100%;
+        }
+    ` }
 `;
 
 const CardBackground = styled.div`
