@@ -33,8 +33,8 @@ cards:
     description: >
       Ben jij op zoek naar meer balans, meer stevigheid en meer lef in je leven?
       Weet je diep van binnen dat je op dit moment niet je volle potentieel
-      leeft? Wil je je graag dieper verbinden met je man/vrouw zijn? Of En durf
-      jij je te openen om te kijken naar wat je belemmert? Dan ben jij van harte
+      leeft? Wil je je graag dieper verbinden met je man/vrouw zijn? En durf jij
+      je te openen om te kijken naar wat je belemmert? Dan ben je van harte
       welkom in mijn praktijk!
     link: /volwassenen/
     size: '1'
