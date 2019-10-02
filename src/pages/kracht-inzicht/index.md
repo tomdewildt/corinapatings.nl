@@ -8,11 +8,21 @@ intro:
   title: Kracht Inzicht
 content:
   left: >-
-    Ieder mens is uniek en jij levert jouw unieke bijdrage aan dit leven! Die
-    bijdrage komt ten volle tevoorschijn wanneer je JA zegt tegen jouw leven.
-    Wanneer je je 'vrij' maakt om te kunnen zijn wie je diep van binnen bent en
-    dat te omarmen kom je helemaal in je kracht te staan. Ik help je jouw
-    wijsheid te vinden zodat jij je licht kan laten stralen.
+    Ieder mens is uniek en jij levert jouw speciale bijdrage aan dit leven! Die
+    bijdrage komt ten volle tevoorschijn wanneer je JA zegt tegen jouw leven. Je
+    komt helemaal in je kracht te staan wanneer je je vrij maakt om te kunnen
+    zijn wie je diep van binnen bent. Ik help je jouw wijsheid te vinden zodat
+    jij **inzicht** krijgt in jouw **kracht** en deze helemaal kan omarmen. Dàt
+    te kunnen doen maakt mij echt gelukkig! 
+
+
+    Sinds 2013 begeleid ik kinderen en volwassenen in hun zoektocht hierin. Ik
+    onderzoek waar het knelt in je leven en waardoor belemmeringen ervaren
+    worden. We maken de beweging van denken naar voelen en ervaren. Daarbij is
+    niets mij te gek. Ik ga met een open hart en een no-nonsens instelling met
+    je in contact. Ik voel me vrij je te raken en door jou geraakt te worden. Ik
+    bied een veilige omgeving om je kwetsbaarheid toe te laten zodat je de
+    beweging naar je kracht kan maken.
   right: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis
     augue non orci bibendum ornare. Mauris pharetra urna et metus blandit,
