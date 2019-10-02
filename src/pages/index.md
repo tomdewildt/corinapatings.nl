@@ -1,11 +1,11 @@
 ---
 templateKey: index-page
 intro:
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et
-    neque suscipit suscipit quis vitae elit.
+  description: |2-
+     
+      
   image: /images/5mk37492_a4.jpg
-  title: Kracht Inzicht
+  title: '  '
 testimonials:
   - author: John Doe
     text: >
