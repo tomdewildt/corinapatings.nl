@@ -84,7 +84,7 @@ const ContactDetails = ( {
                 </ContactLink>
                 <ContactLink href="/" target="_blank">
                     <Document />
-                    Algemene Voorwaarde
+                    Algemene Voorwaarden
                 </ContactLink>
                 <ContactLink href="/" target="_blank">
                     <Document />
