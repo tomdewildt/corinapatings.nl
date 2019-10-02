@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/create-pages-for-content
+  branch: master
 
 publish_mode: editorial_workflow
 
