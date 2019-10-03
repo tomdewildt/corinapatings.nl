@@ -18,14 +18,11 @@ testimonials:
 cards:
   - color: primary
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-      Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum
-      convallis elementum.
+      biedt kinderen en volwassenen vrije speelruimte om op ontdekkingsreis te
+      gaan naar de persoon die ze diep van binnen zijn.
     link: kracht-inzicht
     size: '2'
-    title: >-
-      Kracht Inzicht biedt vrije speelruimte aan kinderen en volwassenen op
-      ontdekkingsreis willen naar de persoon die ze diep van binnen zijn!
+    title: Kracht Inzicht
   - image: /images/sam-oefening.jpg
     size: '1'
   - image: /images/sam-corina.jpg
