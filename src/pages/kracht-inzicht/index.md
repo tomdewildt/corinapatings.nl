@@ -35,10 +35,7 @@ content:
 
     Hier een stukje over wie en wat mij inspireert.........(maria magdalena
     gedachtengoed/mannelijk/vrouwelijk natuur)
-  title: >-
-    biedt een vrije speelruimte aan kinderen en volwassenen die àlles uit het
-    leven willen halen en samen met mij op ontdekkingsreis willen gaan naar de
-    persoon die ze diep van binnen zijn!  
+  title: Kracht Inzicht
 cards:
   - color: primary
     description: 'Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.'
