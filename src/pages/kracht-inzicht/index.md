@@ -1,11 +1,8 @@
 ---
 templateKey: content-page
 intro:
-  title:
-  description:
   image: /images/praktijk.jpg
 content:
-  title: Kracht Inzicht
   left: >
     Ieder mens is uniek en jij levert jouw speciale bijdrage aan dit leven! Die
     bijdrage komt ten volle tevoorschijn wanneer je JA zegt tegen jouw leven. Je
@@ -28,23 +25,22 @@ content:
 
     Hier een stukje over wie en wat mij inspireert.........(maria magdalena
     gedachtengoed/mannelijk/vrouwelijk natuur)
+  title: >-
+    Kracht Inzicht Kracht inzicht biedt een vrije speelruimte aan kinderen en
+    volwassenen die alles uit het leven willen halen en samen met mij op
+    ontdekkingsreis willen gaan naar de persoon die ze diep van binnen zijn!  
 cards:
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: primary
-    size: "1"
-  - title:
-    description:
-    color:
-    image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: secondary
-    size: "1"
-  - title:
-    description:
-    color:
-    image: /images/300x300.png
-    size: "1"
+  - color: primary
+    description: 'Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.'
+    size: '1'
+    title: Lorem Ipsum
+  - image: /images/300x300.png
+    size: '1'
+  - color: secondary
+    description: 'Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.'
+    size: '1'
+    title: Lorem Ipsum
+  - image: /images/300x300.png
+    size: '1'
 ---
+
