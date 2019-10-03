@@ -1,77 +1,64 @@
 ---
 templateKey: index-page
 intro:
-  offset: "25"
-  image: /images/corina-bij-water.jpeg
+  image: /images/corina-bij-water.jpg
 testimonials:
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-    author: John Doe
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-    author: John Doe
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-    author: John Doe
+  - author: John Doe
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
+      et neque suscipit suscipit quis vitae elit.
+  - author: John Doe
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
+      et neque suscipit suscipit quis vitae elit.
+  - author: John Doe
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
+      et neque suscipit suscipit quis vitae elit.
 cards:
-  - title: Kracht Inzicht
+  - color: primary
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
+      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
+      Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum
+      convallis elementum.
     link: kracht-inzicht
-    color: primary
     size: '2'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/300x300.png
+    title: >-
+      Kracht Inzicht biedt vrije speelruimte aan kinderen en volwassenen op
+      ontdekkingsreis willen naar de persoon die ze diep van binnen zijn!
+  - image: /images/sam-oefening.jpg
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/kind-en-corina-highfive.jpeg
+  - image: /images/sam-corina.jpg
     size: '1'
-  - title: Volwassenen
-    description: >
+  - color: tertiary
+    description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: volwassenen
-    color: tertiary
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/tess-in-praktijk.jpeg
+    title: Volwassenen
+  - image: /images/tess.jpg
     size: '1'
-  - title: Kinderen
-    description: >
+  - color: secondary
+    description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: kinderen
-    color: secondary
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/logo.png
+    title: Kinderen
+  - image: /images/logo.png
     size: '1'
-  - title: Opstellingen
-    description: >
+  - color: secondary
+    description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
     link: opstellingen
-    color: secondary
     size: '1'
-  - title: Hoog-gevoeligheid
-    description: >
+    title: Opstellingen
+  - color: primary
+    description: |
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: '/hooggevoeligheid/'
-    color: primary
+    link: /hooggevoeligheid/
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/kind-krachtbron.jpeg
+    title: Hoog-gevoeligheid
+  - image: /images/sam.jpg
     size: '2'
 ---
+
