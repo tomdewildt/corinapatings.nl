@@ -17,9 +17,8 @@ testimonials:
       et neque suscipit suscipit quis vitae elit.
 cards:
   - color: primary
-    description: >
-      biedt kinderen en volwassenen vrije speelruimte om op ontdekkingsreis te
-      gaan naar de persoon die ze diep van binnen zijn.
+    description: |2
+       biedt vrije speelruimte aan kinderen en volwassenen die alles uit het leven willen halen om op ontdekkingsreis  gaan naar de persoon die ze diep van binnen zijn.
     link: kracht-inzicht
     size: '2'
     title: Kracht Inzicht
