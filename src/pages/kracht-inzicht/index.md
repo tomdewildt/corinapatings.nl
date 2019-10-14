@@ -23,7 +23,7 @@ content:
 
 
     Hoe doe ik dat? Op een manier waarin intuïtie, helderheid, speelsheid en out
-    off the box denken centraal staan. Afhankelijk van jouw persoon, leeftijd en
+    off the box centraal staan. Afhankelijk van jouw persoon, leeftijd en
     behoefte maak ik gebruik van diverse werkvormen. Ik ga met je in gesprek,
     zet lichaamsoefeningen in, werk met opstellingen, maak gebruik van creatieve
     werkvormen, visualisaties en outdoor-coaching.
@@ -37,30 +37,38 @@ content:
     Corina Patings (1965) 
 
 
-    Vrouw | hooggevoelig |  eigenWIJS | verbinding | zuiver | paranormaal |
+    Vrouw | hooggevoelig |  eigen-wijs | verbinding | zuiver | paranormaal |
     partner van Jeroen | moeder van Tom, Daan en Jesse | 
 
 
-    Wanneer ik terugkijk op mijn eigen leven zie ik hoe ik al jong op zoek was
-    naar wie ben ik? Geboren met een grote nieuwsgierigheid en een diep
-    verlangen om mezelf helemaal te ont-dekken. Ik ken de innerlijke strijd van
-    je willen aanpassen aan de wereld om je heen en jezelf de vrije ruimte
-    gunnen om te luisteren naar de stem van je hart. Het 'onderweg zijn' brengt
-    een schat aan levenslessen, gaat niet zonder hobbels maar is zó de moeite
-    waard geleefd te worden! Het nodigt mij uit om me telkens opnieuw helemaal
-    te verbinden met mijn verlangen en kracht. 
-
-
+    Geboren met een grote nieuwsgierigheid en een diep verlangen om mezelf
+    helemaal te ont-dekken was ik al  jong op zoek naar wie ik ben. Ik ken de
+    innerlijke strijd van je willen aanpassen aan de wereld om je heen en jezelf
+    de vrije ruimte gunnen om te luisteren naar de stem van je hart. Het
+    'onderweg zijn' brengt een schat aan levenslessen, gaat niet zonder hobbels
+    maar is zó de moeite waard geleefd te worden! Het nodigt mij uit om me
+    telkens opnieuw helemaal te verbinden met mijn verlangen en kracht. 
 
 
 
 
     Een grote inspiratiebron voor mij is het gedachtegoed van Maria Magdalena.
     Ik voel me verbonden met haar, haar vrouwelijke natuur en de enorme kracht
-    en wijsheid die daarin verborgen ligt. Ze nodigt ons, vrouwen èn mannen om
-    de balans te herstellen tussen het vrouwelijke en mannelijke in onszelf.
-    Onze huidige maatschappij vraagt om NU te gaan leven vanuit onze ziel en te
-    luisteren naar ons hart!
+    en wijsheid die daarin verborgen ligt. Wanneer we onze angsten en twijfels
+    aan durven kijken, komen we in contact met de stem van onze ziel en leef je
+    jouw licht.  Ze nodigt ons uit, vrouwen èn mannen om de balans te herstellen
+    tussen de vrouwelijke en mannelijke aspecten in onszelf. Deze tijd en onze
+    huidige maatschappij vraagt om NU te gaan leven vanuit onze ziel en te
+    luisteren naar ons hart!  
+
+
+
+
+    De plek waar ik mijn missie leef en mijn praktijk vorm geef is in alle
+    opzichten ondersteunend! De geschiedenis van deze plek, de natuur, de
+    bomen,  planten en het water  zijn een weerspiegeling van het leven zelf. Op
+    symbolische wijze laat ze ons zien waar jij je bevindt in jouw zoektocht
+    naar balans.
   title: Kracht Inzicht
 cards:
   - color: primary
