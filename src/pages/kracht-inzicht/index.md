@@ -27,27 +27,32 @@ content:
     behoefte maak ik gebruik van diverse werkvormen. Ik ga met je in gesprek,
     zet lichaamsoefeningen in, werk met opstellingen, maak gebruik van creatieve
     werkvormen, visualisaties en outdoor-coaching.
+
+
+    Mijn ruime levenservaring en de opleidingen die ik gevolgd heb zijn op het
+    gebied van lichaamswerk, coaching, systemisch werk, hoogsensitiviteit,
+    (kinder) coaching en rouwverwerking. Lees meer over mijn
+    opleidingsachtergrond op mijn Linkedin profiel. (link)
   right: >-
-    Hoe doe ik dat? Op een manier waarin intuïtie, helderheid, speelsheid en out
-    off the box denken centraal staan.  Afhankelijk van jouw persoon, leeftijd
-    en behoefte maak ik gebruik van diversen werkvormen. Ik ga met je in
-    gesprek, zet lichaamsoefeningen in , werk met opstellingen, maak gebruik van
-    creatieve werkvormen, visualisaties en outdoor-coaching.  Mijn ruime
-    levenservaring en de opleidingen die ik gevolgd heb zijn op het gebied van
-    lichaamswerk, coaching, systemisch werk, hoogsensitiviteit, (kinder)
-    coaching en rouwverwerking. Lees meer over mijn opleidingsachtergrond op
-    mijn Linkedin profiel. 
+    Corina Patings (1965) 
+
+
+    Vrouw | hooggevoelig |  eigenWIJS | verbinding | zuiver | paranormaal |
+    partner van Jeroen | moeder van Tom, Daan en Jesse | 
+
+
+    Wanneer ik terugkijk op mijn eigen leven zie ik hoe ik al jong op zoek was
+    naar wie ben ik? Geboren met een grote nieuwsgierigheid en een diep
+    verlangen om mezelf helemaal te ont-dekken. Ik ken de innerlijke strijd van
+    je willen aanpassen aan de wereld om je heen en jezelf de vrije ruimte
+    gunnen om te luisteren naar de stem van je hart. Het 'onderweg zijn' brengt
+    een schat aan levenslessen, gaat niet zonder hobbels maar is zó de moeite
+    waard geleefd te worden! Het nodigt mij uit om me telkens opnieuw helemaal
+    te verbinden met mijn verlangen en kracht. 
 
 
 
 
-    Mijn eigen leven laat mij zien hoe ik al jong op zoek was naar wie ik ben,
-    hoe diep mijn verlangen is om mezelf helemaal te ont-dekken. Ik ken de
-    innerlijke strijd van je willen aanpassen aan de wereld om je heen en jezelf
-    de vrije ruimte gunnen om te luisteren naar de stem van je hart. Die weg
-    gaat niet zonder hobbels maar is zo de moeite waard geleefd te worden! Het
-    heeft mij geïnspireerd om me helemaal te verbinden met mijn verlangen en
-    kracht.
 
 
     Een grote inspiratiebron voor mij is het gedachtegoed van Maria Magdalena.
