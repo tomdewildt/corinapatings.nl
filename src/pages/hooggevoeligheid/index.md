@@ -1,9 +1,8 @@
 ---
 templateKey: content-page
 intro:
-  title:
-  description:
-  image: /images/1280x720.png
+  offset: "-35"
+  image: /images/kind-met-tess-en-soof.jpeg
 content:
   title: Hooggevoeligheid
   left: >
@@ -35,22 +34,19 @@ content:
     nisi placerat, in feugiat sem imperdiet. Aenean condimentum ultrices est, luctus rhoncus
     tortor commodo id. Proin vitae feugiat odio, vitae pharetra nunc.
 cards:
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: primary
+  - title:
+    description:
+    color:
+    image: /images/kaarten.jpeg
     size: "1"
   - title:
     description:
     color:
-    image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: secondary
+    image: /images/jantje-met-aap.jpeg
     size: "1"
   - title:
     description:
     color:
-    image: /images/300x300.png
-    size: "1"
+    image: /images/hart-puur.jpeg
+    size: "2"
 ---

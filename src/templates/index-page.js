@@ -19,6 +19,7 @@ const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
     <>
         <Headers />
         <Jumbotron
+            offset={ frontmatter.intro.offset }
             image={ frontmatter.intro.image }
         />
         <Container>
@@ -55,6 +56,7 @@ IndexPage.propTypes = {
         markdownRemark: PropTypes.shape( {
             frontmatter: PropTypes.shape( {
                 intro: PropTypes.shape( {
+                    offset: PropTypes.string,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
                 } ),
                 testimonials: PropTypes.arrayOf( PropTypes.shape( {
@@ -79,6 +81,7 @@ export const query = graphql`
         markdownRemark(frontmatter: {templateKey: {eq: "index-page"}}) {
             frontmatter {
                 intro {
+                    offset
                     image {
                         childImageSharp {
                             fluid(maxWidth: 1280) {

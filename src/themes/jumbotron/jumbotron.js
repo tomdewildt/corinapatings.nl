@@ -1,5 +1,5 @@
 export default {
-    height: 50,
+    height: 60,
     padding: 1.5,
     bottom: 2,
 };

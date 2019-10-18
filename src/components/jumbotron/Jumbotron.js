@@ -14,14 +14,16 @@ const JumbotronContainer = styled( Background )`
     padding: ${ ( { theme } ) => theme.jumbotron.padding }rem;
     margin-bottom: ${ ( { theme } ) => theme.jumbotron.bottom }rem;
     color: ${ ( { theme } ) => theme.color.white };
+    background-position: ${ ( { offset } ) => `50% ${ 50 + offset }%` };
 `;
 
 const Jumbotron = ( {
     title,
     image,
+    offset,
     description,
 } ) => (
-    <JumbotronContainer source={ image }>
+    <JumbotronContainer source={ image } offset={ parseInt( offset, 10 ) }>
         { title && <Heading.H1 center>{ title }</Heading.H1> }
         { description && <Text.Paragraph center>{ description }</Text.Paragraph> }
     </JumbotronContainer>
@@ -30,11 +32,13 @@ const Jumbotron = ( {
 Jumbotron.propTypes = {
     title: PropTypes.string,
     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ).isRequired,
+    offset: PropTypes.string,
     description: PropTypes.string,
 };
 
 Jumbotron.defaultProps = {
     title: null,
+    offset: "0",
     description: null,
 };
 
