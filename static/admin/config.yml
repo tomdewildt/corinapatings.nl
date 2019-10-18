@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: feature/add-images-to-website
 
 publish_mode: editorial_workflow
 
@@ -58,7 +58,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
-              - {label: "Offset", name: "offset", widget: "number"}
+              - {label: "Offset", name: "offset", widget: "number", default: 0}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Testimonials"
             name: "testimonials"

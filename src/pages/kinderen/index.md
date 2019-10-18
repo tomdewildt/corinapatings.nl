@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  offset: "-25"
+  offset: -25
   image: /images/kind-en-corina-appels-plukken.jpeg
 content:
   title: Kinderen

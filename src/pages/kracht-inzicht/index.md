@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  offset: "15"
+  offset: 15
   image: /images/praktijkruimte-overzicht.jpeg
 content:
   title: Kracht Inzicht
