@@ -1,8 +1,7 @@
 ---
 templateKey: index-page
 intro:
-  title:
-  description:
+  offset: "25"
   image: /images/corina-bij-water.jpeg
 testimonials:
   - text: >

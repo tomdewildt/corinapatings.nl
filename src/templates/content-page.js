@@ -20,6 +20,7 @@ const ContentPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
     <>
         <Headers />
         <Jumbotron
+            offset={ frontmatter.intro.offset }
             image={ frontmatter.intro.image }
         />
         <Container>
@@ -59,6 +60,7 @@ ContentPage.propTypes = {
         markdownRemark: PropTypes.shape( {
             frontmatter: PropTypes.shape( {
                 intro: PropTypes.shape( {
+                    offset: PropTypes.string,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
                 } ),
                 content: PropTypes.shape( {
@@ -84,6 +86,7 @@ export const query = graphql`
         markdownRemark(id: { eq: $id }) {
             frontmatter {
                 intro {
+                    offset
                     image {
                         childImageSharp {
                             fluid(maxWidth: 1280) {

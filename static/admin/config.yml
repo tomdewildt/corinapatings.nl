@@ -58,6 +58,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Offset", name: "offset", widget: "number"}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Testimonials"
             name: "testimonials"
@@ -87,6 +88,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Offset", name: "offset", widget: "number"}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
@@ -116,6 +118,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Offset", name: "offset", widget: "number"}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
@@ -145,6 +148,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Offset", name: "offset", widget: "number"}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
@@ -174,6 +178,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Offset", name: "offset", widget: "number"}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
@@ -203,6 +208,7 @@ collections:
             name: "intro"
             widget: "object"
             fields:
+              - {label: "Offset", name: "offset", widget: "number"}
               - {label: "Image", name: "image", widget: "image"}
           - label: "Content"
             name: "content"
