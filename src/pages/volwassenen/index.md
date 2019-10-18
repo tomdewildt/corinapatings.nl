@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  offset: "30"
+  offset: 30
   image: /images/praktijkruimte-twee-stoelen.jpeg
 content:
   title: Volwassenen

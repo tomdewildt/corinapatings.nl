@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  offset: "15"
+  offset: 15
   image: /images/vuurplaats.jpeg
 content:
   title: Opstellingen
