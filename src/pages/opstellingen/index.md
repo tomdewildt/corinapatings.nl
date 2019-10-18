@@ -3,7 +3,7 @@ templateKey: content-page
 intro:
   title:
   description:
-  image: /images/1280x720.png
+  image: /images/vuurplaats.jpeg
 content:
   title: Opstellingen
   left: >
@@ -35,22 +35,24 @@ content:
     nisi placerat, in feugiat sem imperdiet. Aenean condimentum ultrices est, luctus rhoncus
     tortor commodo id. Proin vitae feugiat odio, vitae pharetra nunc.
 cards:
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: primary
+  - title:
+    description:
+    color:
+    image: /images/wortels-stam.jpeg
     size: "1"
   - title:
     description:
     color:
-    image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: secondary
+    image: /images/kind-aan-het-schrijven.jpeg
     size: "1"
   - title:
     description:
     color:
-    image: /images/300x300.png
+    image: /images/beeldje-spiegeling-boom.jpeg
+    size: "1"
+  - title:
+    description:
+    color:
+    image: /images/kind-in-opstelling.jpeg
     size: "1"
 ---
