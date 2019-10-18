@@ -3,7 +3,7 @@ templateKey: content-page
 intro:
   title:
   description:
-  image: /images/praktijk.jpg
+  image: /images/praktijkruimte-overzicht.jpeg
 content:
   title: Kracht Inzicht
   left: >
@@ -29,22 +29,19 @@ content:
     Hier een stukje over wie en wat mij inspireert.........(maria magdalena
     gedachtengoed/mannelijk/vrouwelijk natuur)
 cards:
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: primary
+  - title:
+    description:
+    color:
+    image: /images/boomstam-glaswerk.jpeg
+    size: "2"
+  - title:
+    description:
+    color:
+    image: /images/corina-achtergrond-boeken.jpeg
     size: "1"
   - title:
     description:
     color:
-    image: /images/300x300.png
-    size: "1"
-  - title: Lorem Ipsum
-    description: Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    color: secondary
-    size: "1"
-  - title:
-    description:
-    color:
-    image: /images/300x300.png
+    image: /images/tamme-kastanje-hart.jpeg
     size: "1"
 ---

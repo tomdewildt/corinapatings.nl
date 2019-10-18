@@ -25,7 +25,7 @@ cards:
     description:
     link:
     color:
-    image: /images/300x300.jpeg
+    image: /images/300x300.png
     size: '1'
   - title:
     description:
@@ -73,6 +73,6 @@ cards:
     description:
     link:
     color:
-    image: /images/kind-krachtbron.jpg
+    image: /images/kind-krachtbron.jpeg
     size: '2'
 ---
