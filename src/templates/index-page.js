@@ -56,7 +56,7 @@ IndexPage.propTypes = {
         markdownRemark: PropTypes.shape( {
             frontmatter: PropTypes.shape( {
                 intro: PropTypes.shape( {
-                    offset: PropTypes.string,
+                    offset: PropTypes.number,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
                 } ),
                 testimonials: PropTypes.arrayOf( PropTypes.shape( {

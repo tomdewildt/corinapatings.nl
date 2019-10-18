@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  offset: "-35"
+  offset: -35
   image: /images/kind-met-tess-en-soof.jpeg
 content:
   title: Hooggevoeligheid

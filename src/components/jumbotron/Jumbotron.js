@@ -23,7 +23,7 @@ const Jumbotron = ( {
     offset,
     description,
 } ) => (
-    <JumbotronContainer source={ image } offset={ parseInt( offset, 10 ) }>
+    <JumbotronContainer source={ image } offset={ offset }>
         { title && <Heading.H1 center>{ title }</Heading.H1> }
         { description && <Text.Paragraph center>{ description }</Text.Paragraph> }
     </JumbotronContainer>
@@ -32,13 +32,13 @@ const Jumbotron = ( {
 Jumbotron.propTypes = {
     title: PropTypes.string,
     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ).isRequired,
-    offset: PropTypes.string,
+    offset: PropTypes.number,
     description: PropTypes.string,
 };
 
 Jumbotron.defaultProps = {
     title: null,
-    offset: "0",
+    offset: 0,
     description: null,
 };
 
