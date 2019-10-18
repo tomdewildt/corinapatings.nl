@@ -1,7 +1,8 @@
 ---
 templateKey: index-page
 intro:
-  image: /images/corina-bij-water.jpg
+  image: /images/corina-bij-water.jpeg
+  offset: 25
 testimonials:
   - author: John Doe
     text: >
