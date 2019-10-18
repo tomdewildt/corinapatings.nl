@@ -3,7 +3,7 @@ templateKey: index-page
 intro:
   title:
   description:
-  image: /images/corina-bij-water.jpg
+  image: /images/corina-bij-water.jpeg
 testimonials:
   - text: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
@@ -25,13 +25,13 @@ cards:
     description:
     link:
     color:
-    image: /images/sam-oefening.jpg
+    image: /images/300x300.jpeg
     size: '1'
   - title:
     description:
     link:
     color:
-    image: /images/sam-corina.jpg
+    image: /images/kind-en-corina-highfive.jpeg
     size: '1'
   - title: Volwassenen
     description: >
@@ -43,7 +43,7 @@ cards:
     description:
     link:
     color:
-    image: /images/tess.jpg
+    image: /images/tess-in-praktijk.jpeg
     size: '1'
   - title: Kinderen
     description: >
@@ -73,6 +73,6 @@ cards:
     description:
     link:
     color:
-    image: /images/sam.jpg
+    image: /images/kind-krachtbron.jpg
     size: '2'
 ---
