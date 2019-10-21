@@ -88,29 +88,28 @@ const NavbarLink = styled( Link )`
 
 const Navbar = () => {
     const [ isOpen, setIsOpen ] = useState( false );
-    const toggleIsOpen = () => setIsOpen( !isOpen );
 
     return (
         <NavbarHeader>
             <NavbarContainer>
                 <NavbarLogo to="/" />
-                <Burger isActive={ isOpen } breakpoint="sm" toggle={ toggleIsOpen } />
+                <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => setIsOpen( !isOpen ) } />
                 <NavbarNav isOpen={ isOpen }>
                     <NavbarItems>
                         <NavbarItem>
-                            <NavbarLink to="/kracht-inzicht/" onClick={ toggleIsOpen }>Kracht Inzicht</NavbarLink>
+                            <NavbarLink to="/kracht-inzicht/" onClick={ () => setIsOpen( false ) }>Kracht Inzicht</NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/volwassenen/" onClick={ toggleIsOpen }>Volwassenen</NavbarLink>
+                            <NavbarLink to="/volwassenen/" onClick={ () => setIsOpen( false ) }>Volwassenen</NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/kinderen/" onClick={ toggleIsOpen }>Kinderen</NavbarLink>
+                            <NavbarLink to="/kinderen/" onClick={ () => setIsOpen( false ) }>Kinderen</NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/opstellingen/" onClick={ toggleIsOpen }>Opstellingen</NavbarLink>
+                            <NavbarLink to="/opstellingen/" onClick={ () => setIsOpen( false ) }>Opstellingen</NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/hooggevoeligheid/" onClick={ toggleIsOpen }>Hooggevoeligheid</NavbarLink>
+                            <NavbarLink to="/hooggevoelig/" onClick={ () => setIsOpen( false ) }>Hooggevoelig</NavbarLink>
                         </NavbarItem>
                     </NavbarItems>
                 </NavbarNav>

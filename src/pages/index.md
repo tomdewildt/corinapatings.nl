@@ -62,10 +62,10 @@ cards:
     link: opstellingen
     color: secondary
     size: '1'
-  - title: Hoog-gevoeligheid
+  - title: Hooggevoelig
     description: >
       Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: '/hooggevoeligheid/'
+    link: '/hooggevoelig/'
     color: primary
     size: '1'
   - title:

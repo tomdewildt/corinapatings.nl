@@ -196,9 +196,9 @@ collections:
               - {label: "Image", name: "image", widget: "image", required: false}
               - {label: "Color", name: "color", widget: "select", options: ["primary", "secondary", "tertiary"], required: false}
               - {label: "Size", name: "size", widget: "select", options: ["1", "2", "3"]}
-      - file: "src/pages/hooggevoeligheid/index.md"
-        label: "Hooggevoeligheid Page"
-        name: "hooggevoeligheid"
+      - file: "src/pages/hooggevoelig/index.md"
+        label: "Hooggevoelig Page"
+        name: "hooggevoelig"
         fields:
           - label: "Template Key"
             name: "templateKey"
