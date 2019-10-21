@@ -16,7 +16,7 @@ testimonials:
 cards:
   - title: Kracht Inzicht
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam. Donec et augue et justo feugiat pretium quis in mauris. Morbi condimentum convallis elementum.
+      Kracht inzicht biedt vrije speelruimte aan kinderen en volwassenen die alles uit het leven willen halen en op ontdekkingsreis willen gaan naar de persoon die ze diep van binnen zijn!
     link: kracht-inzicht
     color: primary
     size: '2'
@@ -34,7 +34,7 @@ cards:
     size: '1'
   - title: Volwassenen
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
+      Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je doet?
     link: volwassenen
     color: tertiary
     size: '1'
@@ -46,7 +46,7 @@ cards:
     size: '1'
   - title: Kinderen
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
+      Voel jij je als ouder soms machteloos omdat je kind niet lekker in zijn vel zit?
     link: kinderen
     color: secondary
     size: '1'
@@ -58,14 +58,14 @@ cards:
     size: '1'
   - title: Opstellingen
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
+      Voel jij je gebonden en zou jij je meer verbonden willen voelen?
     link: opstellingen
     color: secondary
     size: '1'
-  - title: Hoog-gevoeligheid
+  - title: Hoog-gevoelig
     description: >
-      Quisque augue odio, molestie sed mauris et, vulputate hendrerit diam.
-    link: '/hooggevoeligheid/'
+      Van kwetsbaarheid naar kracht!
+    link: '/hooggevoelig/'
     color: primary
     size: '1'
   - title:

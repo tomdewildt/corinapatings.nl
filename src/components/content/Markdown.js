@@ -23,6 +23,14 @@ const StyledMarkdown = styled( Markdown )`
         margin-bottom: ${ ( { theme } ) => theme.content.text.marginBottom }rem;
     }
 
+    a {
+        color: ${ ( { theme } ) => theme.color.secondary };
+    }
+
+    a:hover {
+        color: ${ ( { theme } ) => theme.color.secondaryDark };
+    }
+
     strong { font-weight: 700; }
     em { font-style: italic; }
 
