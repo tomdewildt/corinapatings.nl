@@ -9,7 +9,7 @@ import Row from "../grid/Row";
 
 const Contact = () => (
     <>
-        <Row>
+        <Row id="contact">
             <Column>
                 <Heading.H2 center>Contact</Heading.H2>
             </Column>
