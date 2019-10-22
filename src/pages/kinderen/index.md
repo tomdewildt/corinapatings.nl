@@ -64,9 +64,9 @@ cards:
     size: '1'
   - image: /images/laarsjes-in-praktijk.jpeg
     size: '1'
-  - image: /images/5mk38329_a4-2.jpeg
-    size: '1'
   - image: /images/5mk38333_a4.jpeg
+    size: '1'
+  - image: /images/5mk38329_a4-2.jpeg
     size: '1'
 ---
 
