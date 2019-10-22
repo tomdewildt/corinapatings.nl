@@ -4,8 +4,8 @@ intro:
   image: /images/kind-met-tess-en-soof.jpeg
   offset: -35
 content:
-  left: >
-    Ervaar jij wereld om je heen soms als overweldigend? Ben jij vaak
+  left: >-
+    Ervaar jij de wereld om je heen soms als overweldigend? Ben jij vaak
     oververmoeid en heb je last van energieverlies? Voel jij je soms
     overprikkeld? Kun je je heel goed inleven in andere mensen en ben je
     gevoelig voor sfeer?  Dan herken je jezelf misschien wel in de omschrijving
@@ -37,7 +37,7 @@ content:
     teruggetrokken gedrag zien, pest of wordt gepest, wil niet naar school. Je
     ziet de uiting van overprikkeling terwijl deze kinderen juist vaak
     invoelend, slim, intuïtief, creatief, nauwgezet en gewetensvol zijn.
-  right: >
+  right: >-
     Voor hooggevoelige kinderen bestaat er de mogelijkheid om een training te
     volgen. Het doel van de trainingen is om te leren om te gaan met en het
     (h)erkennen van je gevoeligheid als kwaliteit. In de praktijk leren ze
@@ -51,11 +51,11 @@ content:
 
     Kinderen die geboren zijn met paranormale gaven hebben mijn speciale
     aandacht. Het kan lastig zijn om dit te herkennen, zeker wanneer het voor
-    jou als ouder onbekend is. Voor de ontwikkeling van een kind is het belang
-    om helemaal gezien en erkend te worden in wie ze zijn. Wanneer je als ouder
-    twijfelt of je kind behalve hoogsensitief mogelijk ook paranormaal is en je
-    hebt daar vragen over neem gerust contact met me op. Ik kan je helpen een
-    vertaalslag te maken voor jou en je kind. 
+    jou als ouder onbekend is. Voor de ontwikkeling van een kind is het van
+    belang om helemaal gezien en erkend te worden in wie ze zijn. Wanneer je als
+    ouder twijfelt of je kind behalve hoogsensitief mogelijk ook paranormaal is
+    en je hebt daar vragen over neem gerust contact met me op. Ik kan je helpen
+    een vertaalslag te maken voor jou en je kind. 
 
 
     **Kracht Inzicht + Leefjezelf = Positief Sensitief**
