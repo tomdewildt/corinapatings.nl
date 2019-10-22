@@ -1,77 +1,65 @@
 ---
 templateKey: index-page
 intro:
+  image: /images/5mk37490_a4.jpeg
   offset: 25
-  image: /images/corina-bij-water.jpeg
 testimonials:
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-    author: John Doe
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-    author: John Doe
-  - text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi et neque suscipit suscipit quis vitae elit.
-    author: John Doe
+  - author: John Doe
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
+      et neque suscipit suscipit quis vitae elit.
+  - author: John Doe
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
+      et neque suscipit suscipit quis vitae elit.
+  - author: John Doe
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
+      et neque suscipit suscipit quis vitae elit.
 cards:
-  - title: Kracht Inzicht
+  - color: primary
     description: >
-      Kracht inzicht biedt vrije speelruimte aan kinderen en volwassenen die alles uit het leven willen halen en op ontdekkingsreis willen gaan naar de persoon die ze diep van binnen zijn!
+      Kracht inzicht biedt vrije speelruimte aan kinderen en volwassenen die
+      alles uit het leven willen halen en op ontdekkingsreis willen gaan naar de
+      persoon die ze diep van binnen zijn!
     link: kracht-inzicht
-    color: primary
     size: '2'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/300x300.png
+    title: Kracht Inzicht
+  - image: /images/300x300.png
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/kind-en-corina-highfive.jpeg
+  - image: /images/kind-en-corina-highfive.jpeg
     size: '1'
-  - title: Volwassenen
+  - color: tertiary
     description: >
-      Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je doet?
+      Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je
+      doet?
     link: volwassenen
-    color: tertiary
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/tess-in-praktijk.jpeg
+    title: Volwassenen
+  - image: /images/tess-in-praktijk.jpeg
     size: '1'
-  - title: Kinderen
+  - color: secondary
     description: >
-      Voel jij je als ouder soms machteloos omdat je kind niet lekker in zijn vel zit?
+      Voel jij je als ouder soms machteloos omdat je kind niet lekker in zijn
+      vel zit?
     link: kinderen
-    color: secondary
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/logo.png
+    title: Kinderen
+  - image: /images/logo.png
     size: '1'
-  - title: Opstellingen
-    description: >
+  - color: secondary
+    description: |
       Voel jij je gebonden en zou jij je meer verbonden willen voelen?
     link: opstellingen
-    color: secondary
     size: '1'
-  - title: Hoog-gevoelig
-    description: >
+    title: Opstellingen
+  - color: primary
+    description: |
       Van kwetsbaarheid naar kracht!
-    link: '/hooggevoelig/'
-    color: primary
+    link: /hooggevoelig/
     size: '1'
-  - title:
-    description:
-    link:
-    color:
-    image: /images/kind-krachtbron.jpeg
+    title: Hoog-gevoelig
+  - image: /images/kind-krachtbron.jpeg
     size: '2'
 ---
+
