@@ -10,7 +10,7 @@ testimonials:
       leer ik weer nieuwe dingen. Een nieuwe weg is ontstaan en na elke sessie
       voel ik me weer rustig, blij en gaat er een positieve energie door mijn
       geest en lichaam."
-  - author: 'Chris, '
+  - author: 'Chris, 47 jaar'
     text: >
 
       Corina heeft voor mij de perfecte manier om je inzichten te geven en je
