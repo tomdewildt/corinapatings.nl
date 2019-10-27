@@ -60,13 +60,13 @@ cards:
     size: '1'
   - color: secondary
     description: |
-      Voel jij je gebonden en zou jij je meer verbonden willen voelen?
+      Ontdek de kracht van systemisch werk en ga van binding naar verbinding!
     link: opstellingen
     size: '1'
     title: Opstellingen
   - color: primary
-    description: |
-      Van kwetsbaarheid naar kracht!
+    description: |+
+
     link: /hooggevoelig/
     size: '1'
     title: Hoog-gevoelig
