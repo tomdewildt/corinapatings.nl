@@ -4,14 +4,25 @@ intro:
   image: /images/5mk37490_a4.jpeg
   offset: 25
 testimonials:
-  - author: John Doe
+  - author: Meike 17 jaar
+    text: >-
+      "Corina heeft me geholpen in contact te komen met mezelf en keer op keer
+      leer ik weer nieuwe dingen. Een nieuwe weg is ontstaan en na elke sessie
+      voel ik me weer rustig, blij en gaat er een positieve energie door mijn
+      geest en lichaam."
+  - author: 'Chris, '
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
-      et neque suscipit suscipit quis vitae elit.
-  - author: John Doe
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
-      et neque suscipit suscipit quis vitae elit.
+
+      Corina heeft voor mij de perfecte manier om je inzichten te geven en je
+      gevoelens een plek te geven. Haar manier van vragen stellen en compassie
+      te tonen voor de situatie en je steeds weer uit te nodigen om dieper te
+      kijken naar de ware gevoelens, heeft mij geholpen in een tijd waar er veel
+      verwarring was. Ook hebben wij een famlie-opstelling gedaan, deze gaf mij
+      inzicht waar ik niet echt mijn plek in nam in mijn leven en waar ik dingen
+      had gemist of me niet thuis voelde. Corina is erg goed in je op je
+      gemakstellen en er is niet een gekke vraag of gevoel. Ik voel me altijd
+      erg veilig. Alles mag er zijn. Er is zo gezegd geen goed of fout. Dit is
+      een kracht die ik als zeer waardig heb ervaren. 
   - author: John Doe
     text: >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget mi
