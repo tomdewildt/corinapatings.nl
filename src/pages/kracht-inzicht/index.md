@@ -7,11 +7,11 @@ content:
   left: >-
     Ieder mens is uniek en jij levert jouw speciale bijdrage aan dit leven! Die
     bijdrage kan tevoorschijn komen wanneer je JA zegt tegen jouw leven. Je kunt
-    in je kracht gaan staan wanneer je ruimte maakt om te kunnen zijn wie je
-    diep van binnen bent. Ik help je jouw wijsheid te vinden zodat jij inzicht
-    krijgt in jouw kracht en deze helemaal kan omarmen. Het is mijn passie om
-    samen met jou op reis gaan, je uit te nodigen diep te duiken en thuis te
-    komen in jouw leven!
+    echt in je kracht gaan staan wanneer je ruimte maakt om te kunnen zijn wie
+    je diep van binnen bent. Ik help je jouw wijsheid te vinden zodat jij
+    inzicht krijgt in jouw kracht en deze helemaal kan omarmen. Het is mijn
+    passie om samen met jou op reis gaan, je uit te nodigen diep te duiken en
+    thuis te komen in jouw leven!
 
 
     Sinds 2013 begeleid ik kinderen en volwassenen in hun zoektocht. Ik
@@ -47,13 +47,13 @@ content:
 
 
     Een grote inspiratiebron voor mij is het gedachtegoed van Maria Magdalena.
-    Ik voel me verbonden met haar vrouwelijke natuur en de enorme kracht en
-    wijsheid die daarin verborgen ligt. Wanneer we onze angsten en twijfels aan
-    durven kijken, komen we in contact met de stem van onze ziel en kunnen we
-    vanuit ons eigen licht leven. De leer van Maria Magdalena nodigt ons uit,
-    vrouwen èn mannen om de balans te herstellen tussen de vrouwelijke en
-    mannelijke aspecten in onszelf. Deze tijd en onze huidige maatschappij
-    vraagt om NU te gaan leven vanuit onze ziel en te luisteren naar ons hart! 
+    Ik voel me verbonden met haar vrouwelijke natuur en de kracht en wijsheid
+    die daarin verborgen ligt. Wanneer we onze angsten en twijfels aan durven
+    kijken, komen we in contact met de stem van onze ziel en kunnen we vanuit
+    ons eigen licht leven. De leer van Maria Magdalena nodigt ons uit, vrouwen
+    èn mannen om de balans te herstellen tussen de vrouwelijke en mannelijke
+    aspecten in onszelf. Deze tijd en onze huidige maatschappij vraagt om NU te
+    gaan leven vanuit onze ziel en te luisteren naar ons hart! 
 
 
     In de natuur zijn, daarin ontladen en opladen is voor mij een must om te
