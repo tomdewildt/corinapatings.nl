@@ -59,8 +59,7 @@ cards:
   - image: /images/logo.png
     size: '1'
   - color: secondary
-    description: |
-      Voel jij je gebonden en zou jij je meer verbonden willen voelen?
+    description: Sta jij stevig op jouw plek?
     link: opstellingen
     size: '1'
     title: Opstellingen
