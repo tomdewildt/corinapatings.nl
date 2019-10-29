@@ -14,18 +14,17 @@ content:
     komen in jouw leven!
 
 
-    Sinds 2013 begeleid ik kinderen en volwassenen in hun zoektocht. Ik
-    onderzoek waar het knelt in je leven en waarom dit je belemmeringen geeft.
-    We combineren denken met voelen en ervaren. Ik ga met een open hart en een
-    no-nonsens instelling met je in contact. Ik stem af op wie jij in essentie
-    bent, voel me vrij je te raken en door jou geraakt te worden. Ik bied je een
-    veilige omgeving om kwetsbaarheid toe te kunnen laten zodat er ruimte
-    ontstaat en jij de beweging naar je kracht kan maken. Ik word ècht gelukkig
-    wanneer jij ontdekt dat jouw mogelijkheden oneindig zijn!
+    Sinds 2013 begeleid ik kinderen en volwassenen. We combineren denken met
+    voelen en ervaren. Met een open hart en een no-nonsens instelling ga ik met
+    je in contact. Ik stem af op wie jij in essentie bent, voel me vrij je te
+    raken en door jou geraakt te worden. Ik bied je een veilige omgeving om
+    kwetsbaarheid toe te kunnen laten zodat er ruimte ontstaat en jij de
+    beweging naar je kracht kan maken. Waar ik ècht gelukkig van word?Wanneer
+    jij ontdekt dat jouw mogelijkheden oneindig zijn!
 
 
     Hoe doe ik dat? Op een manier waarin intuïtie, helderheid, speelsheid en out
-    off the box centraal staan. Afhankelijk van jouw persoon, leeftijd en
+    of the box centraal staan. Afhankelijk van jouw persoon, leeftijd en
     behoefte maak ik gebruik van diverse werkvormen. Ik ga met je in gesprek,
     zet lichaamsoefeningen in, werk met opstellingen, maak gebruik van creatieve
     werkvormen, visualisaties en outdoor-coaching.
