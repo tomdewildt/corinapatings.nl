@@ -65,7 +65,7 @@ cards:
     title: Opstellingen
   - color: primary
     description: |
-      Gevoelig zijn lastig? Maak er je kracht van!
+      Ervaar je je gevoelig zijn als lastig? Maak er je kracht van!
     link: /hooggevoelig/
     size: '1'
     title: Hoog-gevoelig
