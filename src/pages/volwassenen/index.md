@@ -18,8 +18,9 @@ content:
     Samen onderzoeken we wat je belemmert en hoe jij weer in contact kan komen
     met je verlangen en je kracht. Durf jij je te openen om te kijken naar wat
     jou nu belemmert?
-  right: >
+  right: >-
     Ik maak gebruik van verschillende werkvormen;
+
 
     * Gesprek
 
@@ -34,10 +35,10 @@ content:
     * Outdoor- coachen
 
 
-    Een telefonisch kennismakingsgesprek duurt max. ½ uur en is gratis. De duur
-    van een sessie is gemiddeld 1 ½ uur en afhankelijk van de vraag, de persoon
-    en wat er op dat moment nodig is. De frequentie van de vervolgafspraken
-    zullen in overleg met jou worden bepaald.
+    Een telefonisch kennismakingsgesprek duurt max. een half uur en is gratis.
+    De duur van een sessie is gemiddeld 1,5 uur en afhankelijk van de vraag, de
+    persoon en wat er op dat moment nodig is. De frequentie van de
+    vervolgafspraken zullen in overleg met jou worden bepaald.
   title: Volwassenen
 cards:
   - image: /images/praktijkruimte-twee-stoelen.jpeg
