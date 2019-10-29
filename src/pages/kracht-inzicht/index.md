@@ -38,20 +38,20 @@ content:
     helemaal te ont-dekken was ik al jong op zoek naar wie ik ben. De innerlijke
     strijd die ik voerde ging over mezelf aanpassen aan mijn omgeving en
     tegelijkertijd de vrije ruimte zoeken om te luisteren naar de stem van mijn
-    hart. Hoewel het niet zonder hobbels ging en soms nog gaat  heb ik heel veel
-    plezier in het ‘onderweg zijn.’ Het leven is zó de moeite waard geleefd te
-    worden! Het nodigt mij uit om me helemaal te verbinden met mijn verlangen en
+    hart. Hoewel dat niet altijd gemakkelijk was beleef ik heel veel plezier in
+    het ‘onderweg zijn.’ Het leven is zó de moeite waard geleefd te worden! Het
+    nodigt mij uit om me steeds opnieuw te verbinden met mijn verlangen en
     kracht. 
 
 
     Een grote inspiratiebron voor mij is het gedachtegoed van Maria Magdalena.
-    Ik voel me verbonden met haar vrouwelijke natuur en de enorme kracht en
-    wijsheid die daarin verborgen ligt. Wanneer we onze angsten en twijfels aan
-    durven kijken, komen we in contact met de stem van onze ziel en kunnen we
-    vanuit ons eigen licht leven. De leer van Maria Magdalena nodigt ons uit,
-    vrouwen èn mannen om de balans te herstellen tussen de vrouwelijke en
-    mannelijke aspecten in onszelf. Deze tijd en onze huidige maatschappij
-    vraagt om NU te gaan leven vanuit onze ziel en te luisteren naar ons hart! 
+    Ik voel me verbonden met haar vrouwelijke natuur en de kracht en wijsheid
+    die daarin schuilt. Wanneer we onze angsten en twijfels aan durven kijken,
+    komen we in contact met de stem van onze ziel en kunnen we vanuit ons eigen
+    licht leven. Maria Magdalena nodigt ons uit, vrouwen èn mannen om de balans
+    te herstellen tussen de vrouwelijke en mannelijke aspecten in onszelf. Deze
+    tijd en onze huidige maatschappij vraagt om NU te gaan leven vanuit onze
+    ziel en te luisteren naar ons hart! 
 
 
     In de natuur zijn, daarin ontladen en opladen is voor mij een must om te
