@@ -32,9 +32,9 @@ testimonials:
 cards:
   - color: primary
     description: >
-      Kracht inzicht biedt  handvaten aan kinderen en volwassenen die alles uit
-      het leven willen halen en op ontdekkingsreis willen gaan naar de persoon
-      die ze diep van binnen zijn!
+      Kracht inzicht biedt vrije speelruimte en handvaten aan kinderen en
+      volwassenen die alles uit het leven willen halen en op ontdekkingsreis
+      willen gaan naar de persoon die ze diep van binnen zijn!
     link: kracht-inzicht
     size: '2'
     title: Kracht Inzicht
