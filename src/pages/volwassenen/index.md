@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  image: /images/praktijkruimte-twee-stoelen.jpeg
+  image: /images/praktijk-bloemen-sfeer.jpeg
   offset: 30
 content:
   left: >
