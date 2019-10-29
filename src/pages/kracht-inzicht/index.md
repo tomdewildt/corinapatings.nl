@@ -6,12 +6,11 @@ intro:
 content:
   left: >-
     Ieder mens is uniek en jij levert jouw speciale bijdrage aan dit leven! Die
-    bijdrage kan tevoorschijn komen wanneer je JA zegt tegen jouw leven. Je kunt
-    in je kracht gaan staan wanneer je ruimte maakt om te kunnen zijn wie je
-    diep van binnen bent. Ik help je jouw wijsheid te vinden zodat jij inzicht
-    krijgt in jouw kracht en deze helemaal kan omarmen. Het is mijn passie om
-    samen met jou op reis gaan, je uit te nodigen diep te duiken en thuis te
-    komen in jouw leven!
+    bijdrage kan tevoorschijn komen wanneer je JA zegt tegen jouw leven. Je komt
+    in je kracht wanneer je ruimte maakt voor wie je diep van binnen bent. Ik
+    help je jouw wijsheid te vinden zodat jij inzicht krijgt in jouw kracht en
+    deze helemaal kan omarmen. Het is mijn passie om samen met jou op reis gaan,
+    je uit te nodigen diep te duiken en thuis te komen in jouw leven!
 
 
     Sinds 2013 begeleid ik kinderen en volwassenen. We combineren denken met
@@ -41,8 +40,8 @@ content:
     tegelijkertijd de vrije ruimte zoeken om te luisteren naar de stem van mijn
     hart. Hoewel het niet zonder hobbels ging en soms nog gaat  heb ik heel veel
     plezier in het ‘onderweg zijn.’ Het leven is zó de moeite waard geleefd te
-    worden! Het nodigt mij uit om me telkens opnieuw helemaal te verbinden met
-    mijn verlangen en kracht. 
+    worden! Het nodigt mij uit om me helemaal te verbinden met mijn verlangen en
+    kracht. 
 
 
     Een grote inspiratiebron voor mij is het gedachtegoed van Maria Magdalena.
