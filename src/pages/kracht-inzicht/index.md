@@ -47,8 +47,8 @@ content:
     Een grote inspiratiebron voor mij is het gedachtegoed van Maria Magdalena.
     Ik voel me verbonden met haar vrouwelijke natuur en de kracht en wijsheid
     die daarin schuilt. Maria Magdalena nodigt ons uit, vrouwen èn mannen om de
-    balans te herstellen tussen de vrouwelijke en mannelijke aspecten in
-    onszelf. Zodat jij jouw licht kan laten stralen. Deze tijd en onze huidige
+    balans te herstellen tussen de vrouwelijke en mannelijke aspecten in onszelf
+    zodat jij jouw licht kan laten stralen. Deze tijd en onze huidige
     maatschappij vraagt om NU te gaan leven vanuit onze ziel en te luisteren
     naar ons hart! 
 
