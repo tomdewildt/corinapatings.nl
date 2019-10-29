@@ -4,11 +4,11 @@ intro:
   image: /images/kind-en-corina-appels-plukken.jpeg
   offset: -25
 content:
-  left: >
+  left: >-
     **Kinderen**
 
 
-    Wordt je kind snel boos of verdrietig? Of mist het zelfvertrouwen en heb je
+    Word je kind snel boos of verdrietig? Of mist het zelfvertrouwen en heb je
     het idee dat je kind soms zo (over) gevoelig reageert? Voor kinderen en
     pubers kan het dagelijks leven soms al (te) veeleisend zijn waardoor er
     gevoelens van onrust, twijfel, schaamte, angst, woede en eenzaamheid kunnen
