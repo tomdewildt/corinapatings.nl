@@ -4,20 +4,20 @@ intro:
   image: /images/img_8085a4l.jpeg
   offset: 30
 content:
-  left: >
+  left: >-
     Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je
     doet? Zodat jij je kwaliteiten, je passie en je levensenergie ten volle kan
     benutten? Heb je een vraag of ervaar je een gevoel van onbalans in je leven?
     De aanleiding waarom mensen op zoek gaan naar ondersteuning kan heel divers
     zijn. Het kan zijn dat je je vaak vermoeid voelt, je zit niet lekker in je
     vel of je hebt last van lichamelijke klachten. Wanneer voor jou de oorzaak
-    onduidelijk is maar je hebt de behoefte om eraan te willen werken ben je
+    onduidelijk is en je hebt de behoefte om eraan te willen werken ben je
     welkom. Live events, ziekte, verlieservaringen, scheiding, rouw of een
     burn-out bijvoorbeeld kunnen een behoorlijke impact op je hebben. Hierdoor
     stap je soms in een overlevingsmodus of oude patronen steken de kop op.
-    Samen onderzoeken we wat je belemmert en hoe jij weer in contact kan komen
-    met je verlangen en je kracht. Durf jij je te openen om te kijken naar wat
-    jou nu belemmert?
+    Samen onderzoeken we wat je mogelijke obstakels zijn en hoe jij weer in
+    contact kan komen met je verlangen en je kracht. Durf jij je te openen om te
+    kijken naar wat jou nu belemmert?
   right: >-
     Ik maak gebruik van verschillende werkvormen;
 
