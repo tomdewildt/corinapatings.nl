@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  image: /images/praktijk-bloemen-sfeer.jpeg
+  image: /images/img_8085a4l.jpeg
   offset: 30
 content:
   left: >
