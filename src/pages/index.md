@@ -71,7 +71,7 @@ cards:
     link: /hooggevoelig/
     size: '1'
     title: Hoog-gevoelig
-  - image: /images/kind-krachtbron.jpeg
+  - image: /images/img_7857_a4b.jpeg
     size: '2'
 ---
 
