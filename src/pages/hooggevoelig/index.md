@@ -43,9 +43,8 @@ content:
     volgen. Het doel van de trainingen is om te leren om te gaan met en het
     (h)erkennen van je gevoeligheid als kwaliteit. In de praktijk leren ze
     zichzelf ontspannen, grip krijgen op emoties, positief denken, spelenderwijs
-    ervaren, meer zelfvertrouwen en concentratie verbeteren. Wil je daar meer
-    informatie over dan neem gerust contact met me op. Link naar contact
-    formulier. 
+    ervaren, meer zelfvertrouwen en concentratie verbeteren. Wil je meer
+    informatie? Neem gerust **contact** met me op.  
 
 
     **Paranormaal**
