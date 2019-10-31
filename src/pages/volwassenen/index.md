@@ -35,6 +35,10 @@ content:
     * Outdoor- coachen
 
 
+    Voor meer informatie over de verschillende mogelijkheden of om een afspraak
+    te maken kun je hier **contact** op nemen.
+
+
     Een telefonisch kennismakingsgesprek duurt max. een half uur en is gratis.
     De duur van een sessie is gemiddeld 1,5 uur en afhankelijk van de vraag, de
     persoon en wat er op dat moment nodig is. De frequentie van de
