@@ -41,11 +41,11 @@ content:
     vervolgafspraken zullen in overleg met jou worden bepaald.
   title: Volwassenen
 cards:
-  - image: /images/praktijkruimte-twee-stoelen.jpeg
+  - image: /images/5mk38444a4.jpeg
     size: '2'
-  - image: /images/5mk37623_a4.jpeg
+  - image: /images/5mk37623_a4-2.jpeg
     size: '1'
-  - image: /images/5mk37549_a4.jpeg
+  - image: /images/5mk38414a4l.jpeg
     size: '1'
 ---
 
