@@ -64,7 +64,7 @@ content:
 cards:
   - image: /images/boomstam-glaswerk.jpeg
     size: '2'
-  - image: /images/corina-achtergrond-boeken.jpeg
+  - image: /images/img_7830_a4b-2.jpeg
     size: '1'
   - image: /images/tamme-kastanje-hart.jpeg
     size: '1'
