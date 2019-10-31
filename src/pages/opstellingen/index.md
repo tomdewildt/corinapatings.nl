@@ -71,13 +71,13 @@ content:
     union that which has been made separate" - Bert Hellinger_
   title: Opstellingen
 cards:
-  - image: ''
-    size: '1'
   - image: /images/kind-aan-het-schrijven.jpeg
     size: '1'
-  - image: ''
+  - image: /images/img_7852_a4.jpeg
     size: '1'
   - image: /images/kind-in-opstelling.jpeg
+    size: '1'
+  - image: /images/img_7874_a4.jpeg
     size: '1'
 ---
 
