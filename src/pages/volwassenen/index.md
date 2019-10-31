@@ -45,7 +45,7 @@ cards:
     size: '2'
   - image: /images/5mk37623_a4-2.jpeg
     size: '1'
-  - image: /images/5mk38414a4l.jpeg
+  - image: /images/5mk38414a4l-2.jpeg
     size: '1'
 ---
 
