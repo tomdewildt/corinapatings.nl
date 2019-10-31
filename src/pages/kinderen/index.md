@@ -31,7 +31,7 @@ content:
 
     Ik maak gebruik van lichaamsgerichte oefeningen, creatieve werkvormen,
     systemisch werken, verhalen, visualisaties en ik ga naar buiten.
-  right: >
+  right: >-
     **Jongeren**
 
 
@@ -53,7 +53,8 @@ content:
     behoefte van jouw kind. Dat betekent dat we in overleg met elkaar de
     frequentie en de duur van het traject afspreken. De afspraken duren maximaal
     één uur per keer. Het is wenselijk om drie sessies te plannen, na een korte
-    (telefonische) evaluatie kunnen we afspraken maken over het vervolg.
+    (telefonische) evaluatie kunnen we afspraken maken over het vervolg. Wil je
+    meer weten? Neem hier **contact** op.
 
 
     Specialiteit; Hooggevoelige en/of paranormale kinderen. [Lees
