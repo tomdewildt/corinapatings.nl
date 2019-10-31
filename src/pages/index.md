@@ -38,7 +38,7 @@ cards:
     link: kracht-inzicht
     size: '2'
     title: Kracht Inzicht
-  - image: /images/300x300.png
+  - image: /images/5mk38405a4l.jpeg
     size: '1'
   - image: /images/kind-en-corina-highfive.jpeg
     size: '1'
