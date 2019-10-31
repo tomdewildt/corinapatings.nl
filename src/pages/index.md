@@ -40,7 +40,7 @@ cards:
     title: Kracht Inzicht
   - image: /images/5mk38405a4l.jpeg
     size: '1'
-  - image: /images/kind-en-corina-highfive.jpeg
+  - image: /images/img_8089a4.jpeg
     size: '1'
   - color: tertiary
     description: >
