@@ -60,9 +60,9 @@ content:
     Meer](/hooggevoelig/)
   title: Kinderen
 cards:
-  - image: /images/vouwwerkje.jpeg
+  - image: /images/5mk38190_a4.jpeg
     size: '1'
-  - image: /images/laarsjes-in-praktijk.jpeg
+  - image: /images/5mk38182_a4.jpeg
     size: '1'
   - image: /images/5mk38329_a4-2.jpeg
     size: '1'
