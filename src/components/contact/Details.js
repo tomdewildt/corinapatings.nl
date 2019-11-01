@@ -56,6 +56,7 @@ const ContactMap = styled( GoogleMap )`
 `;
 
 const ContactDetails = ( {
+    url,
     name,
     address,
     postalCode,
@@ -82,11 +83,11 @@ const ContactDetails = ( {
                     <Facebook />
                     Facebook
                 </ContactLink>
-                <ContactLink href="/" target="_blank">
+                <ContactLink href={ `${ url }/docs/terms-of-service.pdf` } target="_blank">
                     <Document />
                     Algemene Voorwaarden
                 </ContactLink>
-                <ContactLink href="/" target="_blank">
+                <ContactLink href={ `${ url }/docs/privacy-declaration.pdf` } target="_blank">
                     <Document />
                     Privacy Verklaring
                 </ContactLink>
@@ -101,6 +102,7 @@ const ContactDetails = ( {
 );
 
 ContactDetails.propTypes = {
+    url: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     address: PropTypes.string.isRequired,
     postalCode: PropTypes.string.isRequired,
