@@ -2,8 +2,8 @@ import React from "react";
 import styled, { ThemeProvider } from "styled-components";
 import PropTypes from "prop-types";
 
+import { Navbar, Consent } from "../components";
 import theme, { GlobalStyle } from "../themes";
-import { Navbar } from "../components";
 
 const LayoutContainer = styled.div`
     height: calc(100vh - 3rem);
@@ -17,6 +17,7 @@ const Layout = ( { children } ) => (
             <GlobalStyle />
             <Navbar />
             { children }
+            <Consent />
         </LayoutContainer>
     </ThemeProvider>
 );

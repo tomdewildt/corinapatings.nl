@@ -8,6 +8,7 @@ export { default as Heading } from "./typography/Heading";
 export { default as Container } from "./grid/Container";
 export { default as Headers } from "./headers/Headers";
 export { default as Contact } from "./contact/Contact";
+export { default as Consent } from "./consent/Consent";
 export { default as Padding } from "./spacing/Padding";
 export { default as Margin } from "./spacing/Margin";
 export { default as Navbar } from "./navbar/Navbar";

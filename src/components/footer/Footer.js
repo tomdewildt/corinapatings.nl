@@ -15,7 +15,7 @@ const FooterContainer = styled.footer`
 
 const Footer = () => (
     <FooterContainer>
-        <Text.Span bold>
+        <Text.Span>
             Copyright &copy; Corina Patings
             { " " }
             { new Date().getFullYear() }
