@@ -13,7 +13,6 @@ const CardColumn = styled( Column )`
     display: flex;
     max-height: ${ ( { theme } ) => theme.cards.height }rem;
     padding: ${ ( { theme } ) => theme.cards.gutter }rem;
-    word-break: break-word;
 
     ${ ( { theme } ) => css`
         @media (max-width: ${ theme.breakpoints.sm }em) {

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import PropTypes from "prop-types";
 
 import Logo from "../../assets/logo.svg";
@@ -16,11 +16,9 @@ const StyledLogo = styled( Logo )`
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
     
-    ${ ( { theme } ) => css`
-        @media (min-width: ${ theme.breakpoints.sm }em) and (max-width: ${ theme.navbar.logo.collapse }em) {
-            display: none;
-        }
-    ` }
+    @media (max-width: 23em), (min-width: 48em) and (max-width: 64em) {
+        display: none;
+    }
 `;
 
 const StyledIcon = styled( Icon )`
@@ -28,11 +26,9 @@ const StyledIcon = styled( Icon )`
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
 
-    ${ ( { theme } ) => css`
-        @media (min-width: ${ theme.breakpoints.sm }em) and (max-width: ${ theme.navbar.logo.collapse }em) {
-            display: block;
-        }
-    ` }
+    @media (max-width: 23em), (min-width: 48em) and (max-width: 64em) {
+        display: block;
+    }
 `;
 
 const NavbarLogo = ( { to } ) => (

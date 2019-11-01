@@ -6,7 +6,6 @@ export default {
     },
     logo: {
         height: 2,
-        collapse: 64,
     },
     items: {
         padding: 0.75,
