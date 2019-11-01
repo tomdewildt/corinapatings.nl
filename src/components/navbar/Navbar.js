@@ -65,11 +65,6 @@ const NavbarItems = styled.ul`
 `;
 
 const NavbarItem = styled.li`
-    &:hover {
-        color: ${ ( { theme } ) => theme.color.grayDarkest };
-        background-color: ${ ( { theme } ) => theme.color.grayLight };
-    }
-
     @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
         padding-top: 0;
         padding-bottom: 0;
@@ -84,6 +79,11 @@ const NavbarLink = styled( Link )`
     text-decoration: none;
     cursor: pointer;
     color: inherit;
+
+    &:hover, &.active {
+        color: ${ ( { theme } ) => theme.color.grayDarkest };
+        background-color: ${ ( { theme } ) => theme.color.grayLight };
+    }
 `;
 
 const Navbar = () => {
@@ -97,22 +97,58 @@ const Navbar = () => {
                 <NavbarNav isOpen={ isOpen }>
                     <NavbarItems>
                         <NavbarItem>
-                            <NavbarLink to="/kracht-inzicht/" onClick={ () => setIsOpen( false ) }>Kracht Inzicht</NavbarLink>
+                            <NavbarLink
+                                to="/kracht-inzicht/"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Kracht Inzicht
+                            </NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/volwassenen/" onClick={ () => setIsOpen( false ) }>Volwassenen</NavbarLink>
+                            <NavbarLink
+                                to="/volwassenen/"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Volwassenen
+                            </NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/kinderen/" onClick={ () => setIsOpen( false ) }>Kinderen</NavbarLink>
+                            <NavbarLink
+                                to="/kinderen/"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Kinderen
+                            </NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/opstellingen/" onClick={ () => setIsOpen( false ) }>Opstellingen</NavbarLink>
+                            <NavbarLink
+                                to="/opstellingen/"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Opstellingen
+                            </NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/hooggevoelig/" onClick={ () => setIsOpen( false ) }>Hooggevoelig</NavbarLink>
+                            <NavbarLink
+                                to="/hooggevoelig/"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Hooggevoelig
+                            </NavbarLink>
                         </NavbarItem>
                         <NavbarItem>
-                            <NavbarLink to="/#contact" onClick={ () => setIsOpen( false ) }>Contact</NavbarLink>
+                            <NavbarLink
+                                to="/#contact"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Contact
+                            </NavbarLink>
                         </NavbarItem>
                     </NavbarItems>
                 </NavbarNav>
