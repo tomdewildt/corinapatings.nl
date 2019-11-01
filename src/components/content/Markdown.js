@@ -38,14 +38,14 @@ const StyledMarkdown = styled( Markdown )`
         list-style: disc;
         margin-block-start: 1rem;
         margin-block-end: 1rem;
-        padding-inline-start: 1.5rem;
+        padding-left: 1.5rem;
     }
 
     ol {
         list-style-type: decimal;
         margin-block-start: 1rem;
         margin-block-end: 1rem;
-        padding-inline-start: 1.5rem;
+        padding-left: 1.5rem;
     }
 `;
 
