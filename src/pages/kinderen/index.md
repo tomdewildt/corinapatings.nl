@@ -54,20 +54,20 @@ content:
     frequentie en de duur van het traject afspreken. De afspraken duren maximaal
     één uur per keer. Het is wenselijk om drie sessies te plannen, na een korte
     (telefonische) evaluatie kunnen we afspraken maken over het vervolg. Wil je
-    meer weten? Neem hier **contact** op.
+    meer weten? Neem hier [contact](https://www.corinapatings.nl/#contact) op.
 
 
     Specialiteit; Hooggevoelige en/of paranormale kinderen. [Lees
     Meer](/hooggevoelig/)
   title: Kinderen
 cards:
-  - image: /images/5mk38190_a4.jpeg
+  - image: /images/kind-knutselen.jpeg
     size: '1'
-  - image: /images/5mk38182_a4.jpeg
+  - image: /images/laarsjes.jpeg
     size: '1'
-  - image: /images/5mk38329_a4-2.jpeg
+  - image: /images/knutselwerkje.jpeg
     size: '1'
-  - image: /images/5mk38333_a4.jpeg
+  - image: /images/kind-met-kaartje-rustig.jpeg
     size: '1'
 ---
 

@@ -1,8 +1,8 @@
 ---
 templateKey: content-page
 intro:
-  image: /images/img_8085a4l.jpeg
-  offset: 30
+  image: /images/corina-met-volwassen-vrouw.jpeg
+  offset: -25
 content:
   left: >
     Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je
@@ -36,7 +36,7 @@ content:
 
 
     Voor meer informatie over de verschillende mogelijkheden of om een afspraak
-    te maken kun je hier **contact** op nemen.
+    te maken kun je hier [contact](https://www.corinapatings.nl/#contact) op nemen.
 
 
     Een telefonisch kennismakingsgesprek duurt max. een half uur en is gratis.
@@ -45,11 +45,11 @@ content:
     vervolgafspraken zullen in overleg met jou worden bepaald.
   title: Volwassenen
 cards:
-  - image: /images/5mk38444a4.jpeg
+  - image: /images/corina-met-volwassen-man-buiten.jpeg
     size: '2'
-  - image: /images/5mk37623_a4-2.jpeg
+  - image: /images/corina-in-praktijk.jpeg
     size: '1'
-  - image: /images/5mk38414a4l-2.jpeg
+  - image: /images/corina-met-volwassen-man.jpeg
     size: '1'
 ---
 

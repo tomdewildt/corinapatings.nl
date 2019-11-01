@@ -111,6 +111,9 @@ const Navbar = () => {
                         <NavbarItem>
                             <NavbarLink to="/hooggevoelig/" onClick={ () => setIsOpen( false ) }>Hooggevoelig</NavbarLink>
                         </NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink to="/#contact" onClick={ () => setIsOpen( false ) }>Contact</NavbarLink>
+                        </NavbarItem>
                     </NavbarItems>
                 </NavbarNav>
             </NavbarContainer>

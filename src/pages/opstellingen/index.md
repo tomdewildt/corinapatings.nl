@@ -64,7 +64,7 @@ content:
     ervaart in de opstelling, als vraagsteller of als representant is heel
     waardevol. De rol waar je voor gekozen wordt heeft je altijd iets te zeggen.
     Het eindbeeld en de eigen ervaring van de opstelling brengt het systeem in
-    beweging. Wil je meer weten? Neem gerust [contact](#contact) met me op.
+    beweging. Wil je meer weten? Neem gerust [contact](https://www.corinapatings.nl/#contact) met me op.
 
 
     _"The Greater Soul moves in only one direction, and that is to bring into
@@ -73,11 +73,11 @@ content:
 cards:
   - image: /images/kind-aan-het-schrijven.jpeg
     size: '1'
-  - image: /images/img_7852_a4.jpeg
+  - image: /images/corina-met-kind-gesprek.jpeg
     size: '1'
   - image: /images/kind-in-opstelling.jpeg
     size: '1'
-  - image: /images/img_7874_a4.jpeg
+  - image: /images/corina-met-kind-highfive.jpeg
     size: '1'
 ---
 

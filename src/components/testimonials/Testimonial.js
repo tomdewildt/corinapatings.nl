@@ -6,8 +6,8 @@ import Column from "../grid/Column";
 
 const Testimonial = ( { text, author } ) => (
     <Column xs={ 12 } sm={ 4 }>
-        <Text.Paragraph center>{ text }</Text.Paragraph>
-        <Text.Paragraph center italic>{ `- ${ author }` }</Text.Paragraph>
+        <Text.Paragraph>{ text }</Text.Paragraph>
+        <Text.Paragraph italic>{ `- ${ author }` }</Text.Paragraph>
     </Column>
 );
 

@@ -20,6 +20,7 @@ const Contact = () => (
             </Column>
             <Column xs={ 12 } sm={ 6 }>
                 <ContactDetails
+                    url={ metadata.general.url }
                     name={ metadata.contact.name }
                     address={ metadata.contact.address }
                     postalCode={ metadata.contact.postalCode }

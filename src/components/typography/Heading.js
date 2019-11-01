@@ -15,6 +15,9 @@ const H1 = styled.h1`
     line-height: ${ ( { theme } ) => theme.typography.h1.lineHeight };
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h1.marginBottom }rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 `;
 H1.propTypes = propTypes;
 H1.defaultProps = defaultProps;
@@ -26,6 +29,9 @@ const H2 = styled.h2`
     line-height: ${ ( { theme } ) => theme.typography.h2.lineHeight };
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h2.marginBottom }rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 `;
 H2.propTypes = propTypes;
 H2.defaultProps = defaultProps;
@@ -37,6 +43,9 @@ const H3 = styled.h3`
     line-height: ${ ( { theme } ) => theme.typography.h3.lineHeight };
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h3.marginBottom }rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 `;
 H3.propTypes = propTypes;
 H3.defaultProps = defaultProps;
@@ -48,6 +57,9 @@ const H4 = styled.h4`
     line-height: ${ ( { theme } ) => theme.typography.h4.lineHeight };
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h4.marginBottom }rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 `;
 H4.propTypes = propTypes;
 H4.defaultProps = defaultProps;
@@ -59,6 +71,9 @@ const H5 = styled.h5`
     line-height: ${ ( { theme } ) => theme.typography.h5.lineHeight };
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h5.marginBottom }rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 `;
 H5.propTypes = propTypes;
 H5.defaultProps = defaultProps;
@@ -70,6 +85,9 @@ const H6 = styled.h6`
     line-height: ${ ( { theme } ) => theme.typography.h6.lineHeight };
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h6.marginBottom }rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 `;
 H6.propTypes = propTypes;
 H6.defaultProps = defaultProps;
