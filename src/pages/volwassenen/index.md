@@ -2,7 +2,7 @@
 templateKey: content-page
 intro:
   image: /images/corina-met-volwassen-vrouw.jpeg
-  offset: 30
+  offset: -25
 content:
   left: >
     Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je
