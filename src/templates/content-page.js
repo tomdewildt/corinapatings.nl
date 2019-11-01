@@ -49,7 +49,6 @@ const ContentPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
                     />
                 ) )}
             </CardContainer>
-            <Contact />
         </Container>
         <Footer />
     </>
