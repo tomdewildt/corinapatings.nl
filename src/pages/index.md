@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 intro:
-  image: /images/5mk37490_a4.jpeg
+  image: /images/corina-bij-water.jpeg
   offset: 25
 testimonials:
   - author: Meike 17 jaar
@@ -12,7 +12,6 @@ testimonials:
       geest en lichaam.
   - author: 'Chris, 47 jaar'
     text: >
-
       Corina heeft voor mij de perfecte manier om je inzichten te geven en je
       gevoelens een plek te geven. Haar manier van vragen stellen en compassie
       te tonen voor de situatie en je steeds weer uit te nodigen om dieper te
@@ -38,9 +37,9 @@ cards:
     link: kracht-inzicht
     size: '2'
     title: Kracht Inzicht
-  - image: /images/5mk38405a4l.jpeg
+  - image: /images/blokken-op-tafel.jpeg
     size: '1'
-  - image: /images/img_8089a4-2.jpeg
+  - image: /images/corina-met-volwassen-vrouw-knuffel.jpeg
     size: '1'
   - color: tertiary
     description: >
@@ -71,7 +70,7 @@ cards:
     link: /hooggevoelig/
     size: '1'
     title: Hoog-gevoelig
-  - image: /images/img_7857_a4b.jpeg
+  - image: /images/kind-krachtbron.jpeg
     size: '2'
 ---
 

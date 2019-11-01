@@ -76,11 +76,11 @@ content:
     opvoeding. [Lees Meer](https://www.positiefsensitief.nl/)
   title: Hooggevoelig
 cards:
-  - image: /images/5mk38216_a4.jpeg
+  - image: /images/corina-met-kind-tekenen.jpeg
     size: '2'
   - image: /images/jantje-met-aap.jpeg
     size: '1'
-  - image: /images/5mk37364_a4.jpeg
+  - image: /images/veren.jpeg
     size: '1'
 ---
 

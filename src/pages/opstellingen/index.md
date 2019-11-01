@@ -73,11 +73,11 @@ content:
 cards:
   - image: /images/kind-aan-het-schrijven.jpeg
     size: '1'
-  - image: /images/img_7852_a4.jpeg
+  - image: /images/corina-met-kind-gesprek.jpeg
     size: '1'
   - image: /images/kind-in-opstelling.jpeg
     size: '1'
-  - image: /images/img_7874_a4.jpeg
+  - image: /images/corina-met-kind-highfive.jpeg
     size: '1'
 ---
 

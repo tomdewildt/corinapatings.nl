@@ -1,7 +1,7 @@
 ---
 templateKey: content-page
 intro:
-  image: /images/img_8085a4l.jpeg
+  image: /images/corina-met-volwassen-vrouw.jpeg
   offset: 30
 content:
   left: >
@@ -45,11 +45,11 @@ content:
     vervolgafspraken zullen in overleg met jou worden bepaald.
   title: Volwassenen
 cards:
-  - image: /images/5mk38444a4.jpeg
+  - image: /images/corina-met-volwassen-man-buiten.jpeg
     size: '2'
-  - image: /images/5mk37623_a4-2.jpeg
+  - image: /images/corina-in-praktijk.jpeg
     size: '1'
-  - image: /images/5mk38414a4l-2.jpeg
+  - image: /images/corina-met-volwassen-man.jpeg
     size: '1'
 ---
 
