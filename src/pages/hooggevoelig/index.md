@@ -44,7 +44,7 @@ content:
     (h)erkennen van je gevoeligheid als kwaliteit. In de praktijk leren ze
     zichzelf ontspannen, grip krijgen op emoties, positief denken, spelenderwijs
     ervaren, meer zelfvertrouwen en concentratie verbeteren. Wil je meer
-    informatie? Neem gerust **contact** met me op.  
+    informatie? Neem gerust [contact](https://www.corinapatings.nl/#contact) met me op.  
 
 
     **Paranormaal**

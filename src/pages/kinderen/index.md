@@ -54,7 +54,7 @@ content:
     frequentie en de duur van het traject afspreken. De afspraken duren maximaal
     één uur per keer. Het is wenselijk om drie sessies te plannen, na een korte
     (telefonische) evaluatie kunnen we afspraken maken over het vervolg. Wil je
-    meer weten? Neem hier **contact** op.
+    meer weten? Neem hier [contact](https://www.corinapatings.nl/#contact) op.
 
 
     Specialiteit; Hooggevoelige en/of paranormale kinderen. [Lees

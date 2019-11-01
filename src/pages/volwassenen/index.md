@@ -36,7 +36,7 @@ content:
 
 
     Voor meer informatie over de verschillende mogelijkheden of om een afspraak
-    te maken kun je hier **contact** op nemen.
+    te maken kun je hier [contact](https://www.corinapatings.nl/#contact) op nemen.
 
 
     Een telefonisch kennismakingsgesprek duurt max. een half uur en is gratis.
