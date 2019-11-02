@@ -60,6 +60,11 @@ collections:
             fields:
               - {label: "Offset", name: "offset", widget: "number", default: 0}
               - {label: "Image", name: "image", widget: "image"}
+          - label: "Notice"
+            name: "notice"
+            widget: "object"
+            fields:
+              - {label: "Message", name: "message", widget: "markdown", required: false}
           - label: "Testimonials"
             name: "testimonials"
             widget: "list"
