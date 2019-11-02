@@ -16,8 +16,7 @@ const H1 = styled.h1`
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h1.marginBottom }rem;
     overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    word-break: break-word
 `;
 H1.propTypes = propTypes;
 H1.defaultProps = defaultProps;
@@ -30,8 +29,7 @@ const H2 = styled.h2`
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h2.marginBottom }rem;
     overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    word-break: break-word
 `;
 H2.propTypes = propTypes;
 H2.defaultProps = defaultProps;
@@ -44,8 +42,7 @@ const H3 = styled.h3`
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h3.marginBottom }rem;
     overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    word-break: break-word
 `;
 H3.propTypes = propTypes;
 H3.defaultProps = defaultProps;
@@ -58,8 +55,7 @@ const H4 = styled.h4`
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h4.marginBottom }rem;
     overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    word-break: break-word
 `;
 H4.propTypes = propTypes;
 H4.defaultProps = defaultProps;
@@ -72,8 +68,7 @@ const H5 = styled.h5`
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h5.marginBottom }rem;
     overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    word-break: break-word
 `;
 H5.propTypes = propTypes;
 H5.defaultProps = defaultProps;
@@ -86,8 +81,7 @@ const H6 = styled.h6`
     text-align: ${ ( { center } ) => ( center ? "center" : "left" ) };
     margin-bottom: ${ ( { theme } ) => theme.typography.h6.marginBottom }rem;
     overflow-wrap: break-word;
-    word-wrap: break-word;
-    hyphens: auto;
+    word-break: break-word
 `;
 H6.propTypes = propTypes;
 H6.defaultProps = defaultProps;
