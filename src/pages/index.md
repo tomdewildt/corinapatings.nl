@@ -8,7 +8,7 @@ notice:
   message: >
     Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De
     afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten
-    en opnieuw creeeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom
+    en opnieuw creëeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom
     plaats maakt voor een vernieuwde praktijk **Corina Patings - Kracht Inzicht.** Daar
     hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig
     rond en voel je vooral welkom om samen met mij op reis te gaan!
