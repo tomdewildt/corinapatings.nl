@@ -41,7 +41,7 @@ const Consent = ( { theme } ) => (
         contentStyle={ ConsentContent( theme ) }
         expires={ 150 }
     >
-        Deze website gebruikt cookies om de gebruikerservaring te verbeteren.
+        Deze website maakt gebruik van cookies om de gebruikerservaring te verbeteren.
     </CookieConsent>
 );
 
