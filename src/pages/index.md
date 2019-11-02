@@ -4,7 +4,7 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: "Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten en opnieuw creeeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom plaats maakt voor een vernieuwde praktijk\_**Corina Patings - Kracht Inzicht.**\_Daar hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig rond en voel je vooral welkom om samen met mij op reis te gaan!\n\n*- Corina*\n"
+  message: "Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten en opnieuw creëren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom plaats maakt voor een vernieuwde praktijk\_**Corina Patings - Kracht Inzicht.**\_Daar hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig rond en voel je vooral welkom om samen met mij op reis te gaan!\n\n_\\- Corina_"
   title: ''
 testimonials:
   - author: 'Meike, 17 jaar'
@@ -19,12 +19,10 @@ testimonials:
       gevoelens een plek te geven. Haar manier van vragen stellen en compassie
       te tonen voor de situatie en je steeds weer uit te nodigen om dieper te
       kijken naar de ware gevoelens, heeft mij geholpen in een tijd waar er veel
-      verwarring was. Ook hebben wij een famlie-opstelling gedaan, deze gaf mij
-      inzicht waar ik niet echt mijn plek in nam in mijn leven en waar ik dingen
-      had gemist of me niet thuis voelde. Corina is erg goed in je op je
-      gemakstellen en er is niet een gekke vraag of gevoel. Ik voel me altijd
-      erg veilig. Alles mag er zijn. Er is zo gezegd geen goed of fout. Dit is
-      een kracht die ik als zeer waardig heb ervaren. 
+      verwarring was. Een familie-opstelling gaf mij inzicht waar ik niet echt
+      mijn plek in nam in mijn leven. Ze stelt je op je gemak, ik voel me altijd
+      erg veilig. Er is zo gezegd geen goed of fout. Dit is een kracht die ik
+      zeer waardeer. 
   - author: 'Arthur, 45 jaar'
     text: >
       Corina is heel helder en to the point, zonder erom heen te draaien. Ze
