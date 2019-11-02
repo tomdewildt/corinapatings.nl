@@ -4,19 +4,10 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  title: >
-  message: >
-    Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De
-    afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten
-    en opnieuw creeeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom
-    plaats maakt voor een vernieuwde praktijk **Corina Patings - Kracht Inzicht.** Daar
-    hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig
-    rond en voel je vooral welkom om samen met mij op reis te gaan!
-    
-
-    *- Corina*
+  message: "Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten en opnieuw creeeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom plaats maakt voor een vernieuwde praktijk\_**Corina Patings - Kracht Inzicht.**\_Daar hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig rond en voel je vooral welkom om samen met mij op reis te gaan!\n\n*- Corina*\n"
+  title: ''
 testimonials:
-  - author: Meike, 17 jaar
+  - author: 'Meike, 17 jaar'
     text: >
       Corina heeft me geholpen in contact te komen met mezelf en keer op keer
       leer ik weer nieuwe dingen. Een nieuwe weg is ontstaan en na elke sessie
@@ -34,7 +25,7 @@ testimonials:
       gemakstellen en er is niet een gekke vraag of gevoel. Ik voel me altijd
       erg veilig. Alles mag er zijn. Er is zo gezegd geen goed of fout. Dit is
       een kracht die ik als zeer waardig heb ervaren. 
-  - author: Arthur, 45 jaar
+  - author: 'Arthur, 45 jaar'
     text: >
       Corina is heel helder en to the point, zonder erom heen te draaien. Ze
       helpt je om contact met je ziel te maken en om deze ervaring in je
@@ -43,9 +34,9 @@ testimonials:
 cards:
   - color: primary
     description: >
-      Kracht inzicht biedt vrije speelruimte en handvaten aan kinderen en
-      volwassenen die alles uit het leven willen halen en op ontdekkingsreis
-      willen gaan naar de persoon die ze diep van binnen zijn!
+      Kracht inzicht biedt vrije speelruimte aan kinderen en volwassenen die
+      alles uit het leven willen halen en op ontdekkingsreis willen gaan naar
+      wie ze diep van binnen zijn!
     link: kracht-inzicht
     size: '2'
     title: Kracht Inzicht
@@ -54,18 +45,16 @@ cards:
   - image: /images/corina-met-volwassen-vrouw-knuffel.jpeg
     size: '1'
   - color: tertiary
-    description: >
-      Wil jij je verbinden met wie je ècht bent, waar je voor staat en wat je
-      doet?
+    description: |
+      Wil jij je verbinden met wie je ècht bent en waar je voor staat?
     link: volwassenen
     size: '1'
     title: Volwassenen
   - image: /images/tess-in-praktijk.jpeg
     size: '1'
   - color: secondary
-    description: >
-      Voel jij je als ouder soms machteloos omdat je kind niet lekker in zijn
-      vel zit?
+    description: |
+      Voel jij je soms machteloos omdat je kind niet lekker in zijn vel zit?
     link: kinderen
     size: '1'
     title: Kinderen
@@ -78,7 +67,7 @@ cards:
     title: Opstellingen
   - color: primary
     description: |
-      Ervaar jij je gevoeligheid als lastig? Maak er je kracht van!
+      Maak er je kracht van!
     link: /hooggevoelig/
     size: '1'
     title: Hoog-gevoelig
