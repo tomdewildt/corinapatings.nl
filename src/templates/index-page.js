@@ -27,18 +27,22 @@ const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
             image={ frontmatter.intro.image }
         />
         <Container>
-            { frontmatter.notice && frontmatter.notice.message && (
+            { frontmatter.notice && (
                 <>
-                    <Row>
-                        <Column>
-                            <Heading.H2 center>Nieuws</Heading.H2>
-                        </Column>
-                    </Row>
-                    <Row>
-                        <Column>
-                            <MarkdownContent source={ frontmatter.notice.message } />
-                        </Column>
-                    </Row>
+                    { frontmatter.notice.title && (
+                        <Row>
+                            <Column>
+                                <Heading.H3 center>Nieuws</Heading.H3>
+                            </Column>
+                        </Row>
+                    ) }
+                    { frontmatter.notice.message && (
+                        <Row>
+                            <Column>
+                                <MarkdownContent source={ frontmatter.notice.message } />
+                            </Column>
+                        </Row>
+                    ) }
                 </>
             ) }
             <TestimonialContainer>
@@ -78,6 +82,7 @@ IndexPage.propTypes = {
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
                 } ),
                 notice: PropTypes.shape( {
+                    title: PropTypes.string,
                     message: PropTypes.string,
                 } ),
                 testimonials: PropTypes.arrayOf( PropTypes.shape( {
@@ -112,6 +117,7 @@ export const query = graphql`
                     }
                 }
                 notice {
+                    title
                     message
                 }
                 testimonials {

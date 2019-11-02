@@ -64,6 +64,7 @@ collections:
             name: "notice"
             widget: "object"
             fields:
+              - {label: "Title", name: "title", widget: "string", required: false}
               - {label: "Message", name: "message", widget: "markdown", required: false}
           - label: "Testimonials"
             name: "testimonials"

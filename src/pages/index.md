@@ -4,10 +4,20 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: >-
+  title: >
+  message: >
+    Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De
+    afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten
+    en opnieuw creeeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom
+    plaats maakt voor een vernieuwde praktijk **Corina Patings - Kracht Inzicht.** Daar
+    hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig
+    rond en voel je vooral welkom om samen met mij op reis te gaan!
+    
+
+    *- Corina*
 testimonials:
-  - author: Meike 17 jaar
-    text: >-
+  - author: Meike, 17 jaar
+    text: >
       Corina heeft me geholpen in contact te komen met mezelf en keer op keer
       leer ik weer nieuwe dingen. Een nieuwe weg is ontstaan en na elke sessie
       voel ik me weer rustig, blij en gaat er een positieve energie door mijn
@@ -24,8 +34,8 @@ testimonials:
       gemakstellen en er is niet een gekke vraag of gevoel. Ik voel me altijd
       erg veilig. Alles mag er zijn. Er is zo gezegd geen goed of fout. Dit is
       een kracht die ik als zeer waardig heb ervaren. 
-  - author: Arthur 45 jaar
-    text: >-
+  - author: Arthur, 45 jaar
+    text: >
       Corina is heel helder en to the point, zonder erom heen te draaien. Ze
       helpt je om contact met je ziel te maken en om deze ervaring in je
       dagelijkse leven te integreren. Bovenal helpt ze je om te voelen. Ik kan

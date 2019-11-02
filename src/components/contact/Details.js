@@ -11,6 +11,10 @@ import Column from "../grid/Column";
 import GoogleMap from "../map/Map";
 import Row from "../grid/Row";
 
+import opvoedopstellingen from "../../assets/opvoedopstellingen.png";
+import sensikids from "../../assets/sensikids.png";
+import adiona from "../../assets/adiona.png";
+
 const ContactItem = styled( Text.Paragraph )`
     font-weight: 700;
     color: ${ ( { theme } ) => theme.color.grayDark };
@@ -55,6 +59,13 @@ const ContactMap = styled( GoogleMap )`
     border: none;
 `;
 
+const ContactBanner = styled.img`
+    height: 3.5rem;
+    margin-right: 0.5rem;
+
+    &:last-of-type { margin-right: 0; }
+`;
+
 const ContactDetails = ( {
     url,
     name,
@@ -67,14 +78,14 @@ const ContactDetails = ( {
 } ) => (
     <>
         <Row>
-            <Column xs={ 6 }>
+            <Column sm={ 6 }>
                 <ContactItem>{ name }</ContactItem>
                 <ContactItem>{ address }</ContactItem>
                 <ContactItem>{ postalCode }</ContactItem>
                 <ContactItemLink tel={ phone } />
                 <ContactItemLink email={ email } />
             </Column>
-            <Column xs={ 6 }>
+            <Column sm={ 6 }>
                 <ContactLink href={ `https://www.linkedin.com/in/${ linkedin }` } rel="noopener" target="_blank">
                     <LinkedIn />
                     LinkedIn
@@ -96,6 +107,13 @@ const ContactDetails = ( {
         <Row>
             <Column>
                 <ContactMap place="ChIJCyKBdAfmxkcRyR-MeDWkcdI" />
+            </Column>
+        </Row>
+        <Row>
+            <Column>
+                <ContactBanner src={ opvoedopstellingen } alt="opvoedopstellingen" />
+                <ContactBanner src={ adiona } alt="adiona" />
+                <ContactBanner src={ sensikids } alt="sensikids" />
             </Column>
         </Row>
     </>
