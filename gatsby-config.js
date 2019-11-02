@@ -19,7 +19,7 @@ module.exports = {
             options: {
                 host: "https://www.corinapatings.nl",
                 sitemap: "https://www.corinapatings.nl/sitemap.xml",
-                policy: [ { userAgent: "*", allow: "/" } ],
+                policy: [ { userAgent: "*", allow: "/", disallow: "/admin/" } ],
             },
         },
         {
@@ -80,7 +80,6 @@ module.exports = {
             },
         },
         "gatsby-plugin-sitemap",
-        "gatsby-plugin-remove-serviceworker",
         "gatsby-plugin-netlify",
     ],
 };
