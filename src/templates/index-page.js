@@ -7,6 +7,10 @@ import {
     Container,
     Headers,
     Jumbotron,
+    Row,
+    Column,
+    Heading,
+    MarkdownContent,
     TestimonialContainer,
     Testimonial,
     CardContainer,
@@ -23,6 +27,20 @@ const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
             image={ frontmatter.intro.image }
         />
         <Container>
+            { frontmatter.notice && frontmatter.notice.message && (
+                <>
+                    <Row>
+                        <Column>
+                            <Heading.H2 center>Nieuws</Heading.H2>
+                        </Column>
+                    </Row>
+                    <Row>
+                        <Column>
+                            <MarkdownContent source={ frontmatter.notice.message } />
+                        </Column>
+                    </Row>
+                </>
+            ) }
             <TestimonialContainer>
                 { frontmatter.testimonials.map( ( testimonial, i ) => (
                     <Testimonial
@@ -59,6 +77,9 @@ IndexPage.propTypes = {
                     offset: PropTypes.number,
                     image: PropTypes.oneOfType( [ PropTypes.shape( {} ), PropTypes.string ] ),
                 } ),
+                notice: PropTypes.shape( {
+                    message: PropTypes.string,
+                } ),
                 testimonials: PropTypes.arrayOf( PropTypes.shape( {
                     text: PropTypes.string,
                     author: PropTypes.string,
@@ -89,6 +110,9 @@ export const query = graphql`
                             }
                         }
                     }
+                }
+                notice {
+                    message
                 }
                 testimonials {
                     text

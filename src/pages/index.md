@@ -3,6 +3,8 @@ templateKey: index-page
 intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
+notice:
+  message: >-
 testimonials:
   - author: Meike 17 jaar
     text: >-
