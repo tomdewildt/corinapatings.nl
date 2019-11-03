@@ -5,7 +5,7 @@ const Container = styled.div`
     margin-left: auto;
 
     ${ ( { theme } ) => css`
-        @media (max-width: ${ theme.breakpoints.sm }em) {
+        @media (max-width: ${ theme.breakpoints.md }em) {
             padding: 0 ${ theme.container.padding }rem;
         }
     ` }
