@@ -11,10 +11,6 @@ import Column from "../grid/Column";
 import GoogleMap from "../map/Map";
 import Row from "../grid/Row";
 
-import opvoedopstellingen from "../../assets/opvoedopstellingen.png";
-import sensikids from "../../assets/sensikids.png";
-import adiona from "../../assets/adiona.png";
-
 const ContactItem = styled( Text.Paragraph )`
     font-weight: 700;
     color: ${ ( { theme } ) => theme.color.grayDark };
@@ -57,13 +53,6 @@ const ContactMap = styled( GoogleMap )`
     height: 15.5rem;
     width: 100%;
     border: none;
-`;
-
-const ContactBanner = styled.img`
-    height: 3.5rem;
-    margin-right: 0.5rem;
-
-    &:last-of-type { margin-right: 0; }
 `;
 
 const ContactDetails = ( {
@@ -109,14 +98,8 @@ const ContactDetails = ( {
                 <ContactMap place="ChIJCyKBdAfmxkcRyR-MeDWkcdI" />
             </Column>
         </Row>
-        <Row>
-            <Column>
-                <ContactBanner src={ opvoedopstellingen } alt="opvoedopstellingen" />
-                <ContactBanner src={ adiona } alt="adiona" />
-                <ContactBanner src={ sensikids } alt="sensikids" />
-            </Column>
-        </Row>
     </>
+
 );
 
 ContactDetails.propTypes = {
