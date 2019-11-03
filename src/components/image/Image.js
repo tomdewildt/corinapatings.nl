@@ -10,9 +10,18 @@ const RegularImage = styled.img`
 `;
 
 const Image = ( { source, alt, className } ) => ( typeof source === "string" ? (
-    <RegularImage src={ source } alt={ alt } className={ className } />
+    <RegularImage
+        src={ source }
+        alt={ alt }
+        className={ className }
+    />
 ) : (
-    <GatsbyImage fluid={ source.childImageSharp.fluid } alt={ alt } className={ className } />
+    <GatsbyImage
+        fluid={ source.childImageSharp.fluid }
+        fixed={ source.childImageSharp.fixed }
+        alt={ alt }
+        className={ className }
+    />
 ) );
 
 Image.propTypes = {
@@ -20,6 +29,7 @@ Image.propTypes = {
         PropTypes.shape( {
             childImageSharp: PropTypes.shape( {
                 fluid: PropTypes.shape( {} ),
+                fixed: PropTypes.shape( {} ),
             } ),
         } ),
         PropTypes.string,

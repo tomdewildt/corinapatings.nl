@@ -3,6 +3,7 @@ import React from "react";
 import metadata from "../../assets/metadata.json";
 import Heading from "../typography/Heading";
 import ContactDetails from "./Details";
+import ContactBanners from "./Banners";
 import Column from "../grid/Column";
 import ContactForm from "./Form";
 import Row from "../grid/Row";
@@ -29,6 +30,7 @@ const Contact = () => (
                     linkedin={ metadata.social.linkedin }
                     facebook={ metadata.social.facebook }
                 />
+                <ContactBanners />
             </Column>
         </Row>
     </>

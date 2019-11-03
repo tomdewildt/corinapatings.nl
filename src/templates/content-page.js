@@ -12,7 +12,6 @@ import {
     MarkdownContent,
     CardContainer,
     Card,
-    Contact,
     Footer,
 } from "../components";
 
