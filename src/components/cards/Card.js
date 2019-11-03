@@ -25,7 +25,7 @@ const CardBackground = styled.div`
     display: flex;
     width: 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     padding: ${ ( { theme } ) => theme.cards.padding }rem;
     color: ${ ( { theme } ) => theme.color.white };
 
