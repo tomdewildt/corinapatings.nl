@@ -4,7 +4,7 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: "Fijn dat je mij gevonden hebt! Net als jij ben ik voorstdurend in beweging. De afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten en opnieuw creëeren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom plaats maakt voor een vernieuwde praktijk\_**Corina Patings - Kracht Inzicht.**\_Daar hoort een nieuw logo, een nieuwe website en een vernieuwd aanbod bij. Kijk rustig rond en voel je vooral welkom om samen met mij op reis te gaan!\n\n*- Corina*\n"
+  message: "Fijn dat je mij gevonden hebt! Net als jij ben ik voortdurend in beweging. De afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten en opnieuw creëren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom plaats maakt voor een vernieuwde praktijk\_**Corina Patings - Kracht Inzicht.**\_Daar hoort een nieuw logo, website en een vernieuwd aanbod bij. Kijk rustig rond en voel je vooral welkom om samen met mij op reis te gaan!\n\n_\\- Corina_"
   title: ''
 testimonials:
   - author: 'Meike, 17 jaar'
@@ -22,7 +22,7 @@ testimonials:
       Een famlie-opstelling gaf mij inzicht waar ik niet echt mijn plek innam in
       mijn leven of me niet thuis voelde. Ze is erg goed in je op je gemak
       stellen, er is geen gekke vraag of gevoel. Ik voel me altijd erg veilig,
-      er is geen goed of fout. Dit is een kracht die ik als zeer waardeer. 
+      er is geen goed of fout. Dit is een kracht die ik zeer waardeer. 
   - author: 'Arthur, 45 jaar'
     text: >
       Corina is heel helder en to the point, zonder erom heen te draaien. Ze
