@@ -17,14 +17,12 @@ testimonials:
     text: >
       Corina heeft voor mij de perfecte manier om je inzichten te geven en je
       gevoelens een plek te geven. Haar manier van vragen stellen en compassie
-      te tonen voor de situatie en je steeds weer uit te nodigen om dieper te
-      kijken naar de ware gevoelens, heeft mij geholpen in een tijd waar er veel
-      verwarring was. Ook hebben wij een famlie-opstelling gedaan, deze gaf mij
-      inzicht waar ik niet echt mijn plek in nam in mijn leven en waar ik dingen
-      had gemist of me niet thuis voelde. Corina is erg goed in je op je
-      gemakstellen en er is niet een gekke vraag of gevoel. Ik voel me altijd
-      erg veilig. Alles mag er zijn. Er is zo gezegd geen goed of fout. Dit is
-      een kracht die ik als zeer waardig heb ervaren. 
+      te tonen voor de situatie en je uit te nodigen om dieper te kijken naar de
+      ware gevoelens heeft mij geholpen in een tijd waar er veel verwarring was.
+      Een famlie-opstelling gaf mij inzicht waar ik niet echt mijn plek innam in
+      mijn leven of me niet thuis voelde. Ze is erg goed in je op je gemak
+      stellen, er is geen gekke vraag of gevoel. Ik voel me altijd erg veilig,
+      er is geen goed of fout. Dit is een kracht die ik als zeer waardeer. 
   - author: 'Arthur, 45 jaar'
     text: >
       Corina is heel helder en to the point, zonder erom heen te draaien. Ze
