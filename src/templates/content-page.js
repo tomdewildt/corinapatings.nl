@@ -87,7 +87,7 @@ export const query = graphql`
                     offset
                     image {
                         childImageSharp {
-                            fluid(maxWidth: 1280) {
+                            fluid(maxWidth: 1920) {
                                 ...GatsbyImageSharpFluid
                             }
                         }
