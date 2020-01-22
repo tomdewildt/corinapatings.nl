@@ -12,7 +12,7 @@
         "lint": "eslint . --fix"
     },
     "dependencies": {
-        "axios": "0.19.1",
+        "axios": "0.19.2",
         "gatsby": "2.19.1",
         "gatsby-background-image": "0.9.12",
         "gatsby-image": "2.2.39",
