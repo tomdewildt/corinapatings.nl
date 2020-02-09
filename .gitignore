@@ -172,3 +172,6 @@ $RECYCLE.BIN/
 
 # Build
 public/
+
+# Local Netlify folder
+.netlify
