@@ -9,7 +9,7 @@ notice:
 
 
     In verband met alle ontwikkelingen rondom het Corona virus en mijn eigen
-    verkoudsheidklachten heb ik besloten om tot en met 31 maart 2020 geen
+    verkoudheidsklachten heb ik besloten om tot en met 31 maart 2020 geen
     (fysieke) afspraken te plannen op mijn praktijk. Er is wel de mogelijkheid
     om via skype/facetime een sessie af te spreken. Voel je vrij om daar gebruik
     van te maken of juist niet. Vanaf 1 april 2020 zal ik weer beschikbaar zijn
