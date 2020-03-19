@@ -4,7 +4,23 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: "Fijn dat je mij gevonden hebt! Net als jij ben ik voortdurend in beweging. De afgelopen periode heb ik een intens proces doorlopen waarin ontwikkeling, loslaten en opnieuw creëren voor mij centraal stonden. Het resultaat is dat Praktijk de Boom plaats maakt voor een vernieuwde praktijk\_**Corina Patings - Kracht Inzicht.**\_Daar hoort een nieuw logo, website en een vernieuwd aanbod bij. Kijk rustig rond en voel je vooral welkom om samen met mij op reis te gaan!\n\n_\\- Corina_"
+  message: >-
+    Lieve mensen, 
+
+
+    In verband met alle ontwikkelingen rondom het Corona virus en mijn eigen
+    verkoudsheidklachten heb ik besloten om tot en met 31 maart 2020 geen
+    (fysieke) afspraken te plannen op mijn praktijk. Er is wel de mogelijkheid
+    om via skype/facetime een sessie af te spreken. Voel je vrij om daar gebruik
+    van te maken of juist niet. Vanaf 1 april 2020 zal ik weer beschikbaar zijn
+    voor afspraken op mijn  praktijk mits er geen extra maatregelen worden
+    genomen door het RIVM. Ik houd jullie op de hoogte! 
+
+
+    Zorg goed voor jezelf en elkaar.
+
+
+    *\- Corina*
   title: ''
 testimonials:
   - author: 'Meike, 17 jaar'
@@ -72,4 +88,3 @@ cards:
   - image: /images/kind-krachtbron.jpeg
     size: '2'
 ---
-
