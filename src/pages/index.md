@@ -44,7 +44,7 @@ notice:
       Het spreekt voor zich dat ik mezelf bescherm door de maatregelen op te volgen die door het RIVM gesteld zijn. Ik behoud mezelf ook het recht om afspraken af te zeggen wanneer ik zelf klachten krijg. 
 
     *Ik ontmoet je graag op mijn praktijk, via videobellen of buiten in de
-    natuur! Pas goed op jezelf.*
+    natuur. Pas goed op jezelf!*
 
 
     *\- Corina*
