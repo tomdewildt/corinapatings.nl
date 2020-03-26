@@ -8,16 +8,43 @@ notice:
     Lieve mensen, 
 
 
-    In verband met alle ontwikkelingen rondom het Corona virus en mijn eigen
-    verkoudheidsklachten heb ik besloten om tot en met 31 maart 2020 geen
-    (fysieke) afspraken te plannen op mijn praktijk. Er is wel de mogelijkheid
-    om via skype/facetime een sessie af te spreken. Voel je vrij om daar gebruik
-    van te maken of juist niet. Vanaf 1 april 2020 zal ik weer beschikbaar zijn
-    voor afspraken op mijn  praktijk mits er geen extra maatregelen worden
-    genomen door het RIVM. Ik houd jullie op de hoogte! 
+    In verband met de corona-maatregelen heb ik besloten om vanaf 1 april a.s.
+    (fysieke) afspraken voor kinderen (tot 16 jaar) niet door. te laten gaan. 
 
 
-    Zorg goed voor jezelf en elkaar.
+    Voor jongeren (vanaf 16 jaar) en volwassenen ben ik beschikbaar.
+
+
+    Ik heb daarvoor de volgende maatregelen genomen;
+
+
+    * Mijn praktijkruimte is groot genoeg om de noodzakelijke 1,5 meter afstand
+    te bewaren.
+
+    * Na èlke client reserveer ik extra tijd om deurklinken etc. te ontsmetten.
+
+    * Jongeren die gebracht worden graag aan de deur afzetten/ophalen.
+
+    * De wachtruimte is nu **niet** in gebruik.
+
+    * Opvoedopstellingen waarbij ouders **samen** komen stel ik uit tot een
+    later tijdstip.
+
+    * Je kunt kiezen voor een coachingsessie in de natuur, we spreken af in het
+    bos, vraag naar de mogelijkheden!
+
+    * Mocht je het niet prettig vinden om op de praktijk te komen dan kunnen via
+    Skype of FaceTime een sessie plannen.
+
+    * Bij plotseling ontstane klachten mag je altijd afzeggen en komt uiteraard
+    de termijn van 24 uur vooraf melden te vervallen.
+
+      **Tot slot**
+
+      Het spreekt voor zich dat ik mezelf bescherm door de maatregelen op te volgen die door het RIVM gesteld zijn. Ik behoud mezelf ook het recht om afspraken af te zeggen wanneer ik zelf klachten krijg. 
+
+    *Ik ontmoet je graag op mijn praktijk, via videobellen of buiten in de
+    natuur! Pas goed op jezelf.*
 
 
     *\- Corina*
