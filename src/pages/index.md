@@ -9,7 +9,7 @@ notice:
 
 
     In verband met de corona-maatregelen heb ik besloten om vanaf 1 april a.s.
-    (fysieke) afspraken voor kinderen (tot 16 jaar) niet door. te laten gaan. 
+    (fysieke) afspraken voor kinderen (tot 16 jaar) niet door te laten gaan. 
 
 
     Voor jongeren (vanaf 16 jaar) en volwassenen ben ik beschikbaar.
