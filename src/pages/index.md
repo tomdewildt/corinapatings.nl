@@ -8,7 +8,7 @@ notice:
     Lieve mensen, 
 
 
-    In verband met de afspraken die vanuit het RIVM zijn opgesteld ben ik vanaf heden weer beschikbaar voor jongeren (vanaf 12 jaar) en volwassenen. Kinderen onder de 12 jaar kunnen een afspraak maken vanaf 11 mei a.s.
+    In verband met de afspraken die vanuit het RIVM zijn opgesteld ben ik vanaf heden weer beschikbaar voor kinderen, jongeren en volwassenen. 
 
 
     Ik heb de volgende maatregelen genomen om zo veilig mogelijk te werken;
@@ -21,8 +21,6 @@ notice:
     * Kinderen en jongeren die gebracht worden graag aan de deur afzetten/ophalen. 
 
     * De wachtruimte is nu **niet** in gebruik.
-
-    * Opvoedopstellingen waarbij ouders **samen** komen stel ik uit tot een later tijdstip.
 
     * Je kunt kiezen voor een (wandel) coachingsessie in de natuur, we spreken af in het bos, vraag naar de mogelijkheden!
 
