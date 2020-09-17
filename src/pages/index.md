@@ -8,19 +8,14 @@ notice:
     Lieve mensen, 
 
 
-    In verband met de afspraken die vanuit het RIVM zijn opgesteld ben ik vanaf heden weer beschikbaar voor kinderen, jongeren en volwassenen. 
-
-
-    Ik heb de volgende maatregelen genomen om zo veilig mogelijk te werken;
+    Om zo corona proof mogelijk te kunnen werken heb ik de volgende maatregelen genomen;
 
 
     * Mijn praktijkruimte is groot genoeg om de noodzakelijke 1,5 meter afstand te bewaren.
 
     * Na èlke client reserveer ik extra tijd om deurklinken etc. te ontsmetten.
 
-    * Kinderen en jongeren die gebracht worden graag aan de deur afzetten/ophalen. 
-
-    * De wachtruimte is nu **niet** in gebruik.
+    * Tijdens een sessie kan de wachtruimte gebruikt worden door één persoon.
 
     * Je kunt kiezen voor een (wandel) coachingsessie in de natuur, we spreken af in het bos, vraag naar de mogelijkheden!
 
