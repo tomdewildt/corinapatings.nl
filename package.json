@@ -35,7 +35,7 @@
         "gatsby-transformer-sharp": "2.5.21",
         "netlify-cms-app": "2.13.2",
         "prop-types": "15.7.2",
-        "query-string": "6.13.6",
+        "query-string": "6.13.7",
         "react": "17.0.1",
         "react-cookie-consent": "6.0.0",
         "react-dom": "17.0.1",
