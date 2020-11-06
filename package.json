@@ -47,7 +47,7 @@
         "styled-reset": "4.3.0"
     },
     "devDependencies": {
-        "eslint-config-airbnb": "18.2.0"
+        "eslint-config-airbnb": "18.2.1"
     },
     "repository": {
         "type": "git",
