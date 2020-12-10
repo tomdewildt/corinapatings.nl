@@ -55,6 +55,25 @@ testimonials:
       helpt je om contact met je ziel te maken en om deze ervaring in je
       dagelijkse leven te integreren. Bovenal helpt ze je om te voelen. Ik kan
       een consult met haar dan ook van harte aanbevelen.
+  - text: >
+      Tymo na een aantal coachingssessies:
+
+      Ik vond het lastig om mijn hoofd rustig te maken als ik een drukke dag had. Corina heeft samen met mij hele leuke oefeningetjes gedaan en mij geleerd om rustig te worden.
+
+      Dat vond ik fijn. Want nu gaat het beter. Corina is heel erg aardig en slim en lief.
+
+      Ze zorgde er altijd voor dat ik het fijn had. We konden ook heel fijn samen kletsen. 
+    author: Tymo 8 jaar
+  - text: >-
+      Monique na een een individuele familieopstelling:
+
+      Ik wil je laten weten dat het super goed gaat! Voel me zo opgeruimd en ik voel echt die zware last niet meer. Het heeft echt iets gedaan met mij! Intens gelukkig mee! Nogmaals bedankt!  
+    author: Monique 50 jaar
+  - text: >
+      Karin na een aantal coachingssessies:
+
+      Met jouw kennis en ervaring leer je mij om in mijn kracht te staan. Er is geen pasklare oplossing voor de vraagstukken en gevoelens welke op mijn pad komen, maar jij reikt mij handvatten aan om er met een andere blik naar te kijken. De liefde en passie voor je werk is voelbaar en er is altijd energie en warmte in overvloed in jouw mooie praktijkruimte.
+    author: Karin 25 jaar
 cards:
   - color: primary
     description: >
