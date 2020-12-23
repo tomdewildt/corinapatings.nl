@@ -18,10 +18,15 @@ content:
     **Kinderen**
 
 
-    Heeft jouw kind een groot rechtvaardigheidsgevoel? Is het betrokken en hulpvaardig? Wil het graag goed werk leveren en neigt het naar perfectionisme? Hooggevoelige kinderen zijn geboren met de neiging veel op te merken in hun omgeving en prikkels intens de doorleven. Die intensiteit maakt het soms lastig. Doordat ze zoveel indrukken binnen krijgen, raken ze snel overprikkeld. Dit gaat samen met ‘ander’ gedrag. Dat kan zich uiten in fysieke, mentale, emotionele en sociale klachten. Je kind kan bijvoorbeeld  last hebben van concentratieproblemen, moeite met veranderingen, faalangst, slecht slapen, is veel boos of heeft ruzie, laat druk of juist teruggetrokken gedrag zien, pest of wordt gepest, wil niet naar school. Het zijn uitingen van overprikkeling terwijl deze kinderen juist vaak invoelend, slim, intuïtief, creatief, nauwgezet en gewetensvol zijn.
+    Heeft jouw kind een groot rechtvaardigheidsgevoel? Is het betrokken en hulpvaardig? Wil het graag goed werk leveren en neigt het naar perfectionisme? Hooggevoelige kinderen zijn geboren met de neiging veel op te merken in hun omgeving en prikkels intens de doorleven. Die intensiteit maakt het soms lastig. Doordat ze zoveel indrukken binnen krijgen, raken ze snel overprikkeld. Dit gaat samen met ‘ander’ gedrag.
   right: >-
-    Voor hooggevoelige kinderen bestaat er de mogelijkheid om een training te
-    volgen. Het doel van de trainingen is om te leren om te gaan met en het
+    Je kind kan bijvoorbeeld last hebben van concentratieproblemen, moeite met
+    veranderingen, faalangst, slecht slapen, is veel boos of heeft ruzie, laat
+    druk of juist teruggetrokken gedrag zien, pest of wordt gepest, wil niet
+    naar school. Het zijn uitingen van overprikkeling terwijl deze kinderen
+    juist vaak invoelend, slim, intuitief, creatief, nauwgezet en gewetensvol
+    zijn. Voor hooggevoelige kinderen bestaat er de mogelijkheid om een training
+    te volgen. Het doel van de trainingen is om te leren om te gaan met en het
     (h)erkennen van je gevoeligheid als kwaliteit. In de praktijk leren ze
     zichzelf ontspannen, grip krijgen op emoties, positief denken, spelenderwijs
     ervaren, meer zelfvertrouwen en concentratie verbeteren. Wil je meer
