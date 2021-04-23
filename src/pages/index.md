@@ -111,7 +111,7 @@ cards:
   - color: primary
     description: |
       Maak er je kracht van!
-    link: /hooggevoelig/
+    link: hooggevoelig
     size: "1"
     title: Hoog-gevoelig
   - image: /images/kind-krachtbron.jpeg
