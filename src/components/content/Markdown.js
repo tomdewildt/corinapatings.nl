@@ -50,7 +50,9 @@ const StyledMarkdown = styled( Markdown )`
 `;
 
 const MarkdownContent = ( { source, className } ) => (
-    <StyledMarkdown source={ source } className={ className } />
+    <StyledMarkdown  className={ className }>
+        { source }
+    </StyledMarkdown>
 );
 
 MarkdownContent.propTypes = {
