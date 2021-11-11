@@ -8,26 +8,10 @@ notice:
     Lieve mensen, 
 
 
-    Om zo corona proof mogelijk te kunnen werken heb ik de volgende maatregelen genomen;
+    Welkom in mijn praktijk! Mijn praktijk is open voor iedereen. Ik ga uit van ieder zijn/haar eigen verantwoordelijkheid m.b.t. het omgaan met klachten. Er wordt geen QR code gecheckt en er is bij mij geen mondkapjes plicht. Mijn praktijkruimte is groot genoeg om de noodzakelijke 1,5 meter afstand te bewaren. 
 
 
-    * Mijn praktijkruimte is groot genoeg om de noodzakelijke 1,5 meter afstand te bewaren.
-
-    * Na èlke client reserveer ik extra tijd om deurklinken etc. te ontsmetten.
-
-    * Tijdens een sessie kan de wachtruimte gebruikt worden door één persoon.
-
-    * Je kunt kiezen voor een (wandel) coachingsessie in de natuur, we spreken af in het bos, vraag naar de mogelijkheden!
-
-    * Mocht je het niet prettig vinden om op de praktijk te komen dan kunnen via Skype of FaceTime een sessie plannen.
-
-    * Bij plotseling ontstane klachten mag je altijd afzeggen en komt uiteraard de termijn van 24 uur vooraf melden te vervallen.
-
-      **Tot slot**
-
-      Het spreekt voor zich dat ik mezelf bescherm door de maatregelen op te volgen die door het RIVM gesteld zijn. Ik behoud mezelf ook het recht om afspraken af te zeggen wanneer ik zelf klachten krijg. 
-
-    *Ik ontmoet je graag op mijn praktijk, via videobellen of buiten in de natuur. Pas goed op jezelf!*
+    *Voel je welkom met alles wat je bent!*
 
 
     *\- Corina*
