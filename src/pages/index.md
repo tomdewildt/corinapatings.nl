@@ -58,6 +58,31 @@ testimonials:
 
       Met jouw kennis en ervaring leer je mij om in mijn kracht te staan. Er is geen pasklare oplossing voor de vraagstukken en gevoelens welke op mijn pad komen, maar jij reikt mij handvatten aan om er met een andere blik naar te kijken. De liefde en passie voor je werk is voelbaar en er is altijd energie en warmte in overvloed in jouw mooie praktijkruimte.
     author: Karin 25 jaar
+  - text: >-
+      Corina heeft mij geholpen mijzelf te hervinden en geleerd hoe je vanuit
+      kwetsbaarheid in je kracht staat! 
+
+      Na een intense en prachtige ervaring van een familieopstelling ga ik mijn levenspad verder bewandelen, maar nu zonder de zware bepakking die niet van mij was. Ik wandel verder, groei, bloei en geniet van de natuur en de dierbare mensen om mij heen. 
+    author: Fieneke 42 jaar
+  - text: Corina heeft mij heel fijn geholpen beter met mijn gevoelens om te gaan,
+      thuis en op school. Ik vond het heel erg fijn bij haar. We hebben samen
+      ook veel gelachen. De oefeningetjes vond ik erg leuk. het was er heel erg
+      fijn! Bedankt!
+    author: Roger 7 jaar
+  - text: "Corina heeft gewerkt met ons zoontje van 7 jaar. Hij is erg gevoelig en
+      kon snel verdrietig en boos worden, zonder dat wij begrepen wat er aan de
+      hand was. De sessies hebben hem enorm geholpen en hij ging er graag heen.
+      Corina en hij legden heel snel op een intuïtieve manier contact. Zij
+      snapte heel goed wat er in hem om ging en heeft hem en daardoor ons als
+      ouders geleerd gevoelens te vatten in woorden en beelden. Ze heeft hem
+      bruikbare oefeningen geleerd die hij zelf kan toepassen in zijn dagelijks
+      leven. Dankzij haar begeleiding kunnen we nu anders en beter met elkaar
+      communiceren over zijn gevoelsleven en hebben we ook instrumenten gekregen
+      die hem echt helpen. "
+    author: Ouders van Jasper
+  - text: Corina heeft me geholpen om meer mezelf te zijn. Ze heeft me geleerd hoe
+      ik rustiger kan worden. Corina is heel leuk. Ik zou het gewoon doen1
+    author: Jasper 7 jaar
 cards:
   - color: primary
     description: >
