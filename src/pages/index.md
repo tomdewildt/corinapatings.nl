@@ -81,7 +81,7 @@ testimonials:
       die hem echt helpen. "
     author: Ouders van Jasper
   - text: Corina heeft me geholpen om meer mezelf te zijn. Ze heeft me geleerd hoe
-      ik rustiger kan worden. Corina is heel leuk. Ik zou het gewoon doen1
+      ik rustiger kan worden. Corina is heel leuk. Ik zou het gewoon doen!
     author: Jasper 7 jaar
 cards:
   - color: primary
