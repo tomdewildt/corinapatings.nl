@@ -4,17 +4,7 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: >-
-    Lieve mensen, 
-
-
-    Welkom in mijn praktijk! Mijn praktijk is open voor iedereen. Ik ga uit van ieder zijn/haar eigen verantwoordelijkheid m.b.t. het omgaan met klachten. Er wordt geen QR code gecheckt en er is bij mij geen mondkapjes plicht. Mijn praktijkruimte is groot genoeg om de noodzakelijke 1,5 meter afstand te bewaren. 
-
-
-    *Voel je welkom met alles wat je bent!*
-
-
-    *\- Corina*
+  message: ""
   title: ""
 testimonials:
   - text: "Corina heeft gewerkt met ons zoontje van 7 jaar. Hij is erg gevoelig en
