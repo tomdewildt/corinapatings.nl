@@ -5,7 +5,7 @@ intro:
   offset: 25
 notice:
   message: ""
-  title: ""
+  title: Tweedaagse retraite bij Kracht Inzicht!
 testimonials:
   - text: "Corina heeft gewerkt met ons zoontje van 7 jaar. Hij is erg gevoelig en
       kon snel verdrietig en boos worden, zonder dat wij begrepen wat er aan de
