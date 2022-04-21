@@ -4,8 +4,14 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: ""
-  title: Tweedaagse retraite bij Kracht Inzicht!
+  message: Vanaf mei 2022 kun je een individuele retraite bij Kracht Inzicht
+    boeken! Lees meer;
+  title: Tweedaagse retraite bij Kracht Inzcht!  Ben jij op zoek naar een fijne
+    plek om helemaal tot jezelf te komen? Weg van alle dagelijkse
+    beslommeringen? Zodat er ruimte ontstaat voor me-time en je je kunt
+    verbinden met wie je ten diepste bent en waar je je op dit moment staat in
+    je leven? Ik nodig je graag uit om op een laagdrempelige manier kennis te
+    maken met wat een 2 daagse retraite voor je kan betekenen!
 testimonials:
   - text: "Corina heeft gewerkt met ons zoontje van 7 jaar. Hij is erg gevoelig en
       kon snel verdrietig en boos worden, zonder dat wij begrepen wat er aan de
