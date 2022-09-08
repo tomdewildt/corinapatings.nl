@@ -13,7 +13,7 @@
     },
     "dependencies": {
         "axios": "0.27.2",
-        "gatsby": "4.22.0",
+        "gatsby": "4.22.1",
         "gatsby-background-image": "1.6.0",
         "gatsby-image": "3.11.0",
         "gatsby-plugin-google-analytics": "4.22.0",
