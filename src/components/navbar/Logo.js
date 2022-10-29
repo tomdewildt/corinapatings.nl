@@ -16,7 +16,7 @@ const StyledLogo = styled( Logo )`
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
     
-    @media (max-width: 23em), (min-width: 48em) and (max-width: 64em) {
+    @media (max-width: 23em), (min-width: 64em) and (max-width: 69em) {
         display: none;
     }
 `;
@@ -26,7 +26,7 @@ const StyledIcon = styled( Icon )`
     height: ${ ( { theme } ) => theme.navbar.logo.height }rem;
     margin: ${ ( { theme } ) => theme.navbar.padding }rem 0;
 
-    @media (max-width: 23em), (min-width: 48em) and (max-width: 64em) {
+    @media (max-width: 23em), (min-width: 64em) and (max-width: 69em) {
         display: block;
     }
 `;
