@@ -49,7 +49,7 @@ const NavbarNav = styled.nav`
         transition: max-height 0.5s ease-in;
     ` }
 
-    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
+    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.md }em) {
         max-height: none;
         flex-basis: auto;
         flex-grow: 0;
@@ -61,11 +61,11 @@ const NavbarItems = styled.ul`
     flex-grow: 1;
     flex-direction: column;
 
-    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) { flex-direction: row; }
+    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.md }em) { flex-direction: row; }
 `;
 
 const NavbarItem = styled.li`
-    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.sm }em) {
+    @media only screen and (min-width: ${ ( { theme } ) => theme.breakpoints.md }em) {
         padding-top: 0;
         padding-bottom: 0;
     }
@@ -93,7 +93,7 @@ const Navbar = () => {
         <NavbarHeader>
             <NavbarContainer>
                 <NavbarLogo to="/" />
-                <Burger isActive={ isOpen } breakpoint="sm" toggle={ () => setIsOpen( !isOpen ) } />
+                <Burger isActive={ isOpen } breakpoint="md" toggle={ () => setIsOpen( !isOpen ) } />
                 <NavbarNav isOpen={ isOpen }>
                     <NavbarItems>
                         <NavbarItem>
@@ -130,6 +130,15 @@ const Navbar = () => {
                                 onClick={ () => setIsOpen( false ) }
                             >
                                 Opstellingen
+                            </NavbarLink>
+                        </NavbarItem>
+                        <NavbarItem>
+                            <NavbarLink
+                                to="/retraite/"
+                                activeClassName="active"
+                                onClick={ () => setIsOpen( false ) }
+                            >
+                                Retraite
                             </NavbarLink>
                         </NavbarItem>
                         <NavbarItem>

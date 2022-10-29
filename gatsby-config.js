@@ -1,4 +1,8 @@
+const dotenv = require( "dotenv" );
+
 const metadata = require( "./src/assets/metadata.json" );
+
+dotenv.config( { path: `.env.${ process.env.NODE_ENV }` } );
 
 module.exports = {
     siteMetadata: { siteUrl: metadata.general.url },

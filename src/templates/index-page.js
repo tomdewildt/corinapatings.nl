@@ -32,7 +32,7 @@ const IndexPage = ( { data: { markdownRemark: { frontmatter } } } ) => (
                     { frontmatter.notice.title && (
                         <Row>
                             <Column>
-                                <Heading.H3 center>Nieuws</Heading.H3>
+                                <Heading.H3 center>{ frontmatter.notice.title }</Heading.H3>
                             </Column>
                         </Row>
                     ) }
