@@ -4,11 +4,12 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: Woensdagavond 23 november 2022!! Vanaf 19.00 uur inloop, de avond duurt
-    tot 22.00-22.30 uur. **Er is nog plaats voor vraagstellers!** Meer info?
-    Stuur een berichtje naar [](info@corinapatings.nl)06 51778528 of mail naar
+  message: Eerstvolgende woensdag 23 november a.s. Vanaf 19.00 uur inloop, de
+    avond duurt tot 22.00-22.30 uur. **Er is nog plaats voor vraagstellers!**
+    Meer info? Stuur een berichtje naar [](info@corinapatings.nl)06 51778528 of
+    mail naar
     [](info@corinapatings.nl)[info@corinapatings.nl](info@corinapatings.nl)
-  title: Groepsopstellingen
+  title: "Groepsopstellingen "
 testimonials:
   - text: >
       Karin na een aantal coachingssessies:
