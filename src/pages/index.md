@@ -7,8 +7,8 @@ notice:
   message: Ga je mee? Op ontdekkingreis naar de liefde en vrijheid in jou? Samen
     met Ad Jan van Gils organiseer ik in april 2023 een reis naar het
     Katharengebied in Zuid Frankrijk. Nieuwsgierig geworden? Bel of mail me voor
-    meer info.
-    [](https://www.canva.com/design/DAFSwKKHu88/mALAycheoEsfR1hZ4lND7A/view?utm_content=DAFSwKKHu88&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)https://www.corinapatings.nl/static/images/het-pad-van-de-liefde-2023.pdf
+    [meer
+    info](https://www.corinapatings.nl/images/het-pad-van-de-liefde-2023.pdf).
   title: Het Pad van de Liefde
 testimonials:
   - text: >
