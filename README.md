@@ -7,10 +7,8 @@ Website for [corinapatings.nl](https://www.corinapatings.nl). This website is bu
 # How To Run
 
 Prerequisites:
-* node version ```9.11.2``` or later
-* npm version ```6.4.1``` or later
-* netlify-cli version ```2.11.23``` or later
-* gatsby-cli version ```2.7.32``` or later
+* node version ```18.12.1``` or later
+* npm version ```8.19.2``` or later
 
 ### Development
 
