@@ -42,7 +42,7 @@
         "react-google-recaptcha": "2.1.0",
         "react-helmet": "6.1.0",
         "react-markdown": "8.0.5",
-        "react-obfuscate": "3.6.8",
+        "react-obfuscate": "3.6.9",
         "styled-components": "5.3.6",
         "styled-reset": "4.4.5"
     },
