@@ -44,7 +44,7 @@
         "react-markdown": "8.0.6",
         "react-obfuscate": "3.6.9",
         "styled-components": "5.3.9",
-        "styled-reset": "4.4.5"
+        "styled-reset": "4.4.6"
     },
     "devDependencies": {
         "eslint-config-airbnb": "19.0.4"
