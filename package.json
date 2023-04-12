@@ -41,7 +41,7 @@
         "react-dom": "18.2.0",
         "react-google-recaptcha": "2.1.0",
         "react-helmet": "6.1.0",
-        "react-markdown": "8.0.6",
+        "react-markdown": "8.0.7",
         "react-obfuscate": "3.6.9",
         "styled-components": "5.3.9",
         "styled-reset": "4.4.6"
