@@ -43,7 +43,7 @@
         "react-helmet": "6.1.0",
         "react-markdown": "8.0.7",
         "react-obfuscate": "3.6.9",
-        "styled-components": "5.3.9",
+        "styled-components": "5.3.10",
         "styled-reset": "4.4.6"
     },
     "devDependencies": {
