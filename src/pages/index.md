@@ -4,12 +4,8 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: Ga je mee? Op ontdekkingreis naar de liefde en vrijheid in jou? Samen
-    met Ad Jan van Gils organiseer ik in april 2023 een reis naar het
-    Katharengebied in Zuid Frankrijk. Nieuwsgierig geworden? Bel of mail me voor
-    [meer
-    info](https://www.corinapatings.nl/images/het-pad-van-de-liefde-2023.pdf).
-  title: Het Pad van de Liefde
+  message: ""
+  title: ""
 testimonials:
   - text: >
       Karin na een aantal coachingssessies:
