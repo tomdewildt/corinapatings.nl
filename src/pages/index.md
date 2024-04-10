@@ -4,8 +4,20 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: ""
-  title: ""
+  message: >-
+    Kom en ervaar wat een opstelling in een groep voor je kan betekenen! Als
+    vraagsteller en als representant zeer waardevol. Ik werk met kleine groepen
+    van max 9 personen. 
+
+
+    Geplande data;  
+
+
+    15 mei 2024
+
+
+    19 juni 2024
+  title: Opstellingenavonden
 testimonials:
   - text: >
       Karin na een aantal coachingssessies:
