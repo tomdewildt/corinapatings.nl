@@ -5,9 +5,10 @@ intro:
   offset: 25
 notice:
   message: >-
-    Kom en ervaar wat een opstelling in een groep voor je kan betekenen! Als
-    vraagsteller en als representant zeer waardevol. Ik werk met kleine groepen
-    van max 9 personen. Wil je meer weten en/of jezelf aanmelden? Neem gerust
+    Kom en ervaar wat een opstelling in een groep voor je kan betekenen! Je kunt
+    je als vraagsteller en als representant opgeven, beide plekken zijn zeer
+    waardevol. Ik werk met kleine groepen van max 9 personen. Wil je meer weten
+    en/of jezelf aanmelden? Neem gerust
     [contact](https://www.corinapatings.nl/#contact) met me op.
 
 
