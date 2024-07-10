@@ -4,21 +4,12 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: >-
-    Kom en ervaar wat een opstelling in een groep voor je kan betekenen! Als
-    vraagsteller en als representant zeer waardevol. Ik werk met kleine groepen
-    van max 9 personen. Wil je meer weten en/of jezelf aanmelden? Neem gerust
-    [contact](https://www.corinapatings.nl/#contact) met me op.
-
-
-    Data;  
-
-
-    Woensdagavond 15 mei 2024
-
-
-    Woensdagavond 19 juni 2024
-  title: Opstellingenavonden
+  message: Van 20 tot en met 25 oktober 2024 organiseer ik samen met Diana en Lies
+    een reis voor vrouwen. Laat je insprireren door de krachtplekken in de
+    natuur en ga met ons mee op ontdekkingsreis naar de wilde wijze oervrouw in
+    jezelf! Meer informatie?
+    <file:///Users/corinapatings/Desktop/Katharen%20en%20MM%20reis%202024.pdf>
+  title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
       Karin na een aantal coachingssessies:
