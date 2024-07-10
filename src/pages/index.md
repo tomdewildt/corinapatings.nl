@@ -5,10 +5,11 @@ intro:
   offset: 25
 notice:
   message: Van 20 tot en met 25 oktober 2024 organiseer ik samen met Diana en Lies
-    een reis voor vrouwen. Laat je insprireren door de krachtplekken in de
-    natuur en ga met ons mee op ontdekkingsreis naar de wilde wijze oervrouw in
-    jezelf! Meer informatie?
-    <file:///Users/corinapatings/Desktop/Katharen%20en%20MM%20reis%202024.pdf>
+    een reis naar het Katharengebied in Zuid Frankrijk. Laat je insprireren door
+    de krachtplekken in de natuur, het samen zijn met vrouwen en ga met ons mee
+    op ontdekkingsreis naar de wilde wijze oervrouw in jezelf! Meer informatie?
+    [/Users/corinapatings/Desktop/Katharen en MM reis
+    2024.pdf](</Users/corinapatings/Desktop/Katharen en MM reis 2024.pdf>)
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
