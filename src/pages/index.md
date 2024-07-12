@@ -8,8 +8,8 @@ notice:
     een reis naar het Katharengebied in Zuid Frankrijk. Laat je insprireren door
     de krachtplekken in de natuur, het samen zijn met vrouwen en ga met ons mee
     op ontdekkingsreis naar de wilde wijze oervrouw in jezelf! Meer informatie?
-    Klik
-    [hier](https://www.corinapatings.nl/images/katharen-en-mm-reis-2024.pdf).
+    [Klik
+    hier.](https://www.corinapatings.nl/images/katharen-en-mm-reis-2024.pdf)
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
