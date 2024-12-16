@@ -4,12 +4,12 @@ intro:
   image: /images/corina-bij-water.jpeg
   offset: 25
 notice:
-  message: Van 4 tot en met 9 mei 2025 organiseer ik samen met Diana en Lies een
+  message: Van 4 tot en met 10 mei 2025 organiseer ik samen met Diana en Lies een
     reis naar het Katharengebied in Zuid Frankrijk. Laat je insprireren door de
     krachtplekken in de natuur, het samen zijn met vrouwen en ga met ons mee op
-    ontdekkingsreis naar de wilde wijze oervrouw in jezelf! Meer informatie?
-    [Klik
-    hier.](https://www.corinapatings.nl/images/katharen-en-mm-reis-2024.pdf)
+    ontdekkingsreis naar de wilde wijze oervrouw in jezelf! Binnenkort volgt
+    meer informatie. Kun je niet wachten? Neem dan contact met mij op via het
+    contactformulier.
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
