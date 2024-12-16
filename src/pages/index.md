@@ -9,7 +9,7 @@ notice:
     krachtplekken in de natuur, het samen zijn met vrouwen en ga met ons mee op
     ontdekkingsreis naar de wilde wijze oervrouw in jezelf! Binnenkort volgt
     meer informatie. Kun je niet wachten? Neem dan contact met mij op via het
-    contactformulier.
+    contactformulier ik vertel je er graag meer over!
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
