@@ -5,15 +5,14 @@ intro:
   offset: 25
 notice:
   message: >-
-    Van 4 tot en met 10 mei 2025 organiseer ik samen met Diana en Lies een reis
-    naar het Katharengebied in Zuid Frankrijk. Laat je insprireren door de
-    krachtplekken in de natuur, het samen zijn met vrouwen en ga met ons mee op
-    ontdekkingsreis naar de wilde wijze oervrouw in jezelf! Binnenkort volgt
-    meer informatie. Kun je niet wachten? Neem dan contact met mij op via het
-    contactformulier ik vertel je er graag meer over!
+    Ga je mee op avontuur naar Zuid Frankrijk, naar het Katharengebied waar de
+    energie van het hart zo voelbaar is? Daar waar het gedachtengoed van Maria
+    Magdalena en de Katharen je uitnodigt om een diepe duik te nemen in jouw
+    vrouw zijn. Wij, Lies, Diana en Corina nodigen je uit om deze diepgaande
+    transformerende reis met ons te maken. Voel je welkom!
 
 
-    [B﻿oek Hier](https://un-fold.be/page/vrijzijn)
+    Meer informatie[; hier](https://un-fold.be/page/vrijzijn)
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
