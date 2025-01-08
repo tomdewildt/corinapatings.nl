@@ -13,9 +13,7 @@ notice:
     contactformulier ik vertel je er graag meer over!
 
 
-
-
-    <https://un-fold.be/page/vrijzijn>[B﻿oek Hier](https://un-fold.be/page/vrijzijn)
+    [B﻿oek Hier](https://un-fold.be/page/vrijzijn)
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
