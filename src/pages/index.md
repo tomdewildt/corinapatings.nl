@@ -5,11 +5,12 @@ intro:
   offset: 25
 notice:
   message: >-
-    Ga je mee op avontuur naar Zuid Frankrijk? We gaan naar het Katharengebied
-    waar de energie van het hart zo voelbaar is. Daar waar het gedachtengoed van
-    Maria Magdalena en de Katharen je uitnodigt om een diepe duik te nemen in je
-    vrouw zijn. Wij, Lies, Diana en Corina nodigen je uit om deze diepgaande,
-    transformerende reis met ons te maken. Voel je welkom!
+    Ga je mee op avontuur naar Zuid Frankrijk? We gaan van **4 t/m 10 mei 2025**
+    naar het Katharengebied waar de energie van het hart zo voelbaar is. Waar
+    het gedachtengoed van Maria Magdalena en de Katharen je uitnodigt om een
+    diepe duik te nemen in je vrouw zijn. Wij, Lies, Diana en Corina nodigen je
+    uit om deze diepgaande, transformerende reis met ons te maken. Voel je
+    welkom!
 
 
     Meer informatie[; hier](https://un-fold.be/page/vrijzijn)
