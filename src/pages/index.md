@@ -13,7 +13,7 @@ notice:
     welkom!
 
 
-    Meer informatie[; hier](https://un-fold.be/page/vrijzijn)
+    Meer informatie over de reis en ons[; hier](https://un-fold.be/page/vrijzijn)
   title: "Katharen en Maria Magdalena reis "
 testimonials:
   - text: >
