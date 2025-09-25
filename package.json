@@ -44,7 +44,7 @@
         "react-markdown": "10.1.0",
         "react-obfuscate": "3.7.0",
         "styled-components": "6.1.17",
-        "styled-reset": "4.5.2"
+        "styled-reset": "5.0.0"
     },
     "devDependencies": {
         "babel-plugin-styled-components": "^2.1.4",
