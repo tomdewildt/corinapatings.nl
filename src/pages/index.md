@@ -5,16 +5,12 @@ intro:
   offset: 25
 notice:
   message: >-
-    Ga je mee op avontuur naar Zuid Frankrijk? We gaan van **3 t/m 9 mei 2026**
-    naar het Katharengebied waar de energie van het hart zo voelbaar is. Waar
-    het gedachtengoed van Maria Magdalena en de Katharen je uitnodigt om een
-    diepe duik te nemen in je vrouw zijn. Wij, Lies, Diana en Corina nodigen je
-    uit om deze diepgaande, transformerende reis met ons te maken. Voel je
-    welkom!
+    Donderdag 18 december organiseer ik een opstellingenavond waarin de
+    volledige opbrengst naar het Serious Request gaat. 
 
 
-    Meer informatie over de reis en ons[; hier](https://un-fold.be/page/vrijzijn)
-  title: "Katharen en Maria Magdalena reis "
+    ![](/images/opstellingenavond-voor-serious-request.jpg)
+  title: Opstellingenavond Serious Request
 testimonials:
   - text: >
       Karin na een aantal coachingssessies:
