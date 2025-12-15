@@ -6,10 +6,10 @@ intro:
 notice:
   message: >-
     Donderdag 18 december organiseer ik een opstellingenavond waarin de
-    volledige opbrengst naar het Serious Request gaat. 
+    volledige opbrengst naar het Serious Request gaat. VOL!
 
 
-    ![](/images/opstellingenavond-voor-serious-request.jpg)
+    ![]()
   title: Opstellingenavond Serious Request
 testimonials:
   - text: >
